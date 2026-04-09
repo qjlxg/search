@@ -9,8 +9,28 @@ proxy-groups:
 - name: ✈️ ‍起飞
   type: select
   proxies:
+  - ⚡ ‍低延迟
+  - 👆🏻 ‍指定
+  - 🇺🇸 ‍美国
+  - 🎏 ‍其他
+  - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🎏 ‍其他
   - DIRECT
   - REJECT
+- name: ⚡ ‍低延迟
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
+  tolerance: 100
+  proxies: &id001
+  - 🇺🇸 US01 - V2Board
+  - 🇺🇸 US02 - V2Board
+  - 🇺🇸 US03 - V2Board
+  - 🇺🇸 US04 - V2Board
+  - 🇮🇩 印度尼西亚 XV A - V2Board
+- name: 👆🏻 ‍指定
+  type: select
+  proxies: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -28,10 +48,16 @@ proxy-groups:
   proxies:
   - 🛩️ ‍墙内
   - ✈️ ‍起飞
+  - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
+  - 🇺🇸 ‍美国
+  - 🎏 ‍其他
   - ✈️ ‍起飞
+  - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🎏 ‍其他
+  - 👆🏻 ‍指定
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
   type: select
@@ -39,7 +65,35 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
-proxies: []
+- name: 🇺🇸 ‍美国
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 300
+  proxies: &id002
+  - 🇺🇸 US01 - V2Board
+  - 🇺🇸 US02 - V2Board
+  - 🇺🇸 US03 - V2Board
+  - 🇺🇸 US04 - V2Board
+- name: 🎏 ‍其他
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
+  tolerance: 100
+  proxies: &id003
+  - 🇮🇩 印度尼西亚 XV A - V2Board
+- name: 👆🏻🇺🇸 ‍美国
+  type: select
+  proxies: *id002
+- name: 👆🏻🎏 ‍其他
+  type: select
+  proxies: *id003
+proxies:
+- {name: 🇮🇩 印度尼西亚 XV A - V2Board, server: idxva.osaip.net, port: 33333, type: ss, cipher: 2022-blake3-aes-256-gcm, password: MTQ3NDRiNGVhMGEyNDMyZGVmMGZiOWMzMGE0ODJmZTQ=:NGJlNzg0NTItZWY1My00YTc1LWE5ZjAtMGM2MDI3ZWE=, udp: true}
+- {name: 🇺🇸 US01 - V2Board, server: ne-cbe4k7vz.neurix.sbs, port: 10000, type: vmess, uuid: a091085f-ac31-443d-bffd-f64e5a670a56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: us01.neurix.icu, udp: true}
+- {name: 🇺🇸 US02 - V2Board, server: ne-cbe4k7vz.neurix.sbs, port: 10001, type: vmess, uuid: a091085f-ac31-443d-bffd-f64e5a670a56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: us02.neurix.icu, udp: true}
+- {name: 🇺🇸 US03 - V2Board, server: ne-cbe4k7vz.neurix.sbs, port: 10002, type: vmess, uuid: a091085f-ac31-443d-bffd-f64e5a670a56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: us03.neurix.icu, udp: true}
+- {name: 🇺🇸 US04 - V2Board, server: ne-cbe4k7vz.neurix.sbs, port: 10003, type: vmess, uuid: a091085f-ac31-443d-bffd-f64e5a670a56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: us04.neurix.icu, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
