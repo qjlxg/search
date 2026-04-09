@@ -1,0 +1,4 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇹🇼 台湾 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 398b1279-3128-4ba1-a531-4317babdf628, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}

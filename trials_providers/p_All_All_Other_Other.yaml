@@ -1,0 +1,4 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇮🇩 印度尼西亚 XV A - V2Board, server: idxva.osaip.net, port: 33333, type: ss, cipher: 2022-blake3-aes-256-gcm, password: MTQ3NDRiNGVhMGEyNDMyZGVmMGZiOWMzMGE0ODJmZTQ=:NGJlNzg0NTItZWY1My00YTc1LWE5ZjAtMGM2MDI3ZWE=, udp: true}

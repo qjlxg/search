@@ -28,6 +28,7 @@ proxy-groups:
   - 🇺🇸 US03 - V2Board
   - 🇺🇸 US04 - V2Board
   - 🇮🇩 印度尼西亚 XV A - V2Board
+  - 🇮🇩 印度尼西亚 XV A - V2Board
 - name: 👆🏻 ‍指定
   type: select
   proxies: *id001
@@ -81,6 +82,7 @@ proxy-groups:
   interval: 30
   tolerance: 100
   proxies: &id003
+  - 🇮🇩 印度尼西亚 XV A - V2Board
   - 🇮🇩 印度尼西亚 XV A - V2Board
 - name: 👆🏻🇺🇸 ‍美国
   type: select

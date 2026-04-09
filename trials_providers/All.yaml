@@ -1,8 +1,9 @@
 %YAML 1.2
 ---
 proxies:
-- {name: 🇮🇩 印度尼西亚 XV A - V2Board, server: idxva.osaip.net, port: 33333, type: ss, cipher: 2022-blake3-aes-256-gcm, password: MTQ3NDRiNGVhMGEyNDMyZGVmMGZiOWMzMGE0ODJmZTQ=:NGJlNzg0NTItZWY1My00YTc1LWE5ZjAtMGM2MDI3ZWE=, udp: true}
+- &id001 {name: 🇮🇩 印度尼西亚 XV A - V2Board, server: idxva.osaip.net, port: 33333, type: ss, cipher: 2022-blake3-aes-256-gcm, password: MTQ3NDRiNGVhMGEyNDMyZGVmMGZiOWMzMGE0ODJmZTQ=:NGJlNzg0NTItZWY1My00YTc1LWE5ZjAtMGM2MDI3ZWE=, udp: true}
 - {name: 🇺🇸 US01 - V2Board, server: ne-cbe4k7vz.neurix.sbs, port: 10000, type: vmess, uuid: a091085f-ac31-443d-bffd-f64e5a670a56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: us01.neurix.icu, udp: true}
 - {name: 🇺🇸 US02 - V2Board, server: ne-cbe4k7vz.neurix.sbs, port: 10001, type: vmess, uuid: a091085f-ac31-443d-bffd-f64e5a670a56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: us02.neurix.icu, udp: true}
 - {name: 🇺🇸 US03 - V2Board, server: ne-cbe4k7vz.neurix.sbs, port: 10002, type: vmess, uuid: a091085f-ac31-443d-bffd-f64e5a670a56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: us03.neurix.icu, udp: true}
 - {name: 🇺🇸 US04 - V2Board, server: ne-cbe4k7vz.neurix.sbs, port: 10003, type: vmess, uuid: a091085f-ac31-443d-bffd-f64e5a670a56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: us04.neurix.icu, udp: true}
+- *id001

@@ -12,11 +12,11 @@ type  v2board
 buy  pass
 email  qdctidcz531@gmail.com
 name  V2Board
-sub_info  0B  100G  2026-05-09 18:31:28+08:00  (剩余 100G 29 days, 23:59:43.884974)
+node_n  1
+sub_info  0B  100G  2026-05-09 18:31:28+08:00  (剩余 100G 29 days, 23:05:08.268686)
 sub_url  https://novb.f6net.net/api/v1/client/subscribe?token=8a45800613ba57789b1c45ba64543943
 time  2026-04-09 18:31:29.372025+08:00
 type  v2board
-保存base64/clash订阅失败  while scanning for the next token found character '\t' that cannot start any token in "<byte string>", line 10, column 1: 	if (redirected) return; ^ (line: 10)
 
 [dxheua.dhkvfug.cn]
 
@@ -29,13 +29,228 @@ buy  pass
 email  hnfurtg488@gmail.com
 name  V2Board
 node_n  1
-sub_info  0B  100G  2026-05-09 18:31:28+08:00  (剩余 100G 29 days, 23:59:51.522577)
+sub_info  0B  100G  2026-05-09 18:31:28+08:00  (剩余 100G 29 days, 23:05:07.246061)
 sub_url  https://novb.f6net.net/api/v1/client/subscribe?token=731af268c67e8a445eabec035766c2b1
 time  2026-04-09 18:31:29.370710+08:00
 type  v2board
+保存base64/clash订阅失败  while scanning for the next token found character '\t' that cannot start any token in "<byte string>", line 10, column 1: 	if (redirected) return; ^ (line: 10)
 
 [wwn.trx1.cyou]
+banned_domains  mail.cx  lista.cc
+name  V2Board
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(ngshabcxa17@lista.cc)
+
+[http://tinnyrick8888.com]
+buy  pass
+email  lejsftzp404@qq.com
+name  V2Board
+node_n  12
+sub_info  0B  1G  2026-04-12 19:26:17+08:00  (剩余 1G 2 days, 23:59:56.246325)
+sub_url  http://tinnyrick8888.com/api/v1/client/subscribe?token=64baedf89d331edc59a020fe60ea562d
+time  2026-04-09 19:26:18.456823+08:00
+type  v2board
+
+[http://x2b.eans.top]
+
+[https://2.juanwangjc.top]
 banned_domains  mail.cx
 name  V2Board
 type  v2board
-更新订阅链接/续费续签失败  获取邮箱验证码超时(vedeuadmn161@mail.cx)
+更新订阅链接/续费续签失败  获取邮箱验证码超时(xhfkome370@mail.cx)
+
+[https://admin.tianmiao.icu]
+buy  pass
+email  qvnuqct475@gmail.com
+name  V2Board
+sub_info  0B  500G  2037-09-05 11:26:18+08:00  (剩余 500G 4166 days, 15:59:54.878044)
+sub_url  https://admin.tianmiao.icu/api/v1/client/subscribe?token=4a5250ecad71c0bebc57314f556c1461
+time  2026-04-09 19:26:19.129267+08:00
+type  v2board
+保存base64/clash订阅失败  'NoneType' object is not iterable
+
+[https://api.skrspc.org]
+banned_domains  xxxhi.cc
+name  V2Board
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(rdllijtw289@xxxhi.cc)
+
+[https://best.nxxbbf.com]
+
+[https://bestti.whtjdasha.com]
+
+[https://bssbs.slianvpn.top]
+buy  pass
+email  mxgqylwj199@gmail.com
+name  V2Board
+sub_info  0B  2G  2026-04-09 21:26:21+08:00  (剩余 2G 1:59:50.546666)
+sub_url  https://bestti.whtjdasha.com/s/ea64b14c28739e46be7757084cb18db3
+time  2026-04-09 19:26:17.922980+08:00
+type  v2board
+保存base64/clash订阅失败  while scanning for the next token found character '\t' that cannot start any token in "<byte string>", line 10, column 1: 	if (redirected) return; ^ (line: 10)
+
+[https://btxst.eu.cc]
+name  V2Board
+type  v2board
+更新订阅链接/续费续签失败  注册失败(hkdacia626@gmail.com): Fail
+
+[https://cloudaddy.top]
+buy  pass
+email  tzsvyiori349@gmail.com
+name  V2Board
+sub_info  0B  3G  2026-04-09 21:26:17+08:00  (剩余 3G 1:59:34.356158)
+sub_url  https://www.cloudaddy.top/1flarespeedUP/d17f9ead5677cdd2bb8b8a3a53cbc533
+time  2026-04-09 19:26:17.657240+08:00
+type  v2board
+保存base64/clash订阅失败  while scanning for the next token found character '\t' that cannot start any token in "<byte string>", line 10, column 1: 	if (redirected) return; ^ (line: 10)
+
+[https://dftyfdf1j00ll.dashuai.us]
+name  V2Board
+type  v2board
+更新订阅链接/续费续签失败  can only concatenate str (not "NoneType") to str
+
+[https://dg.vvcl.us]
+buy  pass
+email  cosmsyk976@gmail.com
+name  V2Board
+node_n  35
+sub_url  https://s.vvud.us/s/ac4eb7481a7b685d1d0f790119cae802
+time  2026-04-09 19:26:18.837039+08:00
+type  v2board
+保存订阅信息失败  could not convert string to float: '1;'
+
+[https://frontend.skrspc.org]
+name  V2Board
+type  v2board
+更新订阅链接/续费续签失败  注册失败(bfljqxqkz343@gmail.com): Fail
+
+[https://go.yueyun.de]
+
+[https://multiserver.multiserveradelshoop.com]
+email  eawbhdfgb203@gmail.com
+name  V2Board
+sub_info  0B  0B  永不过期  (剩余 0B)
+sub_url  https://multiserver.multiserveradelshoop.com/api/v1/client/subscribe?token=eb4e31202eddfcfcf52332cc548d6044
+time  2026-04-09 19:26:18.655714+08:00
+type  v2board
+保存base64/clash订阅失败  'NoneType' object is not iterable
+
+[https://p1.shahramv1.site]
+buy  pass
+email  fkqmsqmwn187@gmail.com
+name  V2Board
+sub_info  0B  0B  永不过期  (剩余 0B)
+sub_url  https://p1.shahramv1.site/api/v1/client/subscribe?token=6e3c90cd49e827757dccb922fd825804
+time  2026-04-09 19:26:19.214786+08:00
+type  v2board
+保存base64/clash订阅失败  'NoneType' object is not iterable
+
+[https://panel.shahramv1.site]
+buy  pass
+email  rhotovhf882@gmail.com
+name  V2Board
+sub_info  0B  0B  永不过期  (剩余 0B)
+sub_url  https://panel.shahramv1.site/api/v1/client/subscribe?token=f6475302e1999e3e038d08c13e3e49c7
+time  2026-04-09 19:26:19.198653+08:00
+type  v2board
+保存base64/clash订阅失败  while scanning for the next token found character '\t' that cannot start any token in "<byte string>", line 10, column 1: 	if (redirected) return; ^ (line: 10)
+
+[https://slianvpn.com]
+buy  pass
+email  emophhygy598@gmail.com
+name  V2Board
+node_n  41
+sub_info  0B  2G  2026-04-09 21:26:17+08:00  (剩余 2G 1:59:44.762328)
+sub_url  https://slvp.nxxbbf.com/s/c0abcd3f9806641e97c1bb5336efa03c
+time  2026-04-09 19:26:17.520078+08:00
+type  v2board
+
+[https://slurl.izenny.com]
+buy  pass
+email  lsvqthwso991@gmail.com
+name  V2Board
+sub_info  0B  2G  2026-04-09 21:26:23+08:00  (剩余 2G 1:59:34.175801)
+sub_url  https://slurl.izenny.com/s/6448ce7d63aa611ed5d7142d25442bd1
+time  2026-04-09 19:26:25.720606+08:00
+type  v2board
+保存base64/clash订阅失败  while scanning for the next token found character '\t' that cannot start any token in "<byte string>", line 10, column 1: 	if (redirected) return; ^ (line: 10)
+
+[https://slvp.nxxbbf.com]
+buy  pass
+email  fktksto611@gmail.com
+name  V2Board
+sub_info  0B  2G  2026-04-09 21:26:21+08:00  (剩余 2G 1:59:49.886383)
+sub_url  https://slvp.nxxbbf.com/s/ad52f25da58213e032c7b3ff153ba31c
+time  2026-04-09 19:26:24.374144+08:00
+type  v2board
+保存base64/clash订阅失败  while scanning for the next token found character '\t' that cannot start any token in "<byte string>", line 10, column 1: 	if (redirected) return; ^ (line: 10)
+
+[https://sub4.bmagic.top]
+banned_domains  mail.com.de
+name  V2Board
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(yoozmskl421@mail.com.de)
+
+[https://suba.f2vip.net]
+buy  pass
+email  kpxqmmqg914@gmail.com
+name  V2Board
+node_n  1
+sub_info  0B  100G  2026-05-09 19:26:17+08:00  (剩余 100G 29 days, 23:59:43.531860)
+sub_url  https://novb.f6net.net/api/v1/client/subscribe?token=78ce78f0c175214b64f4c30326702ba1
+time  2026-04-09 19:26:17.965080+08:00
+type  v2board
+
+[https://subs.3f66.net]
+
+[https://tizi.bulehu.com]
+name  V2Board
+type  v2board
+更新订阅链接/续费续签失败  注册失败(hnyjjdbqz642@gmail.com): 本站已关闭注册
+
+[https://txdpn6.my]
+name  V2Board
+type  v2board
+更新订阅链接/续费续签失败  注册失败(ayoantx797@gmail.com): 注册频繁，请等待 9999999 分钟后再次尝试
+
+[https://v2.heiu.me]
+
+[https://www.cloudaddy.top]
+buy  pass
+email  cmotmveo951@gmail.com
+name  V2Board
+sub_info  0B  3G  2026-04-09 21:26:18+08:00  (剩余 3G 1:59:26.314029)
+sub_url  https://www.cloudaddy.top/1flarespeedUP/77b4cf9e3120ff6992bfebbc2e2952c5
+time  2026-04-09 19:26:18.927395+08:00
+type  v2board
+保存base64/clash订阅失败  while scanning for the next token found character '\t' that cannot start any token in "<byte string>", line 10, column 1: 	if (redirected) return; ^ (line: 10)
+
+[https://www.sdwanus.com]
+banned_domains  guerrillamail.net
+name  V2Board
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(migyfhpko993@guerrillamail.net)
+
+[https://www.yywhale.com]
+buy  pass
+email  twhvuzj389@gmail.com
+name  V2Board
+node_n  5
+sub_info  0B  9.766T  2026-04-09 20:26:17+08:00  (剩余 9.766T 0:59:44.200860)
+sub_url  https://www.yywhale.com/api/v1/client/subscribe?token=1f8b54892a34126354d25e9f838babff
+time  2026-04-09 19:26:18.573173+08:00
+type  v2board
+
+[https://www9.9th-subscription-from-chickenfarmer.top]
+
+[https://xbd.iftballs.com]
+banned_domains  mail.cx
+name  V2Board
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(wxywnemth437@mail.cx)
+
+[https://xn--rgv465a.246k.net]
+banned_domains  mail.com.de
+name  V2Board
+type  v2board
+更新订阅链接/续费续签失败  获取邮箱验证码超时(zvislpbqe196@mail.com.de)

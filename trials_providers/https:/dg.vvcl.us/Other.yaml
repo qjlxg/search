@@ -1,0 +1,8 @@
+%YAML 1.2
+---
+proxies:
+- {name: ✅付费后可用全部线路 - V2Board, server: zf.sg-iepl.com, port: 49642, type: ss, cipher: chacha20-ietf-poly1305, password: 177896e9-b02e-4fde-9c96-9184c3e43f0b, udp: true}
+- {name: ℹ️ ✅续费网址:https://getvv.cloud - V2Board, server: zf.sg-iepl.com, port: 49642, type: ss, cipher: chacha20-ietf-poly1305, password: 177896e9-b02e-4fde-9c96-9184c3e43f0b, udp: true}
+- {name: 🇬🇧 专线A1-伦敦3-解锁BBC iPlayer极纯家宽IP流媒体全解锁-3倍率 - V2Board, server: zf.sg-iepl.com, port: 29110, type: ss, cipher: chacha20-ietf-poly1305, password: 177896e9-b02e-4fde-9c96-9184c3e43f0b, udp: true}
+- {name: 🇰🇷 电信专线B1-韩国1-家宽IP流媒体全解锁Tiktok优秀-3倍率 - V2Board, server: zf-iepl.ranktech.top, port: 4206, type: ss, cipher: chacha20-ietf-poly1305, password: 177896e9-b02e-4fde-9c96-9184c3e43f0b, udp: true}
+- {name: 🇬🇧 电信专线B1- 伦敦3-解锁BBC iPlayer极纯家宽IP流媒体全解锁-3倍率 - V2Board, server: zf-iepl.ranktech.top, port: 51446, type: ss, cipher: chacha20-ietf-poly1305, password: 177896e9-b02e-4fde-9c96-9184c3e43f0b, udp: true}

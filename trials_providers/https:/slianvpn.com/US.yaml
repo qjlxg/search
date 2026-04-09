@@ -1,0 +1,6 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇺🇸 中转美国1(动态) x1 - V2Board, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 3bfb69a8-d21b-4102-ba63-02b831b859fe, udp: true}
+- {name: 🇺🇸 中转美国2(动态) x1 - V2Board, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 3bfb69a8-d21b-4102-ba63-02b831b859fe, udp: true}
+- {name: 🇺🇸 中转美国3(动态) x1 - V2Board, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 3bfb69a8-d21b-4102-ba63-02b831b859fe, udp: true}

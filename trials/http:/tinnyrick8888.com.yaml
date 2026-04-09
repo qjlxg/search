@@ -11,22 +11,43 @@ proxy-groups:
   proxies:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
+  - 🇭🇰 ‍香港
+  - 🇹🇼 ‍台湾
+  - 🇨🇳 ‍中国
+  - 🇸🇬 ‍新加坡
+  - 🇯🇵 ‍日本
   - 🇺🇸 ‍美国
   - 🎏 ‍其他
+  - 👆🏻🇭🇰 ‍香港
+  - 👆🏻🇹🇼 ‍台湾
+  - 👆🏻🇨🇳 ‍中国
+  - 👆🏻🇸🇬 ‍新加坡
+  - 👆🏻🇯🇵 ‍日本
   - 👆🏻🇺🇸 ‍美国
   - 👆🏻🎏 ‍其他
   - DIRECT
   - REJECT
 - name: ⚡ ‍低延迟
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
   tolerance: 100
-  use: &id001
-  - US
-  - p_All_All_Other_Other
-  - p_All_All_Other_Other
+  proxies: &id001
+  - 🇭🇰 香港 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board
+  - 🇭🇰 香港 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board
+  - 🇭🇰 香港 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board
+  - 🇭🇰 香港 · 4号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board
+  - 🇹🇼 台湾 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board
+  - 🇸🇬 新加坡 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board
+  - 🇯🇵 日本 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board
+  - 🇯🇵 日本 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board
+  - 🇯🇵 日本 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board
+  - 🇺🇸 美国 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board
+  - 🇺🇸 美国 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board
+  - 🇹🇳 PC端如无法使用请点击左下角齿轮图标进入设置，勾选TUN，并清理缓存。即可畅享超高带宽下的极速视频体验。 - V2Board
 - name: 👆🏻 ‍指定
   type: select
-  use: *id001
+  proxies: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -43,15 +64,27 @@ proxy-groups:
   type: select
   proxies:
   - 🛩️ ‍墙内
+  - 🇭🇰 ‍香港
+  - 🇹🇼 ‍台湾
+  - 🇨🇳 ‍中国
   - ✈️ ‍起飞
+  - 👆🏻🇭🇰 ‍香港
+  - 👆🏻🇹🇼 ‍台湾
+  - 👆🏻🇨🇳 ‍中国
   - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
   - 🇺🇸 ‍美国
+  - 🇹🇼 ‍台湾
+  - 🇸🇬 ‍新加坡
+  - 🇯🇵 ‍日本
   - 🎏 ‍其他
   - ✈️ ‍起飞
   - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🇹🇼 ‍台湾
+  - 👆🏻🇸🇬 ‍新加坡
+  - 👆🏻🇯🇵 ‍日本
   - 👆🏻🎏 ‍其他
   - 👆🏻 ‍指定
   - 🛩️ ‍墙内
@@ -61,42 +94,99 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
+- name: 🇭🇰 ‍香港
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id002
+  - 🇭🇰 香港 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board
+  - 🇭🇰 香港 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board
+  - 🇭🇰 香港 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board
+  - 🇭🇰 香港 · 4号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board
+- name: 🇹🇼 ‍台湾
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id003
+  - 🇹🇼 台湾 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board
+- name: 🇨🇳 ‍中国
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id004
+  - 🇭🇰 香港 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board
+  - 🇭🇰 香港 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board
+  - 🇭🇰 香港 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board
+  - 🇭🇰 香港 · 4号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board
+  - 🇹🇼 台湾 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board
+- name: 🇸🇬 ‍新加坡
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id005
+  - 🇸🇬 新加坡 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board
+- name: 🇯🇵 ‍日本
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id006
+  - 🇯🇵 日本 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board
+  - 🇯🇵 日本 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board
+  - 🇯🇵 日本 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board
 - name: 🇺🇸 ‍美国
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
   tolerance: 300
-  use: &id002
-  - US
+  proxies: &id007
+  - 🇺🇸 美国 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board
+  - 🇺🇸 美国 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board
 - name: 🎏 ‍其他
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
   tolerance: 100
-  use: &id003
-  - p_All_All_Other_Other
-  - p_All_All_Other_Other
+  proxies: &id008
+  - 🇹🇳 PC端如无法使用请点击左下角齿轮图标进入设置，勾选TUN，并清理缓存。即可畅享超高带宽下的极速视频体验。 - V2Board
+- name: 👆🏻🇭🇰 ‍香港
+  type: select
+  proxies: *id002
+- name: 👆🏻🇹🇼 ‍台湾
+  type: select
+  proxies: *id003
+- name: 👆🏻🇨🇳 ‍中国
+  type: select
+  proxies: *id004
+- name: 👆🏻🇸🇬 ‍新加坡
+  type: select
+  proxies: *id005
+- name: 👆🏻🇯🇵 ‍日本
+  type: select
+  proxies: *id006
 - name: 👆🏻🇺🇸 ‍美国
   type: select
-  use: *id002
+  proxies: *id007
 - name: 👆🏻🎏 ‍其他
   type: select
-  use: *id003
-proxy-providers:
-  US:
-    type: http
-    url: https://raw.kgithub.com/qjlxg/search/main/trials_providers/US.yaml
-    interval: 180
-    path: trials_providers/US.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_Other_Other:
-    type: http
-    url: https://raw.kgithub.com/qjlxg/search/main/trials_providers/p_All_All_Other_Other.yaml
-    interval: 180
-    path: trials_providers/p_All_All_Other_Other.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
+  proxies: *id008
+proxies:
+- {name: 🇹🇳 PC端如无法使用请点击左下角齿轮图标进入设置，勾选TUN，并清理缓存。即可畅享超高带宽下的极速视频体验。 - V2Board, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: 398b1279-3128-4ba1-a531-4317babdf628, sni: cdntwa.xiaomispeed.com, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 398b1279-3128-4ba1-a531-4317babdf628, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 398b1279-3128-4ba1-a531-4317babdf628, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 398b1279-3128-4ba1-a531-4317babdf628, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 · 4号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 398b1279-3128-4ba1-a531-4317babdf628, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 398b1279-3128-4ba1-a531-4317babdf628, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: 398b1279-3128-4ba1-a531-4317babdf628, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: 398b1279-3128-4ba1-a531-4317babdf628, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: 398b1279-3128-4ba1-a531-4317babdf628, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: 398b1279-3128-4ba1-a531-4317babdf628, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 398b1279-3128-4ba1-a531-4317babdf628, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 398b1279-3128-4ba1-a531-4317babdf628, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
