@@ -1,0 +1,59 @@
+name: get_trial.py
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 1 * *'
+  push:
+    paths:
+      - 'trial.cfg'
+      - 'apis.py'
+      - '.github/workflows/get_trial.yml'
+
+permissions: write-all
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.ref }}
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Prepare
+        run: |
+          sudo apt-get update
+          # 在 Ubuntu 24.04 中，使用 libgl1 和 libglib2.0-0 替代旧的 libgl1-mesa-glx
+          sudo apt-get install -y libgl1 libglib2.0-0
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 ruamel.yaml json5 curl_cffi ddddocr
+
+      - name: Run get_trial.py
+        run: python get_trial.py
+
+      - name: Commit
+        id: commit
+        continue-on-error: true
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions"
+          git add .
+          # 检查是否有内容需要提交，避免空的 commit 报错
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Auto update by GitHub Actions"
+          git pull --rebase
+
+      - name: Push changes
+        if: steps.commit.outcome == 'success'
+        run: git push
