@@ -1,4 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🌐 اشتراک شما تمام شده 🌐 - V2Board, server: thugiping.info, port: 80, type: vmess, uuid: 209872a9-7935-45a8-8ad8-b384690a81cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: thugiping.info}}, udp: true}

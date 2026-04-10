@@ -1,5 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇺🇸 美国-Racknerd-昂贵 - V2Board, server: 192.3.187.29, port: 30001, type: ss, cipher: aes-128-gcm, password: 31457fcb-c04b-421f-a2da-6ba58413df46, udp: true}
-- {name: 🇺🇸 美国-Racknerd-便宜 - V2Board, server: 198.23.237.135, port: 30002, type: ss, cipher: aes-128-gcm, password: 31457fcb-c04b-421f-a2da-6ba58413df46, udp: true}

@@ -1,4 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: ℹ️ 定制节点请+飞机@niu8niunet - V2Board, server: 127.0.0.1, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: 06bf2892-69f4-4e4c-ae32-5cc02a903b67, udp: true}

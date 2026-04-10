@@ -1,4 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇯🇵 JP-01 - V2Board, server: jp01.node.zzyun.cc, port: 4433, type: hysteria2, ports: 4433, password: 6bf34bbe-3ef4-4154-a5ba-4328bac30784, skip-cert-verify: true, udp: true}

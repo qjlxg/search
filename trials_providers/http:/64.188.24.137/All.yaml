@@ -1,4 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇸🇬 IEPL| 新加坡 - V2Board, server: 47.74.128.123, port: 52416, type: ss, cipher: aes-128-gcm, password: f4g9rnwf9gtgweg5g66h, udp: true}

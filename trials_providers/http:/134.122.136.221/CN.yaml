@@ -1,6 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇭🇰 香港HKL - 1 - V2Board, server: ts-mix-good.gym0boy.com, port: 55612, type: ss, cipher: chacha20-ietf-poly1305, password: 7c4d2023-3d31-4776-839d-1935f54fe5c4, udp: true}
-- {name: 🇭🇰 香港HKL - 2 - V2Board, server: ts-mix-good.gym0boy.com, port: 16778, type: ss, cipher: chacha20-ietf-poly1305, password: 7c4d2023-3d31-4776-839d-1935f54fe5c4, udp: true}
-- {name: 🇭🇰 香港HKL - 3 - V2Board, server: ts-mix-good.gym0boy.com, port: 12489, type: ss, cipher: chacha20-ietf-poly1305, password: 7c4d2023-3d31-4776-839d-1935f54fe5c4, udp: true}

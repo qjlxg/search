@@ -1,6 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇺🇸 美国-1 - V2Board, server: 23.27.143.79, port: 28666, type: vmess, uuid: 36cc1b6e-d3ee-42ac-bee6-0e29970702a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.bilibili.com, udp: true}
-- {name: 🇺🇸 美国-2 - V2Board, server: 223.165.6.217, port: 28666, type: vmess, uuid: 36cc1b6e-d3ee-42ac-bee6-0e29970702a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.bilibili.com, udp: true}
-- {name: 🇺🇸 美国-3 - V2Board, server: 205.198.70.177, port: 28666, type: vmess, uuid: 36cc1b6e-d3ee-42ac-bee6-0e29970702a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.bilibili.com, udp: true}

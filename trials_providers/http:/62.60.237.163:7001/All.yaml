@@ -1,5 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 'ℹ️ 官网: winterlandcloud.com - V2Board', server: 0.0.0.0, port: 1, type: ss, cipher: aes-128-gcm, password: 35d30692-3156-468d-bc3c-114fb52cdff4, udp: true}
-- {name: Suspicious activity detected. See our Terms for details. Purchase a plan or contact support. - V2Board, server: 0.0.0.0, port: 1, type: ss, cipher: aes-128-gcm, password: 35d30692-3156-468d-bc3c-114fb52cdff4, udp: true}

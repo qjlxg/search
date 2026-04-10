@@ -1,9 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇯🇵 日本-1 - V2Board, server: 166.88.100.19, port: 28666, type: vmess, uuid: 36cc1b6e-d3ee-42ac-bee6-0e29970702a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.bilibili.com, udp: true}
-- {name: 🇯🇵 日本-2 - V2Board, server: 205.198.89.155, port: 28666, type: vmess, uuid: 36cc1b6e-d3ee-42ac-bee6-0e29970702a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.bilibili.com, udp: true}
-- {name: 🇯🇵 日本-3 - V2Board, server: 205.198.89.157, port: 28666, type: vmess, uuid: 36cc1b6e-d3ee-42ac-bee6-0e29970702a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.bilibili.com, udp: true}
-- {name: 🇯🇵 日本-4 - V2Board, server: 205.198.89.158, port: 28666, type: vmess, uuid: 36cc1b6e-d3ee-42ac-bee6-0e29970702a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.bilibili.com, udp: true}
-- {name: 🇯🇵 日本-5 - V2Board, server: 205.198.89.160, port: 28666, type: vmess, uuid: 36cc1b6e-d3ee-42ac-bee6-0e29970702a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.bilibili.com, udp: true}
-- {name: 🇯🇵 日本-6 - V2Board, server: 205.198.89.161, port: 28666, type: vmess, uuid: 36cc1b6e-d3ee-42ac-bee6-0e29970702a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.bilibili.com, udp: true}

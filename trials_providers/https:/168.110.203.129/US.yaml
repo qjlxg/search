@@ -1,6 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇺🇸美国1 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23318, type: ss, cipher: chacha20-ietf-poly1305, password: b075279a-edcb-4323-a7b6-c4ea48027f71, udp: true}
-- {name: 🇺🇸美国2 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 16325, type: ss, cipher: chacha20-ietf-poly1305, password: b075279a-edcb-4323-a7b6-c4ea48027f71, udp: true}
-- {name: 🇺🇸美国4 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 17779, type: ss, cipher: chacha20-ietf-poly1305, password: b075279a-edcb-4323-a7b6-c4ea48027f71, udp: true}

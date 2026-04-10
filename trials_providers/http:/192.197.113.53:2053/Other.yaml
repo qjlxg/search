@@ -1,5 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇨🇦 加拿大 - V2Board, server: 27.152.180.32, port: 28013, type: ss, cipher: chacha20-ietf-poly1305, password: 30e4c062-0bd1-4e86-8060-f3ee52f9b3f7, udp: true}
-- {name: 🇬🇧 英国 - V2Board, server: 27.152.180.32, port: 28056, type: ss, cipher: chacha20-ietf-poly1305, password: 30e4c062-0bd1-4e86-8060-f3ee52f9b3f7, udp: true}

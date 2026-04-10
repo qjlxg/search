@@ -1,8 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇯🇵 V1 | 日本1 - V2Board, server: 162.141.131.89, port: 19201, type: ss, cipher: aes-256-gcm, password: a3b440f5-512d-4252-b397-f941bb6158a8, udp: true}
-- {name: 🇯🇵 V1 | 日本2 - V2Board, server: jp92.appmimi.com, port: 49032, type: ss, cipher: aes-256-gcm, password: a3b440f5-512d-4252-b397-f941bb6158a8, udp: true}
-- {name: 🇯🇵 V1 | 日本3 - V2Board, server: jp93.appmimi.com, port: 49033, type: ss, cipher: aes-256-gcm, password: a3b440f5-512d-4252-b397-f941bb6158a8, udp: true}
-- {name: 🇯🇵 V1 | 日本4 - V2Board, server: jp94.appmimi.com, port: 49034, type: ss, cipher: aes-256-gcm, password: a3b440f5-512d-4252-b397-f941bb6158a8, udp: true}
-- {name: 🇯🇵 V1 | 日本5 - V2Board, server: jp95.appmimi.com, port: 49040, type: ss, cipher: aes-256-gcm, password: a3b440f5-512d-4252-b397-f941bb6158a8, udp: true}

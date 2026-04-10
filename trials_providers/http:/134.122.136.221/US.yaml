@@ -1,9 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇺🇸 美国US - 1 - V2Board, server: ts-mix-good.gym0boy.com, port: 24263, type: ss, cipher: chacha20-ietf-poly1305, password: 7c4d2023-3d31-4776-839d-1935f54fe5c4, udp: true}
-- {name: 🇺🇸 美国US - 2 - V2Board, server: ts-mix-good.gym0boy.com, port: 11869, type: ss, cipher: chacha20-ietf-poly1305, password: 7c4d2023-3d31-4776-839d-1935f54fe5c4, udp: true}
-- {name: 🇺🇸 美国US - 3 - V2Board, server: ts-mix-good.gym0boy.com, port: 43197, type: ss, cipher: chacha20-ietf-poly1305, password: 7c4d2023-3d31-4776-839d-1935f54fe5c4, udp: true}
-- {name: 🇺🇸 美国US - 4 - V2Board, server: ts-mix-good.gym0boy.com, port: 54215, type: ss, cipher: chacha20-ietf-poly1305, password: 7c4d2023-3d31-4776-839d-1935f54fe5c4, udp: true}
-- {name: 🇺🇸 美国US - 5 - V2Board, server: 8.163.86.238, port: 34360, type: ss, cipher: chacha20-ietf-poly1305, password: 7c4d2023-3d31-4776-839d-1935f54fe5c4, udp: true}
-- {name: 🇺🇸 美国US - 6 - V2Board, server: 8.163.86.238, port: 36671, type: ss, cipher: chacha20-ietf-poly1305, password: 7c4d2023-3d31-4776-839d-1935f54fe5c4, udp: true}

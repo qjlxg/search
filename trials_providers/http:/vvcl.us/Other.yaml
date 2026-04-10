@@ -1,6 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: ✅付费后可用全部线路 - V2Board, server: zf.sg-iepl.com, port: 49642, type: ss, cipher: chacha20-ietf-poly1305, password: 2c146e4a-2f8a-4b4e-843a-4254b30ea92c, udp: true}
-- {name: ℹ️ ✅续费网址:https://getvv.cloud - V2Board, server: zf.sg-iepl.com, port: 49642, type: ss, cipher: chacha20-ietf-poly1305, password: 2c146e4a-2f8a-4b4e-843a-4254b30ea92c, udp: true}
-- {name: 🇬🇧 专线A1-伦敦3-解锁BBC iPlayer极纯家宽IP流媒体全解锁-3倍率 - V2Board, server: zf.sg-iepl.com, port: 29110, type: ss, cipher: chacha20-ietf-poly1305, password: 2c146e4a-2f8a-4b4e-843a-4254b30ea92c, udp: true}

@@ -1,5 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: '🇭🇰 [ss]HK - V2Board', server: wyy5.gdnye.cn, port: 19006, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MjQyYTM1YzM2Nzc0MzM4Nw==:ZmY1NzQxMDItYjc1ZC00ZA==, udp: true}
-- {name: '🇭🇰 [ss]HK2 - V2Board', server: wyy1.gdnye.cn, port: 19008, type: ss, cipher: 2022-blake3-aes-128-gcm, password: NDc4NDg1MjA4YTI0YTU1Zg==:ZmY1NzQxMDItYjc1ZC00ZA==, udp: true}

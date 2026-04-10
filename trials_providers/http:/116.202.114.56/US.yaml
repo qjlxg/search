@@ -1,4 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇺🇸 United States | 1 - V2Board, server: global.digital-nvme.com, port: 39504, type: trojan, password: f85540fd-71ba-48ce-bb65-0048dd20f127, sni: mmbiz.qpic.cn, skip-cert-verify: true, udp: true}

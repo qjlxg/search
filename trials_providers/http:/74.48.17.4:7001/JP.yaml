@@ -1,4 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇯🇵 日本02 - V2Board, server: shayu.jp-2.798777.xyz, port: 33201, type: hysteria2, ports: 33201, password: d74a79aa-f0a0-44c9-8509-789eed778d61, sni: 798777.xyz, skip-cert-verify: true, udp: true}

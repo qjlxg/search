@@ -1,5 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇭🇰 专线A1-香港3-极纯家宽IP支持Cityline流媒体全解锁-3倍率 - V2Board, server: zf.sg-iepl.com, port: 49642, type: ss, cipher: chacha20-ietf-poly1305, password: 2c146e4a-2f8a-4b4e-843a-4254b30ea92c, udp: true}
-- {name: 🇭🇰 专线A1-香港4-极纯家宽IP支持Cityline流媒体全解锁-3倍率 - V2Board, server: zf.sg-iepl.com, port: 6740, type: ss, cipher: chacha20-ietf-poly1305, password: 2c146e4a-2f8a-4b4e-843a-4254b30ea92c, udp: true}

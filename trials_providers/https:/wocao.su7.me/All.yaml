@@ -1,9 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇭🇰 香港代理01 - V2Board, server: 5ecd1b64-f864-4594-9743-da12c7a1948f, port: 5, type: socks5, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡代理01 - V2Board, server: 5ecd1b64-f864-4594-9743-da12c7a1948f, port: 5, type: socks5, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾代理01 - V2Board, server: 5ecd1b64-f864-4594-9743-da12c7a1948f, port: 5, type: socks5, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港代理02 - V2Board, server: 5ecd1b64-f864-4594-9743-da12c7a1948f, port: 5, type: socks5, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡代理02 - V2Board, server: 5ecd1b64-f864-4594-9743-da12c7a1948f, port: 5, type: socks5, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾代理02 - V2Board, server: 5ecd1b64-f864-4594-9743-da12c7a1948f, port: 5, type: socks5, skip-cert-verify: true, udp: true}

@@ -1,4 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇹🇼 台湾 - V2Board, server: 27.152.180.32, port: 28081, type: ss, cipher: chacha20-ietf-poly1305, password: 7344b900-162c-474f-a1c3-d7f459951fd6, udp: true}

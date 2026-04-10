@@ -1,7 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇺🇸 ipv6美US13 - V2Board, server: v12.toppp.cc, port: 42113, type: vmess, uuid: 74927cc1-b91a-4c12-98a1-b44df4a26380, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 V美US16 - V2Board, server: vm3.doooo.top, port: 42116, type: vmess, uuid: 74927cc1-b91a-4c12-98a1-b44df4a26380, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 V美US17 - V2Board, server: vm3.doooo.top, port: 42117, type: vmess, uuid: 74927cc1-b91a-4c12-98a1-b44df4a26380, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 V美US18 - V2Board, server: v18.toppp.cc, port: 42118, type: vmess, uuid: 74927cc1-b91a-4c12-98a1-b44df4a26380, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}

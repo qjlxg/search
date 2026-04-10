@@ -1,4 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇺🇸 美国洛杉矶LA线路01 - V2Board, server: gzbgpww.v0tkrelay.top, port: 33691, type: ss, cipher: chacha20-ietf-poly1305, password: ed3300fa-4897-4e4f-9e7e-e396b6512f59, udp: true}

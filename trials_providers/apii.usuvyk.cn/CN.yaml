@@ -1,8 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇹🇼 V这里是新平台 - V2Board, server: 5.102.124.129, port: 42105, type: vmess, uuid: f647e9c0-1fd4-4395-a9dc-1560e22dc649, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 V港HK7 - V2Board, server: v7.toppp.cc, port: 42107, type: vmess, uuid: f647e9c0-1fd4-4395-a9dc-1560e22dc649, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 V台TW10 - V2Board, server: v10.toppp.cc, port: 42110, type: vmess, uuid: f647e9c0-1fd4-4395-a9dc-1560e22dc649, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 ipv6台TW11 - V2Board, server: v11.toppp.cc, port: 42111, type: vmess, uuid: f647e9c0-1fd4-4395-a9dc-1560e22dc649, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇭🇰 ipv6港HK12[手机流量可用] - V2Board', server: v12.toppp.cc, port: 42112, type: vmess, uuid: f647e9c0-1fd4-4395-a9dc-1560e22dc649, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}

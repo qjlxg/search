@@ -1,6 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇹🇼 台湾高速节点 - V2Board, server: 103.137.63.77, port: 443, type: trojan, password: 7a399847-3bdd-49b2-85e5-00dc2f437e5a, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - V2Board, server: 118.232.199.29, port: 443, type: trojan, password: 7a399847-3bdd-49b2-85e5-00dc2f437e5a, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - V2Board, server: 118.232.199.14, port: 443, type: trojan, password: 7a399847-3bdd-49b2-85e5-00dc2f437e5a, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}

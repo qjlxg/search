@@ -1,5 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇸🇬 新加坡-中转-1 - V2Board, server: gd1.ddns.argonode.men, port: 14401, type: trojan, password: cbc34a6e-e7d3-4b41-bbf6-3a4597413dcd, sni: sg1.argonode.men, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡-中转-2 - V2Board, server: gd1.ddns.argonode.men, port: 14402, type: trojan, password: cbc34a6e-e7d3-4b41-bbf6-3a4597413dcd, sni: sg1.argonode.men, skip-cert-verify: true, udp: true}

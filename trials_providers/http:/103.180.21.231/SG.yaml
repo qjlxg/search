@@ -1,8 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇸🇬 新加坡-1 - V2Board, server: 205.198.86.146, port: 28666, type: vmess, uuid: 36cc1b6e-d3ee-42ac-bee6-0e29970702a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.bilibili.com, udp: true}
-- {name: 🇸🇬 新加坡-2 - V2Board, server: 205.198.86.175, port: 28666, type: vmess, uuid: 36cc1b6e-d3ee-42ac-bee6-0e29970702a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.bilibili.com, udp: true}
-- {name: 🇸🇬 新加坡-3 - V2Board, server: 205.198.87.162, port: 28666, type: vmess, uuid: 36cc1b6e-d3ee-42ac-bee6-0e29970702a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.bilibili.com, udp: true}
-- {name: 🇸🇬 新加坡-4 - V2Board, server: 205.198.87.164, port: 28666, type: vmess, uuid: 36cc1b6e-d3ee-42ac-bee6-0e29970702a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.bilibili.com, udp: true}
-- {name: 🇸🇬 新加坡-5 - V2Board, server: 205.198.87.166, port: 28666, type: vmess, uuid: 36cc1b6e-d3ee-42ac-bee6-0e29970702a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.bilibili.com, udp: true}

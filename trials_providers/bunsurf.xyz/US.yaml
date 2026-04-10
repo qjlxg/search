@@ -1,4 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇺🇸 ss | 美国 | 1 - V2Board, server: bus21.vncky.app, port: 48987, type: ss, cipher: aes-256-gcm, password: 14ecb86d-3e49-4439-8c19-df6797508ba6, udp: true}

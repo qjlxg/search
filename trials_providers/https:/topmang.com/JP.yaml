@@ -1,6 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇯🇵 V日JP8【未标注都是1倍节点】 - V2Board, server: v8.toppp.cc, port: 42108, type: vmess, uuid: 6ddd437f-0085-405c-8c37-2621407db00d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 V日JP14 - V2Board, server: vm3.doooo.top, port: 42114, type: vmess, uuid: 6ddd437f-0085-405c-8c37-2621407db00d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 V日JP15 - V2Board, server: vm3.doooo.top, port: 42115, type: vmess, uuid: 6ddd437f-0085-405c-8c37-2621407db00d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}

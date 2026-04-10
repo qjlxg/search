@@ -1,5 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: cdn free - V2Board, server: 104.168.1.102, port: 8443, type: vmess, uuid: af6edc74-bb9b-40b6-95cd-fb7c976903f9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: cdn.sproutnetworks.co, network: ws, ws-opts: {path: /}, udp: true}
-- {name: FREE - V2Board, server: 104.168.1.102, port: 8222, type: vmess, uuid: af6edc74-bb9b-40b6-95cd-fb7c976903f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}

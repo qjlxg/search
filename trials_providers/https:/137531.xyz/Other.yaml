@@ -1,4 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: ℹ️ 请迁移到新网站 - V2Board, server: 255.255.111.110, port: 61, type: trojan, password: a01e8c80-5999-414b-bdbc-31ab199c7c51, skip-cert-verify: true, udp: true}

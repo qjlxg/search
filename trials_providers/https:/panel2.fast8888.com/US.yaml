@@ -1,7 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇺🇸 IEPL · 美国US · 220 - V2Board, server: 45.250.185.142, port: 16109, type: ss, cipher: chacha20-ietf-poly1305, password: b66fdc11-7629-4210-ac4a-2dd1a27dec13, udp: true}
-- {name: 🇺🇸 IEPL · 美国US · 40 - V2Board, server: 45.250.185.142, port: 16110, type: ss, cipher: chacha20-ietf-poly1305, password: b66fdc11-7629-4210-ac4a-2dd1a27dec13, udp: true}
-- {name: 🇺🇸 IEPL · 美国US · 36 - V2Board, server: 45.250.185.142, port: 16111, type: ss, cipher: chacha20-ietf-poly1305, password: b66fdc11-7629-4210-ac4a-2dd1a27dec13, udp: true}
-- {name: 🇺🇸 IEPL · 美国US · 88 - V2Board, server: 45.250.185.142, port: 16112, type: ss, cipher: chacha20-ietf-poly1305, password: b66fdc11-7629-4210-ac4a-2dd1a27dec13, udp: true}

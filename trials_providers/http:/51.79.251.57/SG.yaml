@@ -1,6 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇸🇬 V1 | 新加坡1 - V2Board, server: sg91.appmimi.com, port: 49041, type: ss, cipher: aes-256-gcm, password: 550de267-ca65-45c1-947e-0d44f3b43c66, udp: true}
-- {name: 🇸🇬 V1 | 新加坡2 - V2Board, server: sg92.appmimi.com, port: 49042, type: ss, cipher: aes-256-gcm, password: 550de267-ca65-45c1-947e-0d44f3b43c66, udp: true}
-- {name: 🇸🇬 V1 | 新加坡3 - V2Board, server: sg93.appmimi.com, port: 49043, type: ss, cipher: aes-256-gcm, password: 550de267-ca65-45c1-947e-0d44f3b43c66, udp: true}
