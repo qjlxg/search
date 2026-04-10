@@ -107,11 +107,11 @@ proxy-groups:
   type: select
   proxies: *id004
 proxies:
-- {name: 🇹🇼 台湾高速节点 - V2Board, server: 103.137.63.77, port: 443, type: trojan, password: e012ea92-17f0-4638-b328-eeca9c2c93fe, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - V2Board, server: 118.232.199.29, port: 443, type: trojan, password: e012ea92-17f0-4638-b328-eeca9c2c93fe, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - V2Board, server: 118.232.199.14, port: 443, type: trojan, password: e012ea92-17f0-4638-b328-eeca9c2c93fe, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国高速节点1 - V2Board, server: 144.34.178.66, port: 1443, type: trojan, password: e012ea92-17f0-4638-b328-eeca9c2c93fe, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇨🇳 中国联通节点1 - V2Board, server: 115.231.220.33, port: 5443, type: trojan, password: e012ea92-17f0-4638-b328-eeca9c2c93fe, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点 - V2Board, server: 103.137.63.77, port: 443, type: trojan, password: 21d9081f-0bf4-411a-84f4-ebbee086e77c, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - V2Board, server: 118.232.199.29, port: 443, type: trojan, password: 21d9081f-0bf4-411a-84f4-ebbee086e77c, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - V2Board, server: 118.232.199.14, port: 443, type: trojan, password: 21d9081f-0bf4-411a-84f4-ebbee086e77c, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国高速节点1 - V2Board, server: 144.34.178.66, port: 1443, type: trojan, password: 21d9081f-0bf4-411a-84f4-ebbee086e77c, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇨🇳 中国联通节点1 - V2Board, server: 115.231.220.33, port: 5443, type: trojan, password: 21d9081f-0bf4-411a-84f4-ebbee086e77c, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT

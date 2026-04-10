@@ -1,0 +1,9 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇺🇸 美国一 - V2Board, server: 001.limenodebgp.com, port: 30615, type: ss, cipher: aes-128-gcm, password: 9e135b5a-1f16-4954-9715-731c2da3a8f5, udp: true}
+- {name: 🇺🇸 美国二 - V2Board, server: 002.limenodebgp.com, port: 30616, type: ss, cipher: aes-128-gcm, password: 9e135b5a-1f16-4954-9715-731c2da3a8f5, udp: true}
+- {name: 🇺🇸 美国三 - V2Board, server: 003.limenodebgp.com, port: 30617, type: ss, cipher: aes-128-gcm, password: 9e135b5a-1f16-4954-9715-731c2da3a8f5, udp: true}
+- {name: 🇺🇸 美国四 - V2Board, server: 004.limenodebgp.com, port: 30618, type: ss, cipher: aes-128-gcm, password: 9e135b5a-1f16-4954-9715-731c2da3a8f5, udp: true}
+- {name: 🇺🇸 美国五 - V2Board, server: 005.limenodebgp.com, port: 30619, type: ss, cipher: aes-128-gcm, password: 9e135b5a-1f16-4954-9715-731c2da3a8f5, udp: true}
+- {name: 🇺🇸 美国六 - V2Board, server: 006.limenodebgp.com, port: 30620, type: ss, cipher: aes-128-gcm, password: 9e135b5a-1f16-4954-9715-731c2da3a8f5, udp: true}

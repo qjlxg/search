@@ -1,0 +1,4 @@
+%YAML 1.2
+---
+proxies:
+- {name: '🇯🇵 [trojan]JP - V2Board', server: jp.co2.vn, port: 443, type: trojan, password: 80955fa2-711f-4b5b-8b1b-d5a2523c78be, sni: www.linemo.jp, skip-cert-verify: true, udp: true}

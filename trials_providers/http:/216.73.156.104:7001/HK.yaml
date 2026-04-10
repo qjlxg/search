@@ -1,0 +1,11 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇭🇰 hy2 香港1 - V2Board, server: xgxg1.casvre.top, port: 22005, type: hysteria2, ports: 22005, password: dc7b2308-46d5-4710-bd99-56f8f1786a2e, sni: https%3A%2F%2Fxgxg1.casvre.top%2F, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 hy2 香港2 - V2Board, server: xgxg2.casvre.top, port: 22005, type: hysteria2, ports: 22005, password: dc7b2308-46d5-4710-bd99-56f8f1786a2e, sni: https%3A%2F%2Fxgxg2.casvre.top%2F, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 (广港)1 x1 - V2Board, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: dc7b2308-46d5-4710-bd99-56f8f1786a2e, udp: true}
+- {name: 🇭🇰 香港 (广港)2 x1 - V2Board, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: dc7b2308-46d5-4710-bd99-56f8f1786a2e, udp: true}
+- {name: 🇭🇰 香港 (广港)3 x1 - V2Board, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: dc7b2308-46d5-4710-bd99-56f8f1786a2e, udp: true}
+- {name: 🇭🇰 香港 (广新)1 x1 - V2Board, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: dc7b2308-46d5-4710-bd99-56f8f1786a2e, udp: true}
+- {name: 🇭🇰 香港  (广新)2 x1 - V2Board, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: dc7b2308-46d5-4710-bd99-56f8f1786a2e, udp: true}
+- {name: 🇭🇰 香港 (广新)3 x1 - V2Board, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: dc7b2308-46d5-4710-bd99-56f8f1786a2e, udp: true}

@@ -1,0 +1,4 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇭🇰 香港(移动优化)  ×1 - V2Board, server: 23.175.201.231, port: 8080, type: vmess, uuid: 69656a49-03b7-4b69-9d09-f48278e2945e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: grpc, servername: '', grpc-opts: {grpc-service-name: drive.files.v2.FileService}, udp: true}

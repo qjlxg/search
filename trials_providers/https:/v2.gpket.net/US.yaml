@@ -1,0 +1,6 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇺🇸 美国rn1-快速 - V2Board, server: us-rn1.xaa.app, port: 443, type: trojan, password: 1d017f0f-0e48-4780-b1c3-d7e386805769, sni: us-rn1.xaa.app, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国rn2-快速 - V2Board, server: us-rn2.xaa.app, port: 443, type: trojan, password: 1d017f0f-0e48-4780-b1c3-d7e386805769, sni: us-rn2.xaa.app, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国rn3-高速 - V2Board, server: us-rn3.xaa.app, port: 443, type: trojan, password: 1d017f0f-0e48-4780-b1c3-d7e386805769, sni: us-rn3.xaa.app, skip-cert-verify: true, udp: true}

@@ -1,0 +1,11 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇯🇵 日本JP - 1 - V2Board, server: ts-mix-good.gym0boy.com, port: 38065, type: ss, cipher: chacha20-ietf-poly1305, password: 7c4d2023-3d31-4776-839d-1935f54fe5c4, udp: true}
+- {name: 🇯🇵 日本JP - 2 - V2Board, server: ts-mix-good.gym0boy.com, port: 27745, type: ss, cipher: chacha20-ietf-poly1305, password: 7c4d2023-3d31-4776-839d-1935f54fe5c4, udp: true}
+- {name: 🇯🇵 日本JP - 3 - V2Board, server: ts-mix-good.gym0boy.com, port: 30119, type: ss, cipher: chacha20-ietf-poly1305, password: 7c4d2023-3d31-4776-839d-1935f54fe5c4, udp: true}
+- {name: 🇯🇵 日本JP - 4 - V2Board, server: ts-mix-good.gym0boy.com, port: 20226, type: ss, cipher: chacha20-ietf-poly1305, password: 7c4d2023-3d31-4776-839d-1935f54fe5c4, udp: true}
+- {name: 🇯🇵 日本JP - 5 - V2Board, server: ts-mix-good.gym0boy.com, port: 18130, type: ss, cipher: chacha20-ietf-poly1305, password: 7c4d2023-3d31-4776-839d-1935f54fe5c4, udp: true}
+- {name: 🇯🇵 日本JP - 6 - V2Board, server: ts-mix-good.gym0boy.com, port: 48893, type: ss, cipher: chacha20-ietf-poly1305, password: 7c4d2023-3d31-4776-839d-1935f54fe5c4, udp: true}
+- {name: 🇯🇵 日本JP - 7 - V2Board, server: ts-mix-good.gym0boy.com, port: 25502, type: ss, cipher: chacha20-ietf-poly1305, password: 7c4d2023-3d31-4776-839d-1935f54fe5c4, udp: true}
+- {name: 🇯🇵 日本JP - 8 - V2Board, server: ts-mix-good.gym0boy.com, port: 11054, type: ss, cipher: chacha20-ietf-poly1305, password: 7c4d2023-3d31-4776-839d-1935f54fe5c4, udp: true}

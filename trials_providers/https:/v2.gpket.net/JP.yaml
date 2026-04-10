@@ -1,0 +1,4 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇯🇵 日本-自用 - V2Board, server: jp.xaa.app, port: 443, type: trojan, password: 1d017f0f-0e48-4780-b1c3-d7e386805769, sni: jp.xaa.app, skip-cert-verify: true, udp: true}

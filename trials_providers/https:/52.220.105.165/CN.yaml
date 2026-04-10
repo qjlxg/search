@@ -1,0 +1,4 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇭🇰 香港 | 线路2 | 高速视频 | 社交媒体 - V2Board, server: azhk1.abc-browser.com, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 06bf2892-69f4-4e4c-ae32-5cc02a903b67, udp: true}

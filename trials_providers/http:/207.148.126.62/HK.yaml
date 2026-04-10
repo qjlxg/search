@@ -1,0 +1,5 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇭🇰 cn1香港|1x - V2Board, server: xn--1-eo6a9f4b00af2lsoy.8888888888.sbs, port: 25591, type: ss, cipher: aes-128-gcm, password: d0b73ff7-0d8d-46ad-b04f-b01e3039d1ba, udp: true}
+- {name: 🇭🇰 cn2香港|1x - V2Board, server: xn--2-eo6a9f4b00af2lsoy.8888888888.sbs, port: 25591, type: ss, cipher: aes-128-gcm, password: d0b73ff7-0d8d-46ad-b04f-b01e3039d1ba, udp: true}

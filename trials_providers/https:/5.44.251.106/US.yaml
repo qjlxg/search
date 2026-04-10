@@ -1,0 +1,5 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇺🇸 VIP·美国1 - V2Board, server: 167.253.97.155, port: 17096, type: ss, cipher: aes-256-gcm, password: 311efc27-3c73-41f0-93e5-b274651ac573, udp: true}
+- {name: 🇺🇸 VIP·美国2 - V2Board, server: 142.171.163.19, port: 17096, type: ss, cipher: aes-256-gcm, password: 311efc27-3c73-41f0-93e5-b274651ac573, udp: true}

@@ -1,0 +1,4 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇯🇵 日本 中转 | JP-FWD - V2Board, server: tuntro002.instconn.com, port: 20253, type: trojan, password: 3a2689b8-3d36-4bbb-981a-bca97354c5af, sni: bing.3668989.xyz, skip-cert-verify: true, udp: true}

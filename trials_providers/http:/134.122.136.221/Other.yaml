@@ -1,0 +1,7 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇧🇲 官网：续费/导入：bm.baomao.cc - V2Board, server: 127.0.0.1, port: 33548, type: ss, cipher: chacha20-ietf-poly1305, password: 7c4d2023-3d31-4776-839d-1935f54fe5c4, udp: true}
+- {name: ℹ️ Q群：660506725 - V2Board, server: 127.0.0.1, port: 33548, type: ss, cipher: chacha20-ietf-poly1305, password: 7c4d2023-3d31-4776-839d-1935f54fe5c4, udp: true}
+- {name: ℹ️ 💁联系我们：doc.baomao.cc - V2Board, server: 127.0.0.1, port: 33548, type: ss, cipher: chacha20-ietf-poly1305, password: 7c4d2023-3d31-4776-839d-1935f54fe5c4, udp: true}
+- {name: ℹ️ 必加售后群 当前节点V1.3.1 - V2Board, server: 127.0.0.1, port: 33548, type: ss, cipher: chacha20-ietf-poly1305, password: 7c4d2023-3d31-4776-839d-1935f54fe5c4, udp: true}

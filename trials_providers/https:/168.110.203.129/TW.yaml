@@ -1,0 +1,4 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇹🇼台湾 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 14275, type: ss, cipher: chacha20-ietf-poly1305, password: b075279a-edcb-4323-a7b6-c4ea48027f71, udp: true}

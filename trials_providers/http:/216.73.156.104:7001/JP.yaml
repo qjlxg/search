@@ -1,0 +1,7 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇯🇵 hy2 日本1 - V2Board, server: rbrb1.casvre.top, port: 22005, type: hysteria2, ports: 22005, password: dc7b2308-46d5-4710-bd99-56f8f1786a2e, sni: https%3A%2F%2Frbrb1.casvre.top%2F, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本1(广新) x1 - V2Board, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: dc7b2308-46d5-4710-bd99-56f8f1786a2e, udp: true}
+- {name: 🇯🇵 日本2(广新) x1 - V2Board, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: dc7b2308-46d5-4710-bd99-56f8f1786a2e, udp: true}
+- {name: 🇯🇵 日本3(广新) x1 - V2Board, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: dc7b2308-46d5-4710-bd99-56f8f1786a2e, udp: true}

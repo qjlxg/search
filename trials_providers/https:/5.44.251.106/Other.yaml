@@ -1,0 +1,15 @@
+%YAML 1.2
+---
+proxies:
+- {name: ℹ️ ▷ 请及时更新订阅 - V2Board, server: gate.js.su40.com, port: 47000, type: ss, cipher: aes-256-gcm, password: 311efc27-3c73-41f0-93e5-b274651ac573, udp: true}
+- {name: ℹ️ ▷ 官网 https://jiasuba.xyz/ - V2Board, server: gate.js.su40.com, port: 47000, type: ss, cipher: aes-256-gcm, password: 311efc27-3c73-41f0-93e5-b274651ac573, udp: true}
+- {name: ℹ️ ▷ 邮件 kf@jiasuba.xyz - V2Board, server: gate.js.su40.com, port: 47000, type: ss, cipher: aes-256-gcm, password: 311efc27-3c73-41f0-93e5-b274651ac573, udp: true}
+- {name: ℹ️ ▷ 更多线路请联系客服 - V2Board, server: gate.js.su40.com, port: 47000, type: ss, cipher: aes-256-gcm, password: 311efc27-3c73-41f0-93e5-b274651ac573, udp: true}
+- {name: VIP·非会员体验【线路随机】 - V2Board, server: gate.js.su40.com, port: 47000, type: ss, cipher: aes-256-gcm, password: 311efc27-3c73-41f0-93e5-b274651ac573, udp: true}
+- {name: 🇻🇳 VIP·越南1 - V2Board, server: vn01.js.su40.com, port: 47050, type: ss, cipher: aes-256-gcm, password: 311efc27-3c73-41f0-93e5-b274651ac573, udp: true}
+- {name: 🇦🇺 VIP·澳大利亚1 - V2Board, server: au01.js.su40.com, port: 47051, type: ss, cipher: aes-256-gcm, password: 311efc27-3c73-41f0-93e5-b274651ac573, udp: true}
+- {name: 🇨🇦 VIP·加拿大1 - V2Board, server: ca01.js.su40.com, port: 47071, type: ss, cipher: aes-256-gcm, password: 311efc27-3c73-41f0-93e5-b274651ac573, udp: true}
+- {name: 🇬🇧 VIP·英国1 - V2Board, server: gb01.js.su40.com, port: 47081, type: ss, cipher: aes-256-gcm, password: 311efc27-3c73-41f0-93e5-b274651ac573, udp: true}
+- {name: 🇫🇷 VIP·法国1 - V2Board, server: fr01.js.su40.com, port: 47083, type: ss, cipher: aes-256-gcm, password: 311efc27-3c73-41f0-93e5-b274651ac573, udp: true}
+- {name: 🇩🇪 VIP·德国1 - V2Board, server: de01.js.su40.com, port: 47084, type: ss, cipher: aes-256-gcm, password: 311efc27-3c73-41f0-93e5-b274651ac573, udp: true}
+- {name: 🇵🇱 VIP·波兰1 - V2Board, server: pl01.js.su40.com, port: 47085, type: ss, cipher: aes-256-gcm, password: 311efc27-3c73-41f0-93e5-b274651ac573, udp: true}

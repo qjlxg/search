@@ -1,0 +1,6 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇭🇰 VIP·香港1·高速 - V2Board, server: hk05.js.su40.com, port: 47015, type: ss, cipher: aes-256-gcm, password: 311efc27-3c73-41f0-93e5-b274651ac573, udp: true}
+- {name: 🇭🇰 VIP·香港2·高速 - V2Board, server: hk10.js.su40.com, port: 47020, type: ss, cipher: aes-256-gcm, password: 311efc27-3c73-41f0-93e5-b274651ac573, udp: true}
+- {name: 🇹🇼 VIP·台湾1 - V2Board, server: tw01.js.su40.com, port: 47021, type: ss, cipher: aes-256-gcm, password: 311efc27-3c73-41f0-93e5-b274651ac573, udp: true}
