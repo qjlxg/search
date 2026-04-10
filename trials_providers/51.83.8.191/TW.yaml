@@ -1,0 +1,5 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇹🇼 台湾代理01 - V2Board, server: 698481bc-6bde-4313-945e-7ccb252af7ef, port: 43121, type: socks5, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾代理02 - V2Board, server: 698481bc-6bde-4313-945e-7ccb252af7ef, port: 43121, type: socks5, skip-cert-verify: true, udp: true}

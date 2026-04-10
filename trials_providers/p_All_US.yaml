@@ -1,0 +1,26 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇺🇸 中转美国1(动态) x1 - V2Board, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
+- {name: 🇺🇸 中转美国2(动态) x1 - V2Board, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
+- {name: 🇺🇸 中转美国3(动态) x1 - V2Board, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
+- {name: 🇺🇸 美国 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: bd380bfb-7495-4d2c-8420-47ce62637e51, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: bd380bfb-7495-4d2c-8420-47ce62637e51, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国rn1-快速 - V2Board, server: us-rn1.xaa.app, port: 443, type: trojan, password: 94b0ab32-d623-4a76-bbf8-767ce8b206ca, sni: us-rn1.xaa.app, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国rn2-快速 - V2Board, server: us-rn2.xaa.app, port: 443, type: trojan, password: 94b0ab32-d623-4a76-bbf8-767ce8b206ca, sni: us-rn2.xaa.app, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国rn3-高速 - V2Board, server: us-rn3.xaa.app, port: 443, type: trojan, password: 94b0ab32-d623-4a76-bbf8-767ce8b206ca, sni: us-rn3.xaa.app, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸美国1 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23318, type: ss, cipher: chacha20-ietf-poly1305, password: c8bc5f74-f0cf-456f-a6c2-1d79c885bebf, udp: true}
+- {name: 🇺🇸美国2 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 16325, type: ss, cipher: chacha20-ietf-poly1305, password: c8bc5f74-f0cf-456f-a6c2-1d79c885bebf, udp: true}
+- {name: 🇺🇸美国4 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 17779, type: ss, cipher: chacha20-ietf-poly1305, password: c8bc5f74-f0cf-456f-a6c2-1d79c885bebf, udp: true}
+- {name: 🇺🇸 美国洛杉矶LA线路01 - V2Board, server: gzbgpww.v0tkrelay.top, port: 33691, type: ss, cipher: chacha20-ietf-poly1305, password: 9b7f6f65-8eb7-41c8-bb3c-04bfc4333d93, udp: true}
+- {name: 🇺🇸 V1 | 美国1 - V2Board, server: 167.253.97.155, port: 19201, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
+- {name: 🇺🇸 V1 | 美国2 - V2Board, server: 104.168.11.91, port: 19201, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
+- {name: 🇺🇸 V1 | 美国3 - V2Board, server: 142.171.163.19, port: 19201, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
+- {name: 🇺🇸 V1 | 美国4 - V2Board, server: 23.94.103.170, port: 19201, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
+- {name: 🇺🇸 V1 | 美国5 - V2Board, server: 107.172.101.206, port: 19201, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
+- {name: '🇺🇸 V1 | [海外用户]美国1 - V2Board', server: dd01.appmimi.com, port: 19201, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
+- {name: '🇺🇸 V1 | [海外用户]美国2 - V2Board', server: dd02.appmimi.com, port: 19201, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
+- {name: 🇺🇸 美国 中转 | JP-FWD - V2Board, server: tuntro005.instconn.com, port: 10863, type: trojan, password: 7211c49e-ac60-44b1-a3ca-1fd3cbf22a88, sni: grid.983305.jasmine-douyin.top, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸Homiefroxy.com - V2Board, server: us004.969693.xyz, port: 22304, type: hysteria2, ports: 22304, password: 17f8e717-f7c3-4437-b8b0-498a3b417b6e, sni: us004.969693.xyz, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸US-Phoenix-02-T - V2Board, server: us01.bmmsdn.tk, port: 23545, type: hysteria2, ports: 23545, password: 17f8e717-f7c3-4437-b8b0-498a3b417b6e, sni: us01.bmmsdn.tk, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸US-Washington-02 - V2Board, server: us03.bmmsdn.tk, port: 22037, type: hysteria2, ports: 22037, password: 17f8e717-f7c3-4437-b8b0-498a3b417b6e, skip-cert-verify: true, udp: true}

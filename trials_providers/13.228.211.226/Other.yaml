@@ -1,0 +1,4 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇮🇪 爱尔兰-都柏林 - V2Board, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 0fe2d47e-0994-42cf-9e2a-c68ef922c4b9, udp: true}

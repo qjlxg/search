@@ -1,0 +1,14 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇺🇸Homiefroxy.com - V2Board, server: us004.969693.xyz, port: 22304, type: hysteria2, ports: 22304, password: 17f8e717-f7c3-4437-b8b0-498a3b417b6e, sni: us004.969693.xyz, skip-cert-verify: true, udp: true}
+- {name: 🇩🇪Germany-UDP - V2Board, server: de001.666633.best, port: 23897, type: hysteria2, ports: 23897, password: 17f8e717-f7c3-4437-b8b0-498a3b417b6e, sni: de001.666633.best, skip-cert-verify: true, udp: true}
+- {name: 🇻🇳Vietnam-03 - V2Board, server: th001.bmmsdn.tk, port: 23899, type: hysteria2, ports: 23899, password: 17f8e717-f7c3-4437-b8b0-498a3b417b6e, sni: th001.bmmsdn.tk, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 Taiwan-01 - V2Board, server: tw001.969693.xyz, port: 22252, type: hysteria2, ports: 22252, password: 17f8e717-f7c3-4437-b8b0-498a3b417b6e, sni: tw001.969693.xyz, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰Hongkong-02-UDP - V2Board, server: ovh-sg.bmmsdn.tk, port: 22765, type: hysteria2, ports: 22765, password: 17f8e717-f7c3-4437-b8b0-498a3b417b6e, sni: ovh-sg.bmmsdn.tk, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 Japan-04 - V2Board, server: j287s-jp.969693.xyz, port: 22476, type: hysteria2, ports: 22476, password: 17f8e717-f7c3-4437-b8b0-498a3b417b6e, sni: j287s-jp.969693.xyz, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 Japan-01 - V2Board, server: jp001.969693.xyz, port: 22063, type: hysteria2, ports: 22063, password: 17f8e717-f7c3-4437-b8b0-498a3b417b6e, sni: jp001.969693.xyz, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 Japan-02 - V2Board, server: jp001v6.969693.xyz, port: 23002, type: hysteria2, ports: 23002, password: 17f8e717-f7c3-4437-b8b0-498a3b417b6e, sni: jp001v6.969693.xyz, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸US-Phoenix-02-T - V2Board, server: us01.bmmsdn.tk, port: 23545, type: hysteria2, ports: 23545, password: 17f8e717-f7c3-4437-b8b0-498a3b417b6e, sni: us01.bmmsdn.tk, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸US-Washington-02 - V2Board, server: us03.bmmsdn.tk, port: 22037, type: hysteria2, ports: 22037, password: 17f8e717-f7c3-4437-b8b0-498a3b417b6e, skip-cert-verify: true, udp: true}
+- {name: 🇮🇳India-03 - V2Board, server: in02.bmmsdn.tk, port: 22221, type: hysteria2, ports: 22221, password: 17f8e717-f7c3-4437-b8b0-498a3b417b6e, sni: in02.bmmsdn.tk, skip-cert-verify: true, udp: true}

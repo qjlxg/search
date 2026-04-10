@@ -1,0 +1,9 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇹🇼 台湾解锁 (广港)1 x1 - V2Board, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
+- {name: 🇹🇼 台湾解锁 (广港)2 x1 - V2Board, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
+- {name: 🇹🇼 台湾解锁 (广港)3 x1 - V2Board, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
+- {name: 🇹🇼 台湾解锁 (广新)1 x1 - V2Board, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
+- {name: 🇹🇼 台湾解锁 (广新)2 x1 - V2Board, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
+- {name: 🇹🇼 台湾解锁 (广新)3 x1 - V2Board, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}

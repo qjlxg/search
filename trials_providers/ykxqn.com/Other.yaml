@@ -1,0 +1,6 @@
+%YAML 1.2
+---
+proxies:
+- {name: xqnqn.com防失联 - V2Board, server: 001.limenodebgp.com, port: 30601, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}
+- {name: 🇰🇷 韩国一 - V2Board, server: 001.limenodebgp.com, port: 30630, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}
+- {name: 🇰🇷 韩国二 - V2Board, server: 002.limenodebgp.com, port: 30631, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}

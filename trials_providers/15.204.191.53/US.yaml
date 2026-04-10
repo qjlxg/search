@@ -1,0 +1,4 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇺🇸 美国高速节点1 - V2Board, server: 144.34.178.66, port: 1443, type: trojan, password: 456714c4-9089-4aa3-b8b1-673a1489d76e, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}

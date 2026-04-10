@@ -1,0 +1,10 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇺🇸 美国一 - V2Board, server: 001.limenodebgp.com, port: 30615, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}
+- {name: 🇺🇸 美国二 - V2Board, server: 002.limenodebgp.com, port: 30616, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}
+- {name: 🇺🇸 美国三 - V2Board, server: 003.limenodebgp.com, port: 30617, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}
+- {name: 🇺🇸 美国四 - V2Board, server: 004.limenodebgp.com, port: 30618, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}
+- {name: 🇺🇸 美国五 - V2Board, server: 005.limenodebgp.com, port: 30619, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}
+- {name: 🇺🇸 美国六 - V2Board, server: 006.limenodebgp.com, port: 30620, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}
+- {name: '🇺🇸 [vmess]美国3 - V2Board', server: us3.vp1000.net, port: 443, type: vmess, uuid: 75c3ce52-cd22-4575-8627-ac35699fd93d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cp100vp800kkkdsnx, headers: {Host: us3.vp1000.net}}, udp: true}

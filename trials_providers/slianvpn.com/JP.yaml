@@ -1,0 +1,6 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇯🇵 日本1(广新) x1 - V2Board, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
+- {name: 🇯🇵 日本2(广新) x1 - V2Board, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
+- {name: 🇯🇵 日本3(广新) x1 - V2Board, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}

@@ -1,0 +1,10 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇺🇸 IEPL · 美国US · 220 - V2Board, server: 45.250.185.142, port: 16109, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
+- {name: 🇺🇸 IEPL · 美国US · 40 - V2Board, server: 45.250.185.142, port: 16110, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
+- {name: 🇺🇸 IEPL · 美国US · 36 - V2Board, server: 45.250.185.142, port: 16111, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
+- {name: 🇺🇸 IEPL · 美国US · 88 - V2Board, server: 45.250.185.142, port: 16112, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
+- {name: 🇺🇸 直链#美国01 - V2Board, server: us01.n.lgjsq.top, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 14695235-a522-495b-b279-5c86c41db4dc, udp: true}
+- {name: 🇺🇸 转发#美国01 - V2Board, server: rk1.mlrk0.cc, port: 10002, type: ss, cipher: chacha20-ietf-poly1305, password: 14695235-a522-495b-b279-5c86c41db4dc, udp: true}
+- {name: 🇺🇸 试用节点-美国 - V2Board, server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: 08de2b7a-a800-4936-8944-bb929a9bd7a4, udp: true}

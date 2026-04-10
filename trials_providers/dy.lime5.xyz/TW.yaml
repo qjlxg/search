@@ -1,0 +1,5 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇹🇼 台湾一 - V2Board, server: 01.limenodebgp.com, port: 30628, type: ss, cipher: aes-128-gcm, password: f07a1736-b7ca-4665-b5be-baceaefb3400, udp: true}
+- {name: 🇹🇼 台湾二 - V2Board, server: 02.limenodebgp.com, port: 30629, type: ss, cipher: aes-128-gcm, password: f07a1736-b7ca-4665-b5be-baceaefb3400, udp: true}

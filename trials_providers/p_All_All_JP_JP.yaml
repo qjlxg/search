@@ -1,0 +1,11 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇯🇵 IEPL · 日本JP · 105 - V2Board, server: 45.250.185.142, port: 16102, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
+- {name: 🇯🇵 IEPL · 日本JP · 176 - V2Board, server: 45.250.185.142, port: 16103, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
+- {name: 🇯🇵 IEPL · 日本JP · 222 - V2Board, server: 45.250.185.142, port: 16104, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
+- {name: 🇯🇵 IEPL · 日本JP · 129 - V2Board, server: 45.250.185.142, port: 16105, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
+- {name: 🇯🇵 IEPL · 日本JP · 89 - V2Board, server: 45.250.185.142, port: 16106, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
+- {name: 🇯🇵 IEPL · 日本JP · 209 - V2Board, server: 45.250.185.142, port: 16107, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
+- {name: 🇯🇵 IEPL · 日本JP · 48 - V2Board, server: 45.250.185.142, port: 16108, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
+- {name: 🇯🇵 试用节点-日本 - V2Board, server: jry.izenny.com, port: 29571, type: ss, cipher: chacha20-ietf-poly1305, password: 08de2b7a-a800-4936-8944-bb929a9bd7a4, udp: true}

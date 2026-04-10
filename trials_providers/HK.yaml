@@ -1,0 +1,74 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇭🇰 香港 (广港)1 x1 - V2Board, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
+- {name: 🇭🇰 香港 (广港)2 x1 - V2Board, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
+- {name: 🇭🇰 香港 (广港)3 x1 - V2Board, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
+- {name: 🇭🇰 香港 (广新)1 x1 - V2Board, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
+- {name: 🇭🇰 香港  (广新)2 x1 - V2Board, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
+- {name: 🇭🇰 香港 (广新)3 x1 - V2Board, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
+- &id011 {name: 🇭🇰 香港代理01 - V2Board, server: db918d35-3d19-4c82-af7b-b48cc74d8a70, port: 0, type: socks5, skip-cert-verify: true, udp: true}
+- &id012 {name: 🇭🇰 香港代理02 - V2Board, server: db918d35-3d19-4c82-af7b-b48cc74d8a70, port: 0, type: socks5, skip-cert-verify: true, udp: true}
+- &id001 {name: 🇭🇰 香港一 - V2Board, server: 01.limenodebgp.com, port: 30607, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}
+- &id002 {name: 🇭🇰 香港二 - V2Board, server: 02.limenodebgp.com, port: 30608, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}
+- &id003 {name: 🇭🇰 香港三 - V2Board, server: 03.limenodebgp.com, port: 30609, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}
+- &id004 {name: 🇭🇰 香港四 - V2Board, server: 04.limenodebgp.com, port: 30610, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}
+- &id005 {name: 🇭🇰 香港五 - V2Board, server: 05.limenodebgp.com, port: 30611, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}
+- &id006 {name: 🇭🇰 香港六 - V2Board, server: 06.limenodebgp.com, port: 30612, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}
+- &id007 {name: 🇭🇰 香港七 - V2Board, server: 07.limenodebgp.com, port: 30613, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}
+- &id008 {name: 🇭🇰 香港八 - V2Board, server: 08.limenodebgp.com, port: 30614, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}
+- {name: 🇭🇰 香港 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: bd380bfb-7495-4d2c-8420-47ce62637e51, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: bd380bfb-7495-4d2c-8420-47ce62637e51, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: bd380bfb-7495-4d2c-8420-47ce62637e51, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 · 4号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: bd380bfb-7495-4d2c-8420-47ce62637e51, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- &id009 {name: 🇭🇰 香港-中转-1 - V2Board, server: gd1.ddns.argonode.men, port: 15531, type: trojan, password: f6dde036-97d2-4db7-9596-604afb4a1c36, sni: hk1.argonode.men, skip-cert-verify: true, udp: true}
+- &id010 {name: 🇭🇰 香港-中转-2 - V2Board, server: gd1.ddns.argonode.men, port: 15530, type: trojan, password: f6dde036-97d2-4db7-9596-604afb4a1c36, sni: hk1.argonode.men, skip-cert-verify: true, udp: true}
+- *id009
+- *id010
+- {name: 🇭🇰 香港-线路1 - V2Board, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 0fe2d47e-0994-42cf-9e2a-c68ef922c4b9, udp: true}
+- &id013 {name: 🇭🇰 试用节点-香港 - V2Board, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 08de2b7a-a800-4936-8944-bb929a9bd7a4, udp: true}
+- {name: 🇭🇰香港1 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 47077, type: ss, cipher: chacha20-ietf-poly1305, password: c8bc5f74-f0cf-456f-a6c2-1d79c885bebf, udp: true}
+- {name: 🇭🇰香港2 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23317, type: ss, cipher: chacha20-ietf-poly1305, password: c8bc5f74-f0cf-456f-a6c2-1d79c885bebf, udp: true}
+- {name: 🇭🇰香港3 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23333, type: ss, cipher: chacha20-ietf-poly1305, password: c8bc5f74-f0cf-456f-a6c2-1d79c885bebf, udp: true}
+- {name: 🇭🇰香港4 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23314, type: ss, cipher: chacha20-ietf-poly1305, password: c8bc5f74-f0cf-456f-a6c2-1d79c885bebf, udp: true}
+- *id011
+- *id012
+- *id009
+- *id010
+- *id009
+- *id010
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- {name: '🇭🇰 香港CN2电信-TL-[id:7] - V2Board', server: gzbgpww.v0tkrelay.top, port: 36001, type: ss, cipher: chacha20-ietf-poly1305, password: 9b7f6f65-8eb7-41c8-bb3c-04bfc4333d93, udp: true}
+- *id009
+- *id010
+- *id009
+- *id010
+- {name: 🇭🇰 V1 | 香港1 - V2Board, server: hk91.appmimi.com, port: 49011, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
+- {name: 🇭🇰 V1 | 香港2 - V2Board, server: hk92.appmimi.com, port: 49012, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
+- {name: 🇭🇰 V1 | 香港3 - V2Board, server: hk93.appmimi.com, port: 49013, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
+- {name: 🇭🇰 V1 | 香港4 - V2Board, server: hk94.appmimi.com, port: 49014, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
+- {name: 🇭🇰 V1 | 香港5 - V2Board, server: hk95.appmimi.com, port: 49015, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
+- {name: 🇭🇰 V1 | 香港6 - V2Board, server: hk96.appmimi.com, port: 49016, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
+- {name: 🇭🇰 V1 | 香港7 - V2Board, server: hk97.appmimi.com, port: 49017, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
+- {name: 🇭🇰 V1 | 香港8 - V2Board, server: hk98.appmimi.com, port: 49018, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
+- {name: 🇭🇰 V1 | 香港9 - V2Board, server: hk99.appmimi.com, port: 49019, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
+- {name: 🇭🇰 V1 | 香港10 - V2Board, server: 38.76.141.21, port: 49020, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
+- *id009
+- *id010
+- *id013
+- {name: 🇭🇰Hongkong-02-UDP - V2Board, server: ovh-sg.bmmsdn.tk, port: 22765, type: hysteria2, ports: 22765, password: 17f8e717-f7c3-4437-b8b0-498a3b417b6e, sni: ovh-sg.bmmsdn.tk, skip-cert-verify: true, udp: true}

@@ -1,0 +1,84 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇯🇵 日本1(广新) x1 - V2Board, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
+- {name: 🇯🇵 日本2(广新) x1 - V2Board, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
+- {name: 🇯🇵 日本3(广新) x1 - V2Board, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
+- &id013 {name: 🇯🇵 IEPL · 日本JP · 105 - V2Board, server: 45.250.185.142, port: 16102, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
+- &id014 {name: 🇯🇵 IEPL · 日本JP · 176 - V2Board, server: 45.250.185.142, port: 16103, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
+- &id015 {name: 🇯🇵 IEPL · 日本JP · 222 - V2Board, server: 45.250.185.142, port: 16104, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
+- &id016 {name: 🇯🇵 IEPL · 日本JP · 129 - V2Board, server: 45.250.185.142, port: 16105, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
+- &id017 {name: 🇯🇵 IEPL · 日本JP · 89 - V2Board, server: 45.250.185.142, port: 16106, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
+- &id018 {name: 🇯🇵 IEPL · 日本JP · 209 - V2Board, server: 45.250.185.142, port: 16107, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
+- &id019 {name: 🇯🇵 IEPL · 日本JP · 48 - V2Board, server: 45.250.185.142, port: 16108, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
+- &id005 {name: 🇯🇵 日本一 - V2Board, server: 001.limenodebgp.com, port: 30601, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}
+- &id006 {name: 🇯🇵 日本二 - V2Board, server: 002.limenodebgp.com, port: 30602, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}
+- &id007 {name: 🇯🇵 日本三 - V2Board, server: 003.limenodebgp.com, port: 30603, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}
+- &id008 {name: 🇯🇵 日本四 - V2Board, server: 004.limenodebgp.com, port: 30604, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}
+- &id009 {name: 🇯🇵 日本五 - V2Board, server: 005.limenodebgp.com, port: 30605, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}
+- &id010 {name: 🇯🇵 日本六 - V2Board, server: 006.limenodebgp.com, port: 30606, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}
+- &id001 {name: '🇯🇵 [vmess]日本1 - V2Board', server: ip4-jp1.vp1000.net, port: 443, type: vmess, uuid: 75c3ce52-cd22-4575-8627-ac35699fd93d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicpaylfastpDisney, headers: {Host: ip4-jp1.vp1000.net}}, udp: true}
+- &id002 {name: '🇯🇵 [vmess]日本2 - V2Board', server: ip4-jp2.vp1000.net, port: 443, type: vmess, uuid: 75c3ce52-cd22-4575-8627-ac35699fd93d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicpaylfastpDisney, headers: {Host: ip4-jp2.vp1000.net}}, udp: true}
+- &id003 {name: '🇯🇵 [vmess]日本3 - V2Board', server: ip6-jp1.vp1000.net, port: 443, type: vmess, uuid: 75c3ce52-cd22-4575-8627-ac35699fd93d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicpaylfastpDisney, headers: {Host: ip4-jp1.vp1000.net}}, udp: true}
+- &id004 {name: '🇯🇵 [vmess]日本4 - V2Board', server: ip6-jp2.vp1000.net, port: 443, type: vmess, uuid: 75c3ce52-cd22-4575-8627-ac35699fd93d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicpaylfastpDisney, headers: {Host: ip4-jp2.vp1000.net}}, udp: true}
+- {name: 🇯🇵 日本 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: bd380bfb-7495-4d2c-8420-47ce62637e51, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: bd380bfb-7495-4d2c-8420-47ce62637e51, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: bd380bfb-7495-4d2c-8420-47ce62637e51, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- &id011 {name: 🇯🇵 日本-中转-1 - V2Board, server: gd1.ddns.argonode.men, port: 16601, type: trojan, password: f6dde036-97d2-4db7-9596-604afb4a1c36, sni: jp1.argonode.men, skip-cert-verify: true, udp: true}
+- &id012 {name: 🇯🇵 日本-中转-2 - V2Board, server: gd1.ddns.argonode.men, port: 16602, type: trojan, password: f6dde036-97d2-4db7-9596-604afb4a1c36, sni: jp1.argonode.men, skip-cert-verify: true, udp: true}
+- *id011
+- *id012
+- {name: 🇯🇵 日本-自用 - V2Board, server: jp.xaa.app, port: 443, type: trojan, password: 94b0ab32-d623-4a76-bbf8-767ce8b206ca, sni: jp.xaa.app, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 hy-日本(三网优化+加密) - V2Board, server: jp01.pkgvps.dpdns.org, port: 8443, type: hysteria2, ports: 8443, password: f53c5816-cf8f-4fdf-ac8d-63b61876f911, sni: jp01.pkgvps.dpdns.org, skip-cert-verify: true, udp: true}
+- &id020 {name: 🇯🇵 试用节点-日本 - V2Board, server: jry.izenny.com, port: 29571, type: ss, cipher: chacha20-ietf-poly1305, password: 08de2b7a-a800-4936-8944-bb929a9bd7a4, udp: true}
+- *id001
+- *id002
+- *id003
+- *id004
+- {name: 🇯🇵 日本|01|专线|中转|流媒体|3.0x - V2Board, server: zz.gd.01.jianz.group, port: 23658, type: ss, cipher: aes-128-gcm, password: 6afd2acf-a3f8-4d70-97e0-cc9628590f1e, udp: true}
+- {name: 🇯🇵日本1 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23312, type: ss, cipher: chacha20-ietf-poly1305, password: c8bc5f74-f0cf-456f-a6c2-1d79c885bebf, udp: true}
+- {name: 🇯🇵日本2 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23311, type: ss, cipher: chacha20-ietf-poly1305, password: c8bc5f74-f0cf-456f-a6c2-1d79c885bebf, udp: true}
+- {name: 🇯🇵日本3 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 47052, type: ss, cipher: chacha20-ietf-poly1305, password: c8bc5f74-f0cf-456f-a6c2-1d79c885bebf, udp: true}
+- *id011
+- *id012
+- *id011
+- *id012
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id013
+- *id014
+- *id015
+- *id016
+- *id017
+- *id018
+- *id019
+- *id011
+- *id012
+- *id011
+- *id012
+- {name: 🇯🇵 V1 | 日本1 - V2Board, server: 162.141.131.89, port: 19201, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
+- {name: 🇯🇵 V1 | 日本2 - V2Board, server: jp92.appmimi.com, port: 49032, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
+- {name: 🇯🇵 V1 | 日本3 - V2Board, server: jp93.appmimi.com, port: 49033, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
+- {name: 🇯🇵 V1 | 日本4 - V2Board, server: jp94.appmimi.com, port: 49034, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
+- {name: 🇯🇵 V1 | 日本5 - V2Board, server: jp95.appmimi.com, port: 49040, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
+- *id011
+- *id012
+- {name: 🇯🇵 日本 中转 | JP-FWD - V2Board, server: tuntro002.instconn.com, port: 20253, type: trojan, password: 7211c49e-ac60-44b1-a3ca-1fd3cbf22a88, sni: bing.3668989.xyz, skip-cert-verify: true, udp: true}
+- *id020
+- {name: 🇯🇵 Japan-04 - V2Board, server: j287s-jp.969693.xyz, port: 22476, type: hysteria2, ports: 22476, password: 17f8e717-f7c3-4437-b8b0-498a3b417b6e, sni: j287s-jp.969693.xyz, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 Japan-01 - V2Board, server: jp001.969693.xyz, port: 22063, type: hysteria2, ports: 22063, password: 17f8e717-f7c3-4437-b8b0-498a3b417b6e, sni: jp001.969693.xyz, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 Japan-02 - V2Board, server: jp001v6.969693.xyz, port: 23002, type: hysteria2, ports: 23002, password: 17f8e717-f7c3-4437-b8b0-498a3b417b6e, sni: jp001v6.969693.xyz, skip-cert-verify: true, udp: true}
