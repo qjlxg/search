@@ -1,32 +1,26 @@
 name: GitHub Collector v46 Workflow
 
-# 触发条件
 on:
   push:
     paths:
-      - 'collector_v46.py'           # 当脚本文件变动时触发
-      - '.github/workflows/collector_v46.yml' # 当工作流文件自身变动时触发
-  workflow_dispatch:                 # 支持手动运行
+      - 'collector_v46.py'
+      - '.github/workflows/collector_v46.yml'
+  workflow_dispatch:
   schedule:
-    - cron: '0 */6 * * *'            # 每6小时自动运行一次（可选，可删除）
+    - cron: '0 */6 * * *'
 
-# 环境变量设置
 env:
-  TZ: Asia/Shanghai                  # 设置上海时区
+  TZ: Asia/Shanghai
 
 jobs:
   build_and_run:
     runs-on: ubuntu-latest
-    
-    # 赋予推送权限
     permissions:
       contents: write
 
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
-        with:
-          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -40,7 +34,6 @@ jobs:
 
       - name: Run Collector Script
         env:
-          # 使用你在 Secrets 中设置的个人访问令牌
           COLLECTOR_TOKEN: ${{ secrets.COLLECTOR_TOKEN }}
         run: python collector_v46.py
 
@@ -49,14 +42,17 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # 添加所有生成的文件目录
-          git add splitted/ protocols/ networks/ countries/ security/ database/
-          git add latest_configs.txt validated_subscriptions.json geoip.mmdb
+          # 1. 尝试添加存在的文件夹 (如果文件夹不存在，也不会报错)
+          git add splitted/ protocols/ networks/ countries/ security/ database/ 2>/dev/null || true
           
-          # 检查是否有文件变动，如果有则提交
+          # 2. 检查特定文件是否存在，存在才添加
+          [ -f latest_configs.txt ] && git add latest_configs.txt
+          [ -f validated_subscriptions.json ] && git add validated_subscriptions.json
+          
+          # 3. 提交并推送
           if git diff --quiet && git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Auto Update: $(date +'%Y-%m-%d %H:%M:%S') (Shanghai Time)"
+            git commit -m "Auto Update Nodes: $(date +'%Y-%m-%d %H:%M:%S')"
             git push
           fi
