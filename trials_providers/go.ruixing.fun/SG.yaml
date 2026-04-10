@@ -1,4 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: '🇸🇬 [Hy2]Singapore-新加坡 - V2Board', server: singapore.ruixing.fun, port: 30625, type: hysteria2, ports: 30625, password: b10ac28e-e44a-4db4-9ae3-2d41ee762bac, obfs: salamander, obfs-password: Y0hOpQA0X4EMz6fO, sni: singapore.ruixing.fun, skip-cert-verify: true, udp: true}

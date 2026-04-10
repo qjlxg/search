@@ -1,8 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: ℹ️ 购买节点 - Buy paopao.cx - V2Board, server: tuntro001.instconn.com, port: 40621, type: trojan, password: 7211c49e-ac60-44b1-a3ca-1fd3cbf22a88, sni: tvmost.jasmine-douyin.top, skip-cert-verify: true, udp: true}
-- {name: 🇩🇪 德国 联通 | DE-CU - V2Board, server: tuntro010.instconn.com, port: 443, type: trojan, password: 7211c49e-ac60-44b1-a3ca-1fd3cbf22a88, sni: frankfurtrm2.686911.xyz, skip-cert-verify: true, udp: true}
-- {name: 🇰🇷 韩国 首尔 全网 | KR-Seoul-All - V2Board, server: tuntro013.instconn.com, port: 10431, type: trojan, password: 7211c49e-ac60-44b1-a3ca-1fd3cbf22a88, sni: souer.jasmine-douyin.top, skip-cert-verify: true, udp: true}
-- {name: 🇻🇳 越南 移动 | VN-CM - V2Board, server: tuntro019.instconn.com, port: 44790, type: trojan, password: 7211c49e-ac60-44b1-a3ca-1fd3cbf22a88, sni: vntb.686911.xyz, skip-cert-verify: true, udp: true}
-- {name: 🇹🇷 土耳其 中转 | TR-FWD - V2Board, server: tuntro020.instconn.com, port: 41056, type: trojan, password: 7211c49e-ac60-44b1-a3ca-1fd3cbf22a88, sni: bing.686911.xyz, skip-cert-verify: true, udp: true}

@@ -1,14 +1,5 @@
 %YAML 1.2
 ---
 proxies:
-- {name: 🇹🇼 台湾解锁 (广港)1 x1 - V2Board, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- {name: 🇹🇼 台湾解锁 (广港)2 x1 - V2Board, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- {name: 🇹🇼 台湾解锁 (广港)3 x1 - V2Board, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- {name: 🇹🇼 台湾解锁 (广新)1 x1 - V2Board, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- {name: 🇹🇼 台湾解锁 (广新)2 x1 - V2Board, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- {name: 🇹🇼 台湾解锁 (广新)3 x1 - V2Board, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- {name: 🇹🇼 台湾 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: bd380bfb-7495-4d2c-8420-47ce62637e51, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼台湾 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 14275, type: ss, cipher: chacha20-ietf-poly1305, password: c8bc5f74-f0cf-456f-a6c2-1d79c885bebf, udp: true}
-- {name: 🇹🇼 V1 | 台湾1 - V2Board, server: tw91.appmimi.com, port: 49021, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
-- {name: 🇹🇼 V1 | 台湾2 - V2Board, server: tw92.appmimi.com, port: 49022, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
-- {name: 🇹🇼 Taiwan-01 - V2Board, server: tw001.969693.xyz, port: 22252, type: hysteria2, ports: 22252, password: 17f8e717-f7c3-4437-b8b0-498a3b417b6e, sni: tw001.969693.xyz, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼台湾住宅家宽01 - V2Board, server: 151.242.165.213, port: 30039, type: ss, cipher: chacha20-ietf-poly1305, password: 2ae1cf9b-4d05-4d4a-bc98-7c6d11efbf5d, udp: true}
+- {name: 🇹🇼 专线A1-台湾1-流媒体全解锁TikTok优秀3倍率 - V2Board, server: zf.sg-iepl.com, port: 13599, type: ss, cipher: chacha20-ietf-poly1305, password: b0c5db43-9f33-47ab-be62-e9811359ce35, udp: true}

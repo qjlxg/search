@@ -1,4 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇨🇳 中国联通节点1 - V2Board, server: 115.231.220.33, port: 5443, type: trojan, password: 8d0f04f9-9d8e-494e-83f0-34aaccd19747, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}

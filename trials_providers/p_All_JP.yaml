@@ -1,24 +1,9 @@
 %YAML 1.2
 ---
 proxies:
-- {name: 🇯🇵 日本1(广新) x1 - V2Board, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- {name: 🇯🇵 日本2(广新) x1 - V2Board, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- {name: 🇯🇵 日本3(广新) x1 - V2Board, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- {name: 🇯🇵 日本 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: bd380bfb-7495-4d2c-8420-47ce62637e51, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: bd380bfb-7495-4d2c-8420-47ce62637e51, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: bd380bfb-7495-4d2c-8420-47ce62637e51, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本-自用 - V2Board, server: jp.xaa.app, port: 443, type: trojan, password: 94b0ab32-d623-4a76-bbf8-767ce8b206ca, sni: jp.xaa.app, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 hy-日本(三网优化+加密) - V2Board, server: jp01.pkgvps.dpdns.org, port: 8443, type: hysteria2, ports: 8443, password: f53c5816-cf8f-4fdf-ac8d-63b61876f911, sni: jp01.pkgvps.dpdns.org, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本|01|专线|中转|流媒体|3.0x - V2Board, server: zz.gd.01.jianz.group, port: 23658, type: ss, cipher: aes-128-gcm, password: 6afd2acf-a3f8-4d70-97e0-cc9628590f1e, udp: true}
-- {name: 🇯🇵日本1 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23312, type: ss, cipher: chacha20-ietf-poly1305, password: c8bc5f74-f0cf-456f-a6c2-1d79c885bebf, udp: true}
-- {name: 🇯🇵日本2 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23311, type: ss, cipher: chacha20-ietf-poly1305, password: c8bc5f74-f0cf-456f-a6c2-1d79c885bebf, udp: true}
-- {name: 🇯🇵日本3 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 47052, type: ss, cipher: chacha20-ietf-poly1305, password: c8bc5f74-f0cf-456f-a6c2-1d79c885bebf, udp: true}
-- {name: 🇯🇵 V1 | 日本1 - V2Board, server: 162.141.131.89, port: 19201, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
-- {name: 🇯🇵 V1 | 日本2 - V2Board, server: jp92.appmimi.com, port: 49032, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
-- {name: 🇯🇵 V1 | 日本3 - V2Board, server: jp93.appmimi.com, port: 49033, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
-- {name: 🇯🇵 V1 | 日本4 - V2Board, server: jp94.appmimi.com, port: 49034, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
-- {name: 🇯🇵 V1 | 日本5 - V2Board, server: jp95.appmimi.com, port: 49040, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
-- {name: 🇯🇵 日本 中转 | JP-FWD - V2Board, server: tuntro002.instconn.com, port: 20253, type: trojan, password: 7211c49e-ac60-44b1-a3ca-1fd3cbf22a88, sni: bing.3668989.xyz, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 Japan-04 - V2Board, server: j287s-jp.969693.xyz, port: 22476, type: hysteria2, ports: 22476, password: 17f8e717-f7c3-4437-b8b0-498a3b417b6e, sni: j287s-jp.969693.xyz, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 Japan-01 - V2Board, server: jp001.969693.xyz, port: 22063, type: hysteria2, ports: 22063, password: 17f8e717-f7c3-4437-b8b0-498a3b417b6e, sni: jp001.969693.xyz, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 Japan-02 - V2Board, server: jp001v6.969693.xyz, port: 23002, type: hysteria2, ports: 23002, password: 17f8e717-f7c3-4437-b8b0-498a3b417b6e, sni: jp001v6.969693.xyz, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 hy-日本(三网优化+加密) - V2Board, server: jp01.pkgvps.dpdns.org, port: 8443, type: hysteria2, ports: 8443, password: 76e7a71d-73cf-42b4-8772-5289f0433b1f, sni: jp01.pkgvps.dpdns.org, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵移动优化|测试节点 - V2Board, server: 154.83.94.7, port: 30043, type: ss, cipher: chacha20-ietf-poly1305, password: 2ae1cf9b-4d05-4d4a-bc98-7c6d11efbf5d, udp: true}
+- {name: 🇯🇵 专线A1-日本1-3倍率 - V2Board, server: zf.sg-iepl.com, port: 22168, type: ss, cipher: chacha20-ietf-poly1305, password: b0c5db43-9f33-47ab-be62-e9811359ce35, udp: true}
+- {name: 🇯🇵 专线A1-日本2-3倍率 - V2Board, server: zf.sg-iepl.com, port: 42721, type: ss, cipher: chacha20-ietf-poly1305, password: b0c5db43-9f33-47ab-be62-e9811359ce35, udp: true}
+- {name: 🇯🇵 专线A1-日本3-流媒体全解锁3倍率 - V2Board, server: zf.sg-iepl.com, port: 58490, type: ss, cipher: chacha20-ietf-poly1305, password: b0c5db43-9f33-47ab-be62-e9811359ce35, udp: true}
+- {name: 🇯🇵 专线A1-日本4-家宽IP视频AI全解锁Tiktok运营数据好-3倍率 - V2Board, server: zf.sg-iepl.com, port: 8641, type: ss, cipher: chacha20-ietf-poly1305, password: b0c5db43-9f33-47ab-be62-e9811359ce35, udp: true}

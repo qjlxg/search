@@ -1,183 +1,84 @@
 %YAML 1.2
 ---
 proxies:
-- {name: ℹ️ 官网 slvp.nxxbbf.com - V2Board, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- {name: ℹ️ 无法连接到官网重新导入订阅 - V2Board, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- {name: 🇰🇷 韩国 (广港)1 x1 - V2Board, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- {name: 🇰🇷 韩国 (广港)2 x1 - V2Board, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- {name: 🇰🇷 韩国 (广港)3x1 - V2Board, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- {name: 🇮🇸 冰岛 (广港)1 x1 - V2Board, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- {name: 🇮🇸 冰岛 (广港)2 x1 - V2Board, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- {name: 🇮🇸 冰岛 (广港)3x1 - V2Board, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- {name: 🇮🇳 印度 (广港)1 x1 - V2Board, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- {name: 🇮🇳 印度 (广港)2 x1 - V2Board, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- {name: 🇮🇳 印度 (广港)3 x1 - V2Board, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- {name: 🇧🇷 巴西 (广港)1 x1 - V2Board, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- {name: 🇧🇷 巴西 (广港)2 x1 - V2Board, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- {name: 🇧🇷 巴西 (广港)3 x1 - V2Board, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- {name: 🇲🇽 墨西哥 (广港)1 x1 - V2Board, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- {name: 🇲🇽 墨西哥 (广港)2 x1 - V2Board, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- {name: 🇲🇽 墨西哥 (广港)3 x1 - V2Board, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- {name: 🇮🇩 苹果ID账号：aconguyen6z8@icloud.com密码：Yenc3d99hg - V2Board, server: rhfghfghfg, port: 1424, type: ss, cipher: chacha20-ietf-poly1305, password: 07f58daf-6c20-4c1d-af4d-ceafa895a9d7, udp: true}
-- {name: 🇮🇩 苹果ID账号：jilliancookwtwrf@icloud.com密码：2kfZWS2bhf - V2Board, server: sdgjlkdsgg, port: 6331, type: ss, cipher: chacha20-ietf-poly1305, password: 07f58daf-6c20-4c1d-af4d-ceafa895a9d7, udp: true}
-- &id014 {name: 🇨🇦 IEPL · 加拿大CA · 76 - V2Board, server: 45.250.185.142, port: 16113, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
-- &id015 {name: 🇰🇷 IEPL · 韩国KR · 157 - V2Board, server: 45.250.185.142, port: 16115, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
-- &id016 {name: 🇰🇷 IEPL · 韩国KR · 242 - V2Board, server: 45.250.185.142, port: 16116, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
-- &id017 {name: 🇰🇷 IEPL · 韩国KR · 158 - V2Board, server: 45.250.185.142, port: 16117, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
-- &id018 {name: 🇬🇧 IEPL · 英国UK · 107 - V2Board, server: 45.250.185.142, port: 16118, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
-- &id019 {name: 🇫🇷 IEPL · 法国FR · 102 - V2Board, server: 45.250.185.142, port: 16119, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
-- &id020 {name: 🇩🇪 IEPL · 德国DE · 142 - V2Board, server: 45.250.185.142, port: 16120, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
-- &id021 {name: 🇧🇷 IEPL · 巴西BR · 220 - V2Board, server: 45.250.185.142, port: 16121, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
-- &id022 {name: 🇿🇦 IEPL · 南非ZA · 177 - V2Board, server: 45.250.185.142, port: 16122, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
-- &id023 {name: 🇮🇱 IEPL · 以色列IL · 236 - V2Board, server: 45.250.185.142, port: 16123, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
-- &id024 {name: 🇪🇸 IEPL · 西班牙ES · 81 - V2Board, server: 45.250.185.142, port: 16124, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
-- &id025 {name: 🇵🇱 IEPL · 波兰PO · 192 - V2Board, server: 45.250.185.142, port: 16125, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
-- &id026 {name: 🇮🇹 IEPL · 意大利IT · 49 - V2Board, server: 45.250.185.142, port: 16126, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
-- &id027 {name: 🇺🇦 IEPL · 乌克兰UA · 48 - V2Board, server: 45.250.185.142, port: 16127, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
-- &id028 {name: 🇮🇳 IEPL · 印度IN · 75 - V2Board, server: 45.250.185.142, port: 16128, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
-- &id029 {name: 🇹🇷 IEPL · 土耳其TR · 88 - V2Board, server: 45.250.185.142, port: 16129, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
-- &id030 {name: 🇦🇺 IEPL · 澳洲AU · 230 - V2Board, server: 45.250.185.142, port: 16130, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
-- &id031 {name: 🇳🇱 IEPL · 荷兰NL · 184 - V2Board, server: 45.250.185.142, port: 16131, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
-- &id032 {name: 🇸🇪 IEPL · 瑞典SW · 138 - V2Board, server: 45.250.185.142, port: 16132, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
-- &id033 {name: 🇲🇽 IEPL · 墨西哥MX · 121 - V2Board, server: 45.250.185.142, port: 16133, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
-- &id009 {name: xqnqn.com防失联 - V2Board, server: 001.limenodebgp.com, port: 30601, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}
-- &id010 {name: 🇰🇷 韩国一 - V2Board, server: 001.limenodebgp.com, port: 30630, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}
-- &id011 {name: 🇰🇷 韩国二 - V2Board, server: 002.limenodebgp.com, port: 30631, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}
-- &id001 {name: '🇮🇳 [vmess]印度1 - V2Board', server: ip6-in1.vp1000.net, port: 443, type: vmess, uuid: 75c3ce52-cd22-4575-8627-ac35699fd93d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicfastpDisney, headers: {Host: ip4-in2.vp1000.net}}, udp: true}
-- &id002 {name: '🇮🇳 [vmess]印度2 - V2Board', server: ip4-in2.vp1000.net, port: 443, type: vmess, uuid: 75c3ce52-cd22-4575-8627-ac35699fd93d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicfastpDisney, headers: {Host: ip4-in2.vp1000.net}}, udp: true}
-- &id003 {name: '🇮🇳 [vmess]印度3 - V2Board', server: ip6-in3.vp1000.net, port: 443, type: vmess, uuid: 75c3ce52-cd22-4575-8627-ac35699fd93d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicfastpDisney, headers: {Host: ip4-in4.vp1000.net}}, udp: true}
-- &id004 {name: '🇮🇳 [vmess]印度4 - V2Board', server: ip4-in4.vp1000.net, port: 443, type: vmess, uuid: 75c3ce52-cd22-4575-8627-ac35699fd93d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicfastpDisney, headers: {Host: ip4-in4.vp1000.net}}, udp: true}
-- &id005 {name: '🇧🇷 [vmess]巴西1 - V2Board', server: br.vp1000.net, port: 443, type: vmess, uuid: 75c3ce52-cd22-4575-8627-ac35699fd93d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicpDisney, headers: {Host: br.vp1000.net}}, udp: true}
-- &id006 {name: '🇧🇷 [vmess]巴西2 - V2Board', server: br3.vp1000.net, port: 443, type: vmess, uuid: 75c3ce52-cd22-4575-8627-ac35699fd93d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicpDisney, headers: {Host: br3.vp1000.net}}, udp: true}
-- &id007 {name: '🇧🇷 [vmess]巴西3 - V2Board', server: 2603:c021:c006:3fee:0:83af:48c6:2edc, port: 443, type: vmess, uuid: 75c3ce52-cd22-4575-8627-ac35699fd93d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicpDisney, headers: {Host: br3.vp1000.net}}, udp: true}
-- &id008 {name: '🇧🇷 [vmess]巴西4 - V2Board', server: ip6-br5.vp1000.net, port: 443, type: vmess, uuid: 75c3ce52-cd22-4575-8627-ac35699fd93d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicpDisney, headers: {Host: br.vp1000.net}}, udp: true}
-- {name: 🇹🇳 PC端如无法使用请点击左下角齿轮图标进入设置，勾选TUN，并清理缓存。即可畅享超高带宽下的极速视频体验。 - V2Board, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: bd380bfb-7495-4d2c-8420-47ce62637e51, sni: cdntwa.xiaomispeed.com, skip-cert-verify: true, udp: true}
-- *id001
-- *id002
-- *id003
-- *id004
-- *id005
-- *id006
-- *id007
-- *id008
-- *id009
-- *id010
-- *id011
-- &id012 {name: 🇬🇧 英国-中转-1 - V2Board, server: gd1.ddns.argonode.men, port: 19918, type: trojan, password: f6dde036-97d2-4db7-9596-604afb4a1c36, sni: uk1.argonode.men, skip-cert-verify: true, udp: true}
-- &id013 {name: 🇬🇧 英国-中转-2 - V2Board, server: gd1.ddns.argonode.men, port: 19919, type: trojan, password: f6dde036-97d2-4db7-9596-604afb4a1c36, sni: uk1.argonode.men, skip-cert-verify: true, udp: true}
-- *id012
-- *id013
-- {name: 🇮🇪 爱尔兰-都柏林 - V2Board, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 0fe2d47e-0994-42cf-9e2a-c68ef922c4b9, udp: true}
-- &id034 {name: ℹ️ 官网:best.idsduf.com - V2Board, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 08de2b7a-a800-4936-8944-bb929a9bd7a4, udp: true}
-- &id035 {name: 试用一小时2g - V2Board, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 08de2b7a-a800-4936-8944-bb929a9bd7a4, udp: true}
-- &id036 {name: ℹ️ 购买后请更新订阅 - V2Board, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 08de2b7a-a800-4936-8944-bb929a9bd7a4, udp: true}
-- &id037 {name: ℹ️ 购买后获取更多节点 - V2Board, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 08de2b7a-a800-4936-8944-bb929a9bd7a4, udp: true}
-- *id001
-- *id002
-- *id003
-- *id004
-- *id005
-- *id006
-- *id007
-- *id008
-- {name: 🇫🇷 法国|01|专线|中转|流媒体|3.0x - V2Board, server: zz.gd.01.jianz.group, port: 25749, type: ss, cipher: aes-128-gcm, password: 6afd2acf-a3f8-4d70-97e0-cc9628590f1e, udp: true}
-- {name: 🇩🇪 德国|01|专线|中转|流媒体|3.0x - V2Board, server: zz.gd.01.jianz.group, port: 36574, type: ss, cipher: aes-128-gcm, password: 6afd2acf-a3f8-4d70-97e0-cc9628590f1e, udp: true}
-- {name: 🇳🇿 新西兰|01|专线|中转|流媒体|3.0x - V2Board, server: zz.gd.01.jianz.group, port: 34174, type: ss, cipher: aes-128-gcm, password: 6afd2acf-a3f8-4d70-97e0-cc9628590f1e, udp: true}
-- {name: 🇺🇦 乌克兰|01|专线|中转|流媒体|3.0x - V2Board, server: zz.gd.01.jianz.group, port: 45714, type: ss, cipher: aes-128-gcm, password: 6afd2acf-a3f8-4d70-97e0-cc9628590f1e, udp: true}
-- {name: 🇷🇺 俄罗斯|01|专线|中转|流媒体|3.0x - V2Board, server: zz.gd.01.jianz.group, port: 45749, type: ss, cipher: aes-128-gcm, password: 6afd2acf-a3f8-4d70-97e0-cc9628590f1e, udp: true}
-- {name: 🇹🇷 土耳其|01|专线|中转|流媒体|3.0x - V2Board, server: zz.gd.01.jianz.group, port: 10201, type: ss, cipher: aes-128-gcm, password: 6afd2acf-a3f8-4d70-97e0-cc9628590f1e, udp: true}
-- {name: 🇪🇸 西班牙|01|专线|中转|流媒体|3.0x - V2Board, server: zz.gd.01.jianz.group, port: 29874, type: ss, cipher: aes-128-gcm, password: 6afd2acf-a3f8-4d70-97e0-cc9628590f1e, udp: true}
-- {name: 🇨🇦 加拿大|01|专线|中转|流媒体|3.0x - V2Board, server: zz.gd.01.jianz.group, port: 32658, type: ss, cipher: aes-128-gcm, password: 6afd2acf-a3f8-4d70-97e0-cc9628590f1e, udp: true}
-- {name: 🇸🇪 瑞典|01|专线|中转|流媒体|3.0x - V2Board, server: zz.gd.01.jianz.group, port: 21474, type: ss, cipher: aes-128-gcm, password: 6afd2acf-a3f8-4d70-97e0-cc9628590f1e, udp: true}
-- {name: 🇬🇧 英国|01|专线|中转|流媒体|3.0x - V2Board, server: zz.gd.01.jianz.group, port: 23415, type: ss, cipher: aes-128-gcm, password: 6afd2acf-a3f8-4d70-97e0-cc9628590f1e, udp: true}
-- {name: 🇫🇮 芬兰|01|专线|中转|流媒体|3.0x - V2Board, server: zz.gd.01.jianz.group, port: 23414, type: ss, cipher: aes-128-gcm, password: 6afd2acf-a3f8-4d70-97e0-cc9628590f1e, udp: true}
-- {name: 🇮🇹 意大利|01|专线|中转|流媒体|3.0x - V2Board, server: zz.gd.01.jianz.group, port: 23915, type: ss, cipher: aes-128-gcm, password: 6afd2acf-a3f8-4d70-97e0-cc9628590f1e, udp: true}
-- {name: 🇨🇭 瑞士|01|专线|中转|流媒体|3.0x - V2Board, server: zz.gd.01.jianz.group, port: 23715, type: ss, cipher: aes-128-gcm, password: 6afd2acf-a3f8-4d70-97e0-cc9628590f1e, udp: true}
-- {name: 🇧🇪 比利时|01|专线|中转|流媒体|3.0x - V2Board, server: zz.gd.01.jianz.group, port: 23419, type: ss, cipher: aes-128-gcm, password: 6afd2acf-a3f8-4d70-97e0-cc9628590f1e, udp: true}
-- {name: 🇳🇱 荷兰|01|专线|中转|流媒体|3.0x - V2Board, server: zz.gd.01.jianz.group, port: 23515, type: ss, cipher: aes-128-gcm, password: 6afd2acf-a3f8-4d70-97e0-cc9628590f1e, udp: true}
-- {name: 🇦🇪 阿联酋|01|专线|中转|流媒体|3.0x - V2Board, server: zz.gd.01.jianz.group, port: 34785, type: ss, cipher: aes-128-gcm, password: 6afd2acf-a3f8-4d70-97e0-cc9628590f1e, udp: true}
-- {name: 🇮🇱 以色列|01|专线|中转|流媒体|3.0x - V2Board, server: zz.gd.01.jianz.group, port: 42785, type: ss, cipher: aes-128-gcm, password: 6afd2acf-a3f8-4d70-97e0-cc9628590f1e, udp: true}
-- {name: 🇿🇦 南非|01|专线|中转|流媒体|3.0x - V2Board, server: zz.gd.01.jianz.group, port: 44785, type: ss, cipher: aes-128-gcm, password: 6afd2acf-a3f8-4d70-97e0-cc9628590f1e, udp: true}
-- {name: 🇨🇿 捷克|01|专线|中转|流媒体|3.0x - V2Board, server: zz.gd.01.jianz.group, port: 26547, type: ss, cipher: aes-128-gcm, password: 6afd2acf-a3f8-4d70-97e0-cc9628590f1e, udp: true}
-- {name: 🇧🇬 保加利亚|01|专线|中转|流媒体|3.0x - V2Board, server: zz.gd.01.jianz.group, port: 31528, type: ss, cipher: aes-128-gcm, password: 6afd2acf-a3f8-4d70-97e0-cc9628590f1e, udp: true}
-- {name: 🇦🇺 澳大利亚|01|专线|中转|流媒体|3.0x - V2Board, server: zz.gd.01.jianz.group, port: 31546, type: ss, cipher: aes-128-gcm, password: 6afd2acf-a3f8-4d70-97e0-cc9628590f1e, udp: true}
-- {name: 🇶🇦 卡塔尔|01|专线|中转|流媒体|3.0x - V2Board, server: zz.gd.01.jianz.group, port: 31543, type: ss, cipher: aes-128-gcm, password: 6afd2acf-a3f8-4d70-97e0-cc9628590f1e, udp: true}
-- {name: 🇵🇱 波兰|01|专线|中转|流媒体|3.0x - V2Board, server: zz.gd.01.jianz.group, port: 22563, type: ss, cipher: aes-128-gcm, password: 6afd2acf-a3f8-4d70-97e0-cc9628590f1e, udp: true}
-- {name: 🇰🇷 韩国|01|专线|中转|流媒体|3.0x - V2Board, server: zz.gd.01.jianz.group, port: 25468, type: ss, cipher: aes-128-gcm, password: 6afd2acf-a3f8-4d70-97e0-cc9628590f1e, udp: true}
-- {name: 🇮🇩 印尼|01|专线|中转|流媒体|3.0x - V2Board, server: zz.gd.01.jianz.group, port: 25469, type: ss, cipher: aes-128-gcm, password: 6afd2acf-a3f8-4d70-97e0-cc9628590f1e, udp: true}
-- {name: 🇮🇳 印度|01|专线|中转|流媒体|3.0x - V2Board, server: zz.gd.01.jianz.group, port: 21324, type: ss, cipher: aes-128-gcm, password: 6afd2acf-a3f8-4d70-97e0-cc9628590f1e, udp: true}
-- {name: 🇻🇳 越南|01|专线|中转|流媒体|3.0x - V2Board, server: zz.gd.01.jianz.group, port: 21325, type: ss, cipher: aes-128-gcm, password: 6afd2acf-a3f8-4d70-97e0-cc9628590f1e, udp: true}
-- {name: 地区随机1 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23249, type: ss, cipher: chacha20-ietf-poly1305, password: c8bc5f74-f0cf-456f-a6c2-1d79c885bebf, udp: true}
-- {name: 地区随机2 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23155, type: ss, cipher: chacha20-ietf-poly1305, password: c8bc5f74-f0cf-456f-a6c2-1d79c885bebf, udp: true}
-- {name: ℹ️ 如果使用不了，请等30分钟后更新订阅 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 14275, type: ss, cipher: chacha20-ietf-poly1305, password: c8bc5f74-f0cf-456f-a6c2-1d79c885bebf, udp: true}
-- {name: 🇰🇷韩国1 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23242, type: ss, cipher: chacha20-ietf-poly1305, password: c8bc5f74-f0cf-456f-a6c2-1d79c885bebf, udp: true}
-- {name: 🇰🇷韩国2 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23131, type: ss, cipher: chacha20-ietf-poly1305, password: c8bc5f74-f0cf-456f-a6c2-1d79c885bebf, udp: true}
-- {name: 🇬🇧英国1 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23129, type: ss, cipher: chacha20-ietf-poly1305, password: c8bc5f74-f0cf-456f-a6c2-1d79c885bebf, udp: true}
-- {name: 🇩🇪德国1 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 20480, type: ss, cipher: chacha20-ietf-poly1305, password: c8bc5f74-f0cf-456f-a6c2-1d79c885bebf, udp: true}
-- {name: 🇮🇳 印度1 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 12212, type: ss, cipher: chacha20-ietf-poly1305, password: c8bc5f74-f0cf-456f-a6c2-1d79c885bebf, udp: true}
-- {name: 🇦🇺澳大利亚1 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 47051, type: ss, cipher: chacha20-ietf-poly1305, password: c8bc5f74-f0cf-456f-a6c2-1d79c885bebf, udp: true}
-- {name: 🇮🇩印度尼西亚1 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 12218, type: ss, cipher: chacha20-ietf-poly1305, password: c8bc5f74-f0cf-456f-a6c2-1d79c885bebf, udp: true}
-- {name: 🇮🇩印度尼西亚2 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 18937, type: ss, cipher: chacha20-ietf-poly1305, password: c8bc5f74-f0cf-456f-a6c2-1d79c885bebf, udp: true}
-- {name: ℹ️ 续费请到baoge.me - V2Board, server: ydnxy1.cebaoge.me, port: 2325, type: ss, cipher: chacha20-ietf-poly1305, password: c8bc5f74-f0cf-456f-a6c2-1d79c885bebf, udp: true}
-- {name: 🇱🇦 TG客服：@baolaowang - V2Board, server: ydnxy1.cebaoge.me, port: 2325, type: ss, cipher: chacha20-ietf-poly1305, password: c8bc5f74-f0cf-456f-a6c2-1d79c885bebf, udp: true}
-- *id012
-- *id013
-- *id012
-- *id013
-- *id009
-- *id010
-- *id011
-- *id014
-- *id015
-- *id016
-- *id017
-- *id018
-- *id019
-- *id020
-- *id021
-- *id022
-- *id023
-- *id024
-- *id025
-- *id026
-- *id027
-- *id028
-- *id029
-- *id030
-- *id031
-- *id032
-- *id033
-- *id012
-- *id013
-- *id012
-- *id013
-- {name: ℹ️ 📌官网 https://2025.bingoboot.com/ - V2Board, server: hk90.appmimi.com, port: 49000, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
-- {name: ℹ️ 🆘邮箱 sbgetvpn@gmail.com - V2Board, server: hk90.appmimi.com, port: 49000, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
-- {name: V0 | ✅免费体验·随机线路 - V2Board, server: hk90.appmimi.com, port: 49000, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
-- {name: 🇰🇷 V1 | 韩国1 - V2Board, server: kr91.appmimi.com, port: 49026, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
-- {name: 🇹🇭 V1 | 泰国1 - V2Board, server: th91.appmimi.com, port: 49047, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
-- {name: 🇻🇳 V1 | 越南1 - V2Board, server: vn91.appmimi.com, port: 49048, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
-- {name: 🇹🇷 V1 | 土耳其1 - V2Board, server: tr91.appmimi.com, port: 49050, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
-- {name: 🇦🇷 V1 | 阿根廷1 - V2Board, server: ar91.appmimi.com, port: 49073, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
-- {name: 🇬🇧 V1 | 英国1 - V2Board, server: gb91.appmimi.com, port: 49081, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
-- {name: 🇷🇺 V1 | 俄罗斯1 - V2Board, server: ru91.appmimi.com, port: 49094, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
-- {name: V1 | 试验线路1 - V2Board, server: xj99.appmimi.com, port: 19201, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
-- {name: ℹ️ ★网站最新域名tomatobay.cc - V2Board, server: 1.1.1.1, port: 1000, type: vmess, uuid: 3823dd73-e0d1-43ca-bc7e-9692bb63f267, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: ℹ️ ★在线客服永不失联tmtbcloud.top - V2Board, server: 1.1.1.1, port: 1000, type: vmess, uuid: 3823dd73-e0d1-43ca-bc7e-9692bb63f267, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: ℹ️ 有更多地区节点需求，请联系客服 - V2Board, server: 1.1.1.1, port: 1000, type: vmess, uuid: 3823dd73-e0d1-43ca-bc7e-9692bb63f267, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: 'ℹ️ TG客服: tomatobaybot - V2Board', server: 1.1.1.1, port: 1000, type: vmess, uuid: 3823dd73-e0d1-43ca-bc7e-9692bb63f267, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: ℹ️ TG群组：tmtbgood - V2Board, server: 1.1.1.1, port: 1000, type: vmess, uuid: 3823dd73-e0d1-43ca-bc7e-9692bb63f267, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- *id012
-- *id013
-- {name: ℹ️ 购买节点 - Buy paopao.cx - V2Board, server: tuntro001.instconn.com, port: 40621, type: trojan, password: 7211c49e-ac60-44b1-a3ca-1fd3cbf22a88, sni: tvmost.jasmine-douyin.top, skip-cert-verify: true, udp: true}
-- {name: 🇩🇪 德国 联通 | DE-CU - V2Board, server: tuntro010.instconn.com, port: 443, type: trojan, password: 7211c49e-ac60-44b1-a3ca-1fd3cbf22a88, sni: frankfurtrm2.686911.xyz, skip-cert-verify: true, udp: true}
-- {name: 🇰🇷 韩国 首尔 全网 | KR-Seoul-All - V2Board, server: tuntro013.instconn.com, port: 10431, type: trojan, password: 7211c49e-ac60-44b1-a3ca-1fd3cbf22a88, sni: souer.jasmine-douyin.top, skip-cert-verify: true, udp: true}
-- {name: 🇻🇳 越南 移动 | VN-CM - V2Board, server: tuntro019.instconn.com, port: 44790, type: trojan, password: 7211c49e-ac60-44b1-a3ca-1fd3cbf22a88, sni: vntb.686911.xyz, skip-cert-verify: true, udp: true}
-- {name: 🇹🇷 土耳其 中转 | TR-FWD - V2Board, server: tuntro020.instconn.com, port: 41056, type: trojan, password: 7211c49e-ac60-44b1-a3ca-1fd3cbf22a88, sni: bing.686911.xyz, skip-cert-verify: true, udp: true}
-- *id034
-- *id035
-- *id036
-- *id037
-- {name: 🇩🇪Germany-UDP - V2Board, server: de001.666633.best, port: 23897, type: hysteria2, ports: 23897, password: 17f8e717-f7c3-4437-b8b0-498a3b417b6e, sni: de001.666633.best, skip-cert-verify: true, udp: true}
-- {name: 🇻🇳Vietnam-03 - V2Board, server: th001.bmmsdn.tk, port: 23899, type: hysteria2, ports: 23899, password: 17f8e717-f7c3-4437-b8b0-498a3b417b6e, sni: th001.bmmsdn.tk, skip-cert-verify: true, udp: true}
-- {name: 🇮🇳India-03 - V2Board, server: in02.bmmsdn.tk, port: 22221, type: hysteria2, ports: 22221, password: 17f8e717-f7c3-4437-b8b0-498a3b417b6e, sni: in02.bmmsdn.tk, skip-cert-verify: true, udp: true}
+- {name: '🇫🇷 [ss]法国 - V2Board', server: 154.3.37.100, port: 26307, type: ss, cipher: 2022-blake3-aes-256-gcm, password: MjEzMDgzMzFjMmZhNGExYjAyNmM3ZDdjYzFmZmY4YWE=:YmYxZTc5OTctNGFlMC00MmFmLWIwMmMtZTI3ZjM3OTU=, udp: true}
+- {name: '🇫🇷 [ss]FR.OVH - V2Board', server: 37.187.31.49, port: 45400, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YjQyNDdhODRjNWEzZjBmNg==:YmYxZTc5OTctNGFlMC00Mg==, udp: true}
+- {name: 联通电信暂不提供优化测试 - V2Board, server: 156.231.115.233, port: 30044, type: ss, cipher: chacha20-ietf-poly1305, password: 2ae1cf9b-4d05-4d4a-bc98-7c6d11efbf5d, udp: true}
+- {name: ℹ️ 原生地址-443-Trojan-WS-TLS - V2Board, server: gbyz.asia, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: ℹ️ 原生地址-80-Trojan-WS - V2Board, server: gbyz.asia, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: cloudflare.182682.xyz-443-Trojan-WS-TLS - V2Board, server: cloudflare.182682.xyz, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: cloudflare.182682.xyz-80-Trojan-WS - V2Board, server: cloudflare.182682.xyz, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: speed.marisalnc.com-443-Trojan-WS-TLS - V2Board, server: speed.marisalnc.com, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: speed.marisalnc.com-80-Trojan-WS - V2Board, server: speed.marisalnc.com, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: freeyx.cloudflare88.eu.org-443-Trojan-WS-TLS - V2Board, server: freeyx.cloudflare88.eu.org, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: freeyx.cloudflare88.eu.org-80-Trojan-WS - V2Board, server: freeyx.cloudflare88.eu.org, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: bestcf.top-443-Trojan-WS-TLS - V2Board, server: bestcf.top, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: bestcf.top-80-Trojan-WS - V2Board, server: bestcf.top, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: cdn.2020111.xyz-443-Trojan-WS-TLS - V2Board, server: cdn.2020111.xyz, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: cdn.2020111.xyz-80-Trojan-WS - V2Board, server: cdn.2020111.xyz, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: cfip.cfcdn.vip-443-Trojan-WS-TLS - V2Board, server: cfip.cfcdn.vip, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: cfip.cfcdn.vip-80-Trojan-WS - V2Board, server: cfip.cfcdn.vip, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: cf.0sm.com-443-Trojan-WS-TLS - V2Board, server: cf.0sm.com, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: cf.0sm.com-80-Trojan-WS - V2Board, server: cf.0sm.com, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: cf.090227.xyz-443-Trojan-WS-TLS - V2Board, server: cf.090227.xyz, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: cf.090227.xyz-80-Trojan-WS - V2Board, server: cf.090227.xyz, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: cf.zhetengsha.eu.org-443-Trojan-WS-TLS - V2Board, server: cf.zhetengsha.eu.org, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: cf.zhetengsha.eu.org-80-Trojan-WS - V2Board, server: cf.zhetengsha.eu.org, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: cloudflare.9jy.cc-443-Trojan-WS-TLS - V2Board, server: cloudflare.9jy.cc, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: cloudflare.9jy.cc-80-Trojan-WS - V2Board, server: cloudflare.9jy.cc, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: cf.zerone-cdn.pp.ua-443-Trojan-WS-TLS - V2Board, server: cf.zerone-cdn.pp.ua, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: cf.zerone-cdn.pp.ua-80-Trojan-WS - V2Board, server: cf.zerone-cdn.pp.ua, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: cfip.1323123.xyz-443-Trojan-WS-TLS - V2Board, server: cfip.1323123.xyz, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: cfip.1323123.xyz-80-Trojan-WS - V2Board, server: cfip.1323123.xyz, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: cnamefuckxxs.yuchen.icu-443-Trojan-WS-TLS - V2Board, server: cnamefuckxxs.yuchen.icu, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: cnamefuckxxs.yuchen.icu-80-Trojan-WS - V2Board, server: cnamefuckxxs.yuchen.icu, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: cloudflare-ip.mofashi.ltd-443-Trojan-WS-TLS - V2Board, server: cloudflare-ip.mofashi.ltd, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: cloudflare-ip.mofashi.ltd-80-Trojan-WS - V2Board, server: cloudflare-ip.mofashi.ltd, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: 115155.xyz-443-Trojan-WS-TLS - V2Board, server: 115155.xyz, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: 115155.xyz-80-Trojan-WS - V2Board, server: 115155.xyz, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: 🇮🇷 cname.xirancdn.us-443-Trojan-WS-TLS - V2Board, server: cname.xirancdn.us, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: 🇮🇷 cname.xirancdn.us-80-Trojan-WS - V2Board, server: cname.xirancdn.us, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: f3058171cad.002404.xyz-443-Trojan-WS-TLS - V2Board, server: f3058171cad.002404.xyz, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: f3058171cad.002404.xyz-80-Trojan-WS - V2Board, server: f3058171cad.002404.xyz, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: 8.889288.xyz-443-Trojan-WS-TLS - V2Board, server: 8.889288.xyz, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: 8.889288.xyz-80-Trojan-WS - V2Board, server: 8.889288.xyz, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: cdn.tzpro.xyz-443-Trojan-WS-TLS - V2Board, server: cdn.tzpro.xyz, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: cdn.tzpro.xyz-80-Trojan-WS - V2Board, server: cdn.tzpro.xyz, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: cf.877771.xyz-443-Trojan-WS-TLS - V2Board, server: cf.877771.xyz, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: cf.877771.xyz-80-Trojan-WS - V2Board, server: cf.877771.xyz, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: xn--b6gac.eu.org-443-Trojan-WS-TLS - V2Board, server: xn--b6gac.eu.org, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: xn--b6gac.eu.org-80-Trojan-WS - V2Board, server: xn--b6gac.eu.org, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: 联通-SJC-443-Trojan-WS-TLS - V2Board, server: 104.17.143.19, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: 联通-SJC-80-Trojan-WS - V2Board, server: 104.17.143.19, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: 联通-SJC-443-Trojan-WS-TLS - V2Board 2, server: 104.17.154.105, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: 联通-SJC-80-Trojan-WS - V2Board 2, server: 104.17.154.105, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: 联通-SJC-443-Trojan-WS-TLS - V2Board 3, server: 104.17.140.173, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: 联通-SJC-80-Trojan-WS - V2Board 3, server: 104.17.140.173, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: 联通-SJC-443-Trojan-WS-TLS - V2Board 4, server: 104.17.156.100, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: 联通-SJC-80-Trojan-WS - V2Board 4, server: 104.17.156.100, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: 联通-SJC-443-Trojan-WS-TLS - V2Board 5, server: 104.17.140.17, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: 联通-SJC-80-Trojan-WS - V2Board 5, server: 104.17.140.17, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: 电信-SIN-443-Trojan-WS-TLS - V2Board, server: 162.159.14.140, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: 电信-SIN-80-Trojan-WS - V2Board, server: 162.159.14.140, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: 电信-SIN-443-Trojan-WS-TLS - V2Board 2, server: 162.159.15.23, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: 电信-SIN-80-Trojan-WS - V2Board 2, server: 162.159.15.23, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: 电信-NRT-443-Trojan-WS-TLS - V2Board, server: 162.159.44.85, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: 电信-NRT-80-Trojan-WS - V2Board, server: 162.159.44.85, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: 电信-SIN-443-Trojan-WS-TLS - V2Board 3, server: 162.159.43.9, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: 电信-SIN-80-Trojan-WS - V2Board 3, server: 162.159.43.9, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: 电信-NRT-443-Trojan-WS-TLS - V2Board 2, server: 162.159.44.182, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: 电信-NRT-80-Trojan-WS - V2Board 2, server: 162.159.44.182, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: 电信-SIN-443-Trojan-WS-TLS - V2Board 4, server: '[2a06:98c1:3104::cef1:891f]', port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: 电信-SIN-80-Trojan-WS - V2Board 4, server: '[2a06:98c1:3104::cef1:891f]', port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: 电信-SIN-443-Trojan-WS-TLS - V2Board 5, server: '[2a06:98c1:3109::5ae9:2f6]', port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: 电信-SIN-80-Trojan-WS - V2Board 5, server: '[2a06:98c1:3109::5ae9:2f6]', port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: 电信-SIN-443-Trojan-WS-TLS - V2Board 6, server: '[2606:4700:4700::a6ff:ea68]', port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: 电信-SIN-80-Trojan-WS - V2Board 6, server: '[2606:4700:4700::a6ff:ea68]', port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: 电信-SIN-443-Trojan-WS-TLS - V2Board 7, server: '[2606:4700:4700::b1eb:f8bc]', port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: 电信-SIN-80-Trojan-WS - V2Board 7, server: '[2606:4700:4700::b1eb:f8bc]', port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: 电信-SIN-443-Trojan-WS-TLS - V2Board 8, server: '[2606:4700:5b::9d61:77b5]', port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: 电信-SIN-80-Trojan-WS - V2Board 8, server: '[2606:4700:5b::9d61:77b5]', port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
+- {name: ℹ️ 加入频道@kejiland00-443-Trojan-WS-TLS - V2Board, server: saas.sin.fan, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
+- {name: ✅付费后可用全部线路 - V2Board, server: zf.sg-iepl.com, port: 49642, type: ss, cipher: chacha20-ietf-poly1305, password: b0c5db43-9f33-47ab-be62-e9811359ce35, udp: true}
+- {name: ℹ️ ✅续费网址:https://getvv.cloud - V2Board, server: zf.sg-iepl.com, port: 49642, type: ss, cipher: chacha20-ietf-poly1305, password: b0c5db43-9f33-47ab-be62-e9811359ce35, udp: true}
+- {name: 🇬🇧 专线A1-伦敦3-解锁BBC iPlayer极纯家宽IP流媒体全解锁-3倍率 - V2Board, server: zf.sg-iepl.com, port: 29110, type: ss, cipher: chacha20-ietf-poly1305, password: b0c5db43-9f33-47ab-be62-e9811359ce35, udp: true}

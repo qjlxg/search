@@ -1,61 +1,11 @@
 %YAML 1.2
 ---
 proxies:
-- {name: 🇸🇬 新加坡解锁(广港)1 x1 - V2Board, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- {name: 🇸🇬 新加坡解锁(广港)2 x1 - V2Board, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- {name: 🇸🇬 新加坡解锁(广港)3 x1 - V2Board, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- {name: 🇸🇬 新加坡解锁(广新)1 x1 - V2Board, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- {name: 🇸🇬 新加坡解锁(广新)2 x1 - V2Board, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- {name: 🇸🇬 新加坡解锁(广新)3 x1 - V2Board, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 5e2c2d4a-5518-4383-959e-311693abe8c3, udp: true}
-- &id010 {name: 🇸🇬 新加坡代理01 - V2Board, server: db918d35-3d19-4c82-af7b-b48cc74d8a70, port: 0, type: socks5, skip-cert-verify: true, udp: true}
-- &id011 {name: 🇸🇬 新加坡代理02 - V2Board, server: db918d35-3d19-4c82-af7b-b48cc74d8a70, port: 0, type: socks5, skip-cert-verify: true, udp: true}
-- &id012 {name: 🇸🇬 IEPL · 新加坡SG · 204 - V2Board, server: 45.250.185.142, port: 16114, type: ss, cipher: chacha20-ietf-poly1305, password: 9d8c7748-de85-4174-8798-baef07504df9, udp: true}
-- &id001 {name: 🇸🇬 新加坡一 - V2Board, server: 01.limenodebgp.com, port: 30621, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}
-- &id002 {name: 🇸🇬 新加坡二 - V2Board, server: 02.limenodebgp.com, port: 30622, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}
-- &id003 {name: 🇸🇬 新加坡三 - V2Board, server: 03.limenodebgp.com, port: 30623, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}
-- &id004 {name: 🇸🇬 新加坡四 - V2Board, server: 04.limenodebgp.com, port: 30624, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}
-- &id005 {name: 🇸🇬 新加坡五 - V2Board, server: 05.limenodebgp.com, port: 30625, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}
-- &id006 {name: 🇸🇬 新加坡六 - V2Board, server: 06.limenodebgp.com, port: 30626, type: ss, cipher: aes-128-gcm, password: e0602645-b286-491b-b629-7b55903dd527, udp: true}
-- {name: 🇸🇬 新加坡 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - V2Board, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: bd380bfb-7495-4d2c-8420-47ce62637e51, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 IEPL| 新加坡 - V2Board, server: 47.74.128.123, port: 52416, type: ss, cipher: aes-128-gcm, password: f4g9rnwf9gtgweg5g66h, udp: true}
+- &id001 {name: 🇸🇬 新加坡IEPL - V2Board, server: 110.242.74.102, port: 10004, type: ss, cipher: aes-256-gcm, password: 909ca374-501a-4a34-8c1e-a5be3cadbeb2, udp: true}
 - *id001
-- *id002
-- *id003
-- *id004
-- *id005
-- *id006
-- &id007 {name: 🇸🇬 新加坡-中转-1 - V2Board, server: gd1.ddns.argonode.men, port: 14401, type: trojan, password: f6dde036-97d2-4db7-9596-604afb4a1c36, sni: sg1.argonode.men, skip-cert-verify: true, udp: true}
-- &id008 {name: 🇸🇬 新加坡-中转-2 - V2Board, server: gd1.ddns.argonode.men, port: 14402, type: trojan, password: f6dde036-97d2-4db7-9596-604afb4a1c36, sni: sg1.argonode.men, skip-cert-verify: true, udp: true}
-- *id007
-- *id008
-- {name: 🇸🇬 新加坡-ss2 - V2Board, server: sg3.xaa.app, port: 9527, type: ss, cipher: chacha20-ietf-poly1305, password: 94b0ab32-d623-4a76-bbf8-767ce8b206ca, udp: true}
-- {name: 🇸🇬 新加坡-ss3 - V2Board, server: sg2.xaa.app, port: 9527, type: ss, cipher: chacha20-ietf-poly1305, password: 94b0ab32-d623-4a76-bbf8-767ce8b206ca, udp: true}
-- &id013 {name: 🇸🇬 试用节点-新加坡 - V2Board, server: jry.izenny.com, port: 57884, type: ss, cipher: chacha20-ietf-poly1305, password: 08de2b7a-a800-4936-8944-bb929a9bd7a4, udp: true}
-- &id009 {name: '🇸🇬 [Hy2]Singapore-新加坡 - V2Board', server: singapore.ruixing.fun, port: 30625, type: hysteria2, ports: 30625, password: b10ac28e-e44a-4db4-9ae3-2d41ee762bac, obfs: salamander, obfs-password: Y0hOpQA0X4EMz6fO, sni: singapore.ruixing.fun, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡|01|专线|中转|流媒体|3.0x - V2Board, server: zz.gd.01.jianz.group, port: 15412, type: ss, cipher: aes-128-gcm, password: 6afd2acf-a3f8-4d70-97e0-cc9628590f1e, udp: true}
-- *id009
-- {name: 🇸🇬新加坡1 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23234, type: ss, cipher: chacha20-ietf-poly1305, password: c8bc5f74-f0cf-456f-a6c2-1d79c885bebf, udp: true}
-- {name: 🇸🇬新加坡2 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 15335, type: ss, cipher: chacha20-ietf-poly1305, password: c8bc5f74-f0cf-456f-a6c2-1d79c885bebf, udp: true}
-- *id010
-- *id011
-- *id007
-- *id008
-- *id007
-- *id008
+- {name: 🇸🇬 SG-443-Trojan-WS-TLS - V2Board, server: 8.220.134.136, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
 - *id001
-- *id002
-- *id003
-- *id004
-- *id005
-- *id006
-- *id012
-- {name: 🇸🇬 新加坡电信IEPL-02 - V2Board, server: gzbgpww.v0tkrelay.top, port: 34002, type: ss, cipher: chacha20-ietf-poly1305, password: 9b7f6f65-8eb7-41c8-bb3c-04bfc4333d93, udp: true}
-- *id007
-- *id008
-- *id007
-- *id008
-- {name: 🇸🇬 V1 | 新加坡1 - V2Board, server: sg91.appmimi.com, port: 49041, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
-- {name: 🇸🇬 V1 | 新加坡2 - V2Board, server: sg92.appmimi.com, port: 49042, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
-- {name: 🇸🇬 V1 | 新加坡3 - V2Board, server: sg93.appmimi.com, port: 49043, type: ss, cipher: aes-256-gcm, password: d7635ba8-d89c-4fd9-9557-122d10f3a2d4, udp: true}
-- *id007
-- *id008
-- *id013
+- {name: 🇸🇬 专线A1-新加坡1-3倍率 - V2Board, server: zf.sg-iepl.com, port: 35058, type: ss, cipher: chacha20-ietf-poly1305, password: b0c5db43-9f33-47ab-be62-e9811359ce35, udp: true}
+- {name: 🇸🇬 专线A1-新加坡2-3倍率 - V2Board, server: zf.sg-iepl.com, port: 57598, type: ss, cipher: chacha20-ietf-poly1305, password: b0c5db43-9f33-47ab-be62-e9811359ce35, udp: true}
+- *id001

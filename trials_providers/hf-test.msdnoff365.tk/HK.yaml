@@ -1,4 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇭🇰Hongkong-02-UDP - V2Board, server: ovh-sg.bmmsdn.tk, port: 22765, type: hysteria2, ports: 22765, password: 17f8e717-f7c3-4437-b8b0-498a3b417b6e, sni: ovh-sg.bmmsdn.tk, skip-cert-verify: true, udp: true}

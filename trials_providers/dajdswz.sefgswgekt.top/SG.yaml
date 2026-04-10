@@ -1,4 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇸🇬 试用节点-新加坡 - V2Board, server: jry.izenny.com, port: 57884, type: ss, cipher: chacha20-ietf-poly1305, password: 08de2b7a-a800-4936-8944-bb929a9bd7a4, udp: true}
