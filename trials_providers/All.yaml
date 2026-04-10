@@ -1,145 +1,188 @@
 %YAML 1.2
 ---
 proxies:
-- {name: ℹ️ 0403地址公告fa邮件topman8848@gmail.com - V2Board, server: 77.110.125.140, port: 42201, type: trojan, password: 00e465c9-af0e-472f-9adb-b465ee528e63, sni: osxapps.itunes.apple.com, skip-cert-verify: true, udp: true}
-- {name: 'SS3[测试] - V2Board', server: 77.110.125.140, port: 33003, type: ss, cipher: chacha20-ietf-poly1305, password: 00e465c9-af0e-472f-9adb-b465ee528e63, udp: true}
-- {name: ℹ️ 只有V节点的要换官网软件 - V2Board, server: 77.110.119.112, port: 18888, type: vmess, uuid: 00e465c9-af0e-472f-9adb-b465ee528e63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 小火箭要升级版本 - V2Board, server: 87.120.204.135, port: 42102, type: vmess, uuid: 00e465c9-af0e-472f-9adb-b465ee528e63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: ℹ️ V最新地址【jooy.cc】 - V2Board, server: v3.toppp.cc, port: 42103, type: vmess, uuid: 00e465c9-af0e-472f-9adb-b465ee528e63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: ℹ️ V地址公告fa邮件topman8848@gmail.com - V2Board, server: 77.110.109.168, port: 42104, type: vmess, uuid: 00e465c9-af0e-472f-9adb-b465ee528e63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 V这里是新平台 - V2Board, server: 5.102.124.129, port: 42105, type: vmess, uuid: 00e465c9-af0e-472f-9adb-b465ee528e63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇰🇷 韩KR【新软件有L2节点】 - V2Board, server: v6.toppp.cc, port: 42106, type: vmess, uuid: 00e465c9-af0e-472f-9adb-b465ee528e63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 V港HK7 - V2Board, server: v7.toppp.cc, port: 42107, type: vmess, uuid: 00e465c9-af0e-472f-9adb-b465ee528e63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 V日JP8【未标注都是1倍节点】 - V2Board, server: v8.toppp.cc, port: 42108, type: vmess, uuid: 00e465c9-af0e-472f-9adb-b465ee528e63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 V新SG9 - V2Board, server: v9.toppp.cc, port: 42109, type: vmess, uuid: 00e465c9-af0e-472f-9adb-b465ee528e63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 V台TW10 - V2Board, server: v10.toppp.cc, port: 42110, type: vmess, uuid: 00e465c9-af0e-472f-9adb-b465ee528e63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 ipv6台TW11 - V2Board, server: v11.toppp.cc, port: 42111, type: vmess, uuid: 00e465c9-af0e-472f-9adb-b465ee528e63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇭🇰 ipv6港HK12[手机流量可用] - V2Board', server: v12.toppp.cc, port: 42112, type: vmess, uuid: 00e465c9-af0e-472f-9adb-b465ee528e63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 ipv6美US13 - V2Board, server: v12.toppp.cc, port: 42113, type: vmess, uuid: 00e465c9-af0e-472f-9adb-b465ee528e63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 V日JP14 - V2Board, server: vm3.doooo.top, port: 42114, type: vmess, uuid: 00e465c9-af0e-472f-9adb-b465ee528e63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 V日JP15 - V2Board, server: vm3.doooo.top, port: 42115, type: vmess, uuid: 00e465c9-af0e-472f-9adb-b465ee528e63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 V美US16 - V2Board, server: vm3.doooo.top, port: 42116, type: vmess, uuid: 00e465c9-af0e-472f-9adb-b465ee528e63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 V美US17 - V2Board, server: vm3.doooo.top, port: 42117, type: vmess, uuid: 00e465c9-af0e-472f-9adb-b465ee528e63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 V美US18 - V2Board, server: v18.toppp.cc, port: 42118, type: vmess, uuid: 00e465c9-af0e-472f-9adb-b465ee528e63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 📌官网 https://2025.bingoboot.com/ - V2Board, server: hk90.appmimi.com, port: 49000, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: ℹ️ 🆘邮箱 sbgetvpn@gmail.com - V2Board, server: hk90.appmimi.com, port: 49000, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: V0 | ✅免费体验·随机线路 - V2Board, server: hk90.appmimi.com, port: 49000, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇭🇰 V1 | 香港1 - V2Board, server: hk91.appmimi.com, port: 49011, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇭🇰 V1 | 香港2 - V2Board, server: hk92.appmimi.com, port: 49012, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇭🇰 V1 | 香港3 - V2Board, server: hk93.appmimi.com, port: 49013, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇭🇰 V1 | 香港4 - V2Board, server: hk94.appmimi.com, port: 49014, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇭🇰 V1 | 香港5 - V2Board, server: hk95.appmimi.com, port: 49015, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇭🇰 V1 | 香港6 - V2Board, server: hk96.appmimi.com, port: 49016, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇭🇰 V1 | 香港7 - V2Board, server: hk97.appmimi.com, port: 49017, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇭🇰 V1 | 香港8 - V2Board, server: hk98.appmimi.com, port: 49018, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇭🇰 V1 | 香港9 - V2Board, server: hk99.appmimi.com, port: 49019, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇭🇰 V1 | 香港10 - V2Board, server: 38.76.141.21, port: 49020, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇹🇼 V1 | 台湾1 - V2Board, server: tw91.appmimi.com, port: 49021, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇹🇼 V1 | 台湾2 - V2Board, server: tw92.appmimi.com, port: 49022, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇰🇷 V1 | 韩国1 - V2Board, server: kr91.appmimi.com, port: 49026, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇯🇵 V1 | 日本1 - V2Board, server: 162.141.131.89, port: 19201, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇯🇵 V1 | 日本2 - V2Board, server: jp92.appmimi.com, port: 49032, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇯🇵 V1 | 日本3 - V2Board, server: jp93.appmimi.com, port: 49033, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇯🇵 V1 | 日本4 - V2Board, server: jp94.appmimi.com, port: 49034, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇯🇵 V1 | 日本5 - V2Board, server: jp95.appmimi.com, port: 49040, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇸🇬 V1 | 新加坡1 - V2Board, server: sg91.appmimi.com, port: 49041, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇸🇬 V1 | 新加坡2 - V2Board, server: sg92.appmimi.com, port: 49042, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇸🇬 V1 | 新加坡3 - V2Board, server: sg93.appmimi.com, port: 49043, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇹🇭 V1 | 泰国1 - V2Board, server: th91.appmimi.com, port: 49047, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇻🇳 V1 | 越南1 - V2Board, server: vn91.appmimi.com, port: 49048, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇹🇷 V1 | 土耳其1 - V2Board, server: tr91.appmimi.com, port: 49050, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇺🇸 V1 | 美国1 - V2Board, server: 167.253.97.155, port: 19201, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇺🇸 V1 | 美国2 - V2Board, server: 104.168.11.91, port: 19201, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇺🇸 V1 | 美国3 - V2Board, server: 142.171.163.19, port: 19201, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇺🇸 V1 | 美国4 - V2Board, server: 23.94.103.170, port: 19201, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇺🇸 V1 | 美国5 - V2Board, server: 107.172.101.206, port: 19201, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇦🇷 V1 | 阿根廷1 - V2Board, server: ar91.appmimi.com, port: 49073, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇬🇧 V1 | 英国1 - V2Board, server: gb91.appmimi.com, port: 49081, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇷🇺 V1 | 俄罗斯1 - V2Board, server: ru91.appmimi.com, port: 49094, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: '🇺🇸 V1 | [海外用户]美国1 - V2Board', server: dd01.appmimi.com, port: 19201, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: '🇺🇸 V1 | [海外用户]美国2 - V2Board', server: dd02.appmimi.com, port: 19201, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: V1 | 试验线路1 - V2Board, server: xj99.appmimi.com, port: 19201, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🌐 اشتراک شما تمام شده 🌐 - V2Board, server: thugiping.info, port: 80, type: vmess, uuid: 039a6b8e-e086-49c7-90a7-09a151660adf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: thugiping.info}}, udp: true}
-- {name: 'ℹ️ ✈️电报群组:  t.me/cecil_vpn - V2Board', server: zy.sxr.homes, port: 963, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YjBiYTM1NDM5MWQyNGQxZg==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 'ℹ️ 🌐备用官网:  jc.cecil.lol - V2Board', server: zy.sxr.homes, port: 12345, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTA1NjNhNGQ0NGFjYjYxZA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇭🇰 ⚡️️HK香港 - 01  | Disney - V2Board, server: za.peaceandlove2017.com, port: 42052, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇭🇰 ⚡️️HK香港 - 02 | Disney - V2Board, server: za.peaceandlove2017.com, port: 42053, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇭🇰 ⚡️️HK香港 - 03 | Disney - V2Board, server: za.peaceandlove2017.com, port: 42054, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇭🇰 ⚡️️HK香港 - 04 | Disney - V2Board, server: za.peaceandlove2017.com, port: 42055, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇭🇰 ⚡️️HK香港 - 05 | Disney - V2Board, server: za.peaceandlove2017.com, port: 42056, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇭🇰 ⚡️️HK香港 - 06 | Disney - V2Board, server: za.peaceandlove2017.com, port: 23479, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇭🇰 ⚡️HK香港 - 07 | Netflix - V2Board, server: za.peaceandlove2017.com, port: 39648, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇭🇰 ⚡️HK香港 - 08 | Netflix - V2Board, server: za.peaceandlove2017.com, port: 14987, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇭🇰 ⚡️HK香港 - 09 | Gemini - V2Board, server: za.peaceandlove2017.com, port: 10228, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇭🇰 ⚡️HK香港 - 10 | Gemini - V2Board, server: za.peaceandlove2017.com, port: 22191, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇭🇰 ⚡️HK香港 - 11 | HBO Max - V2Board, server: za.peaceandlove2017.com, port: 23834, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇭🇰 ⚡️HK香港 - 12 | Netflix - V2Board, server: za.peaceandlove2017.com, port: 10518, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇹🇼 ⚡️TW台湾 - 01  | Netflix - V2Board, server: za.peaceandlove2017.com, port: 56749, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇹🇼 ️⚡️TW台湾 - 02 | Netflix - V2Board, server: za.peaceandlove2017.com, port: 25417, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇹🇼 ⚡️TW台湾 - 03 | Netflix - V2Board, server: za.peaceandlove2017.com, port: 24521, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇸🇬 ⚡️SG新加坡 - 01  | Disney - V2Board, server: za.peaceandlove2017.com, port: 20120, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇸🇬 ⚡️SG新加坡 - 02 | Disney - V2Board, server: za.peaceandlove2017.com, port: 22875, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇸🇬 ⚡️SG新加坡 - 03 | Gemini - V2Board, server: za.peaceandlove2017.com, port: 28269, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇯🇵 ⚡️JP日本 - 01  | Gemini - V2Board, server: za.peaceandlove2017.com, port: 45983, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇯🇵 ⚡️JP日本 - 02 | HBO Max - V2Board, server: za.peaceandlove2017.com, port: 34075, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇯🇵 ⚡️JP日本 - 03 | Gemini - V2Board, server: za.peaceandlove2017.com, port: 48082, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇯🇵 ⚡️️JP日本 - 04 | Gemini - V2Board, server: za.peaceandlove2017.com, port: 13675, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇺🇸 ⚡️US美国 - 01  | ChatGPT - V2Board, server: za.peaceandlove2017.com, port: 16171, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ZTA0YmEwNjZhYzVkMmI0Yg==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇺🇸 ⚡️US美国 - 02 | ChatGPT - V2Board, server: za.peaceandlove2017.com, port: 23266, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇺🇸 ️⚡️US美国 - 03 | ChatGPT - V2Board, server: za.peaceandlove2017.com, port: 28107, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇺🇸 ⚡️US美国 - 04 | ChatGPT - V2Board, server: za.peaceandlove2017.com, port: 22440, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇺🇸 ⚡️US美国 - 05 | Gemini - V2Board, server: za.peaceandlove2017.com, port: 35515, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇰🇷 ⚡️KR韩国 | ChatGPT - V2Board, server: za.peaceandlove2017.com, port: 35230, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇹🇭 ⚡️️TH泰国 | Netflix - V2Board, server: za.peaceandlove2017.com, port: 42567, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇮🇳 ⚡️IN印度  | Netflix - V2Board, server: za.peaceandlove2017.com, port: 36571, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇻🇳 ⚡️VN越南  | ChatGPT - V2Board, server: za.peaceandlove2017.com, port: 24909, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇬🇧 ⚡️UK英国  | Netflix - V2Board, server: za.peaceandlove2017.com, port: 49657, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇩🇪 ⚡️️DE德国  | Disney - V2Board, server: za.peaceandlove2017.com, port: 45314, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇵🇱 ⚡️️PL波兰  | Disney - V2Board, server: za.peaceandlove2017.com, port: 46473, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇫🇮 ️⚡️FI芬兰  | ChatGPT - V2Board, server: za.peaceandlove2017.com, port: 14383, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇬🇷 ⚡️️GR希腊  | ChatGPT - V2Board, server: za.peaceandlove2017.com, port: 18236, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇨🇭 ⚡️️CH瑞士  | Disney - V2Board, server: za.peaceandlove2017.com, port: 20261, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇨🇱 ⚡️️CL智利  | Netflix - V2Board, server: za.peaceandlove2017.com, port: 52877, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇳🇴 ⚡️️NO挪威  | Netflix - V2Board, server: za.peaceandlove2017.com, port: 10054, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇮🇸 ⚡️️IS冰岛  | Netflix - V2Board, server: za.peaceandlove2017.com, port: 45556, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇨🇿 ⚡️️CZ捷克  | Netflix - V2Board, server: za.peaceandlove2017.com, port: 45128, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇳🇿 ⚡️️NZ新西兰  | Netflix - V2Board, server: za.peaceandlove2017.com, port: 56732, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇮🇹 ⚡️️IT意大利  | Netflix - V2Board, server: za.peaceandlove2017.com, port: 22899, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇦🇹 ⚡️️AT奥地利  | Disney - V2Board, server: za.peaceandlove2017.com, port: 34333, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇧🇪 ⚡️️BE比利时  | Disney - V2Board, server: za.peaceandlove2017.com, port: 38240, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇵🇹 ⚡️️PT葡萄牙  | Disney - V2Board, server: za.peaceandlove2017.com, port: 40873, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇪🇸 ⚡️️ES西班牙  | Netflix - V2Board, server: za.peaceandlove2017.com, port: 27409, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇮🇪 ⚡️️IE爱尔兰  | Disney - V2Board, server: za.peaceandlove2017.com, port: 12227, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇲🇽 ⚡️️MX墨西哥  | Netflix - V2Board, server: za.peaceandlove2017.com, port: 15725, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇷🇺 ⚡️️RU俄罗斯  | Netflix - V2Board, server: za.peaceandlove2017.com, port: 34056, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇺🇦 ⚡️️UA乌克兰  | ChatGPT - V2Board, server: za.peaceandlove2017.com, port: 40862, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇦🇿 ⚡️️AZ阿塞拜疆  | ChatGPT - V2Board, server: za.peaceandlove2017.com, port: 19037, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇦🇲 ⚡️️AM亚美尼亚 | Disney - V2Board, server: za.peaceandlove2017.com, port: 14497, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ZTA0YmEwNjZhYzVkMmI0Yg==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇲🇾 ⚡️️MY马来西亚  | Netflix - V2Board, server: za.peaceandlove2017.com, port: 41431, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇸🇦 ⚡️️SA沙特阿拉伯  | Netflix - V2Board, server: za.peaceandlove2017.com, port: 36960, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇸🇮 ⚡️SI斯洛文尼亚  | ChatGPT - V2Board, server: za.peaceandlove2017.com, port: 20234, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇦🇱 ⚡️️AL阿尔巴尼亚  | Disney - V2Board, server: za.peaceandlove2017.com, port: 37268, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇰🇿 ⚡️️KZ哈萨克斯坦  | Netflix - V2Board, server: za.peaceandlove2017.com, port: 22165, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇲🇰 ⚡️️MK北马其顿  | Disney - V2Board, server: za.peaceandlove2017.com, port: 33509, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇸🇰 ⚡️️SK斯洛伐克  | Disney - V2Board, server: za.peaceandlove2017.com, port: 24313, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇱🇻 ⚡️️LV拉脱维亚  | Disney - V2Board, server: za.peaceandlove2017.com, port: 58179, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇲🇩 ⚡️️MD摩尔多瓦  | ChatGPT - V2Board, server: za.peaceandlove2017.com, port: 50379, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇧🇬 ⚡️️BG保加利亚  | Netflix - V2Board, server: za.peaceandlove2017.com, port: 19253, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇭🇷 ⚡️️HR克罗地亚  | Disney - V2Board, server: za.peaceandlove2017.com, port: 61660, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇳🇬 ⚡️️NG尼日利亚  | ChatGPT - V2Board, server: za.peaceandlove2017.com, port: 17609, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇭🇰 🌈 HK香港 - 01 | 海外使用 - V2Board, server: hk-hgc.cdn-yx.buzz, port: 20052, type: trojan, password: 1a383df1-79ff-4f70-97b9-0cc867d45815, sni: hk-hgc.cdn-yx.buzz, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 🌈 HK香港 - 02 | 海外使用 - V2Board, server: hk-hkbn.cdn-yx.buzz, port: 20052, type: trojan, password: 1a383df1-79ff-4f70-97b9-0cc867d45815, sni: hk-hkbn.cdn-yx.buzz, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 🌈 JP日本 | 海外使用 - V2Board, server: jp--01.bmv0zmx554mb6yc8.com, port: 30001, type: vmess, uuid: 1a383df1-79ff-4f70-97b9-0cc867d45815, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 🌈 SG新加坡 | 海外使用 - V2Board, server: sg--01.bmv0zmx554mb6yc8.com, port: 30001, type: vmess, uuid: 1a383df1-79ff-4f70-97b9-0cc867d45815, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 Hong Kong | 1 - V2Board, server: global.digital-nvme.com, port: 39501, type: trojan, password: 841d69d2-8738-47be-94d5-ad5618bf407b, sni: mmbiz.qpic.cn, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 Singapore | 1 - V2Board, server: global.digital-nvme.com, port: 39502, type: trojan, password: 841d69d2-8738-47be-94d5-ad5618bf407b, sni: mmbiz.qpic.cn, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 Japan | 1 - V2Board, server: global.digital-nvme.com, port: 39503, type: trojan, password: 841d69d2-8738-47be-94d5-ad5618bf407b, sni: mmbiz.qpic.cn, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 United States | 1 - V2Board, server: global.digital-nvme.com, port: 39504, type: trojan, password: 841d69d2-8738-47be-94d5-ad5618bf407b, sni: mmbiz.qpic.cn, skip-cert-verify: true, udp: true}
-- {name: Tai wan | 1 - V2Board, server: global.digital-nvme.com, port: 39505, type: trojan, password: 841d69d2-8738-47be-94d5-ad5618bf407b, sni: mmbiz.qpic.cn, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国洛杉矶LA线路01 - V2Board, server: gzbgpww.v0tkrelay.top, port: 33691, type: ss, cipher: chacha20-ietf-poly1305, password: 9ce7b312-3a71-4e0b-b268-f609a7276718, udp: true}
-- {name: 🇸🇬 新加坡电信IEPL-02 - V2Board, server: gzbgpww.v0tkrelay.top, port: 34002, type: ss, cipher: chacha20-ietf-poly1305, password: 9ce7b312-3a71-4e0b-b268-f609a7276718, udp: true}
-- {name: '🇭🇰 香港CN2电信-TL-[id:7] - V2Board', server: gzbgpww.v0tkrelay.top, port: 36001, type: ss, cipher: chacha20-ietf-poly1305, password: 9ce7b312-3a71-4e0b-b268-f609a7276718, udp: true}
-- {name: '🇮🇩 User ID: 87 - V2Board', server: expired.example.com, port: 80, type: vmess, uuid: 8f8ee3aa-2f6f-4ba6-aed4-b61a4f2aac9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /expired, headers: {Host: expired.example.com}}, udp: true}
-- &id001 {name: Gói của bạn đã hết hạn - V2Board, server: expired.example.com, port: 80, type: vmess, uuid: c8efecfe-b9cb-4179-8630-6d21ecbed65e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /expired, headers: {Host: expired.example.com}}, udp: true}
-- {name: '🇮🇩 User ID: 86 - V2Board', server: expired.example.com, port: 80, type: vmess, uuid: c8efecfe-b9cb-4179-8630-6d21ecbed65e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /expired, headers: {Host: expired.example.com}}, udp: true}
+- &id012 {name: '🇯🇵 [trojan]JP - V2Board', server: jp.co2.vn, port: 443, type: trojan, password: def8da56-e195-4b17-81d9-e1facbfcff54, sni: www.linemo.jp, skip-cert-verify: true, udp: true}
+- &id001 {name: 🇭🇰 香港IEPL - V2Board, server: 110.242.74.102, port: 10001, type: ss, cipher: aes-256-gcm, password: 909ca374-501a-4a34-8c1e-a5be3cadbeb2, udp: true}
+- &id002 {name: 🇹🇼 🇨🇳 台湾IEPL - V2Board, server: 110.242.74.102, port: 10002, type: ss, cipher: aes-256-gcm, password: 909ca374-501a-4a34-8c1e-a5be3cadbeb2, udp: true}
+- &id003 {name: 🇯🇵 日本IEPL - V2Board, server: 110.242.74.102, port: 10003, type: ss, cipher: aes-256-gcm, password: 909ca374-501a-4a34-8c1e-a5be3cadbeb2, udp: true}
+- &id004 {name: 🇸🇬 新加坡IEPL - V2Board, server: 110.242.74.102, port: 10004, type: ss, cipher: aes-256-gcm, password: 909ca374-501a-4a34-8c1e-a5be3cadbeb2, udp: true}
+- &id005 {name: 🇺🇸 美国IEPL - V2Board, server: 110.242.74.102, port: 10005, type: ss, cipher: aes-256-gcm, password: 909ca374-501a-4a34-8c1e-a5be3cadbeb2, udp: true}
+- &id006 {name: 🇩🇪 德国-法兰克福-001 - V2Board, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 2878a25a-1a19-4673-8ce1-13f95c7d7d92, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
+- &id007 {name: 🇩🇪 德国-法兰克福-002 - V2Board, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 2878a25a-1a19-4673-8ce1-13f95c7d7d92, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
+- &id008 {name: 🇩🇪 德国-法兰克福-003 - V2Board, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 2878a25a-1a19-4673-8ce1-13f95c7d7d92, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+- &id009 {name: 🇩🇪 德国-法兰克福-004 - V2Board, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 2878a25a-1a19-4673-8ce1-13f95c7d7d92, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+- &id010 {name: ❤️故障报修邮箱❤️ - V2Board, server: pdgzb.cmvvb.online, port: 8080, type: vmess, uuid: 2878a25a-1a19-4673-8ce1-13f95c7d7d92, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pdgzb.cmvvb.online}}, udp: true}
+- &id011 {name: ℹ️ 邮箱:louwangzhiyu.org@gmail.com - V2Board, server: snhkg.cmvvb.online, port: 8080, type: vmess, uuid: 2878a25a-1a19-4673-8ce1-13f95c7d7d92, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: snhkg.cmvvb.online}}, udp: true}
+- &id033 {name: 🌐 اشتراک شما تمام شده 🌐 - V2Board, server: thugiping.info, port: 80, type: vmess, uuid: 6c5a51e1-be1f-4903-adb2-3b521e62b867, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: thugiping.info}}, udp: true}
 - *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- &id013 {name: ℹ️ 0403地址公告fa邮件topman8848@gmail.com - V2Board, server: 77.110.125.140, port: 42201, type: trojan, password: 95d569e2-6a05-4079-8e02-8c52127ca932, sni: osxapps.itunes.apple.com, skip-cert-verify: true, udp: true}
+- &id014 {name: 'SS3[测试] - V2Board', server: 77.110.125.140, port: 33003, type: ss, cipher: chacha20-ietf-poly1305, password: 95d569e2-6a05-4079-8e02-8c52127ca932, udp: true}
+- &id015 {name: ℹ️ 只有V节点的要换官网软件 - V2Board, server: 77.110.119.112, port: 18888, type: vmess, uuid: 95d569e2-6a05-4079-8e02-8c52127ca932, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id016 {name: ℹ️ 小火箭要升级版本 - V2Board, server: 87.120.204.135, port: 42102, type: vmess, uuid: 95d569e2-6a05-4079-8e02-8c52127ca932, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id017 {name: ℹ️ V最新地址【jooy.cc】 - V2Board, server: v3.toppp.cc, port: 42103, type: vmess, uuid: 95d569e2-6a05-4079-8e02-8c52127ca932, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id018 {name: ℹ️ V地址公告fa邮件topman8848@gmail.com - V2Board, server: 77.110.109.168, port: 42104, type: vmess, uuid: 95d569e2-6a05-4079-8e02-8c52127ca932, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id019 {name: 🇹🇼 V这里是新平台 - V2Board, server: 5.102.124.129, port: 42105, type: vmess, uuid: 95d569e2-6a05-4079-8e02-8c52127ca932, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id020 {name: 🇰🇷 韩KR【新软件有L2节点】 - V2Board, server: v6.toppp.cc, port: 42106, type: vmess, uuid: 95d569e2-6a05-4079-8e02-8c52127ca932, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id021 {name: 🇭🇰 V港HK7 - V2Board, server: v7.toppp.cc, port: 42107, type: vmess, uuid: 95d569e2-6a05-4079-8e02-8c52127ca932, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id022 {name: 🇯🇵 V日JP8【未标注都是1倍节点】 - V2Board, server: v8.toppp.cc, port: 42108, type: vmess, uuid: 95d569e2-6a05-4079-8e02-8c52127ca932, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id023 {name: 🇸🇬 V新SG9 - V2Board, server: v9.toppp.cc, port: 42109, type: vmess, uuid: 95d569e2-6a05-4079-8e02-8c52127ca932, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id024 {name: 🇹🇼 V台TW10 - V2Board, server: v10.toppp.cc, port: 42110, type: vmess, uuid: 95d569e2-6a05-4079-8e02-8c52127ca932, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id025 {name: 🇹🇼 ipv6台TW11 - V2Board, server: v11.toppp.cc, port: 42111, type: vmess, uuid: 95d569e2-6a05-4079-8e02-8c52127ca932, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id026 {name: '🇭🇰 ipv6港HK12[手机流量可用] - V2Board', server: v12.toppp.cc, port: 42112, type: vmess, uuid: 95d569e2-6a05-4079-8e02-8c52127ca932, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id027 {name: 🇺🇸 ipv6美US13 - V2Board, server: v12.toppp.cc, port: 42113, type: vmess, uuid: 95d569e2-6a05-4079-8e02-8c52127ca932, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id028 {name: 🇯🇵 V日JP14 - V2Board, server: vm3.doooo.top, port: 42114, type: vmess, uuid: 95d569e2-6a05-4079-8e02-8c52127ca932, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id029 {name: 🇯🇵 V日JP15 - V2Board, server: vm3.doooo.top, port: 42115, type: vmess, uuid: 95d569e2-6a05-4079-8e02-8c52127ca932, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id030 {name: 🇺🇸 V美US16 - V2Board, server: vm3.doooo.top, port: 42116, type: vmess, uuid: 95d569e2-6a05-4079-8e02-8c52127ca932, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id031 {name: 🇺🇸 V美US17 - V2Board, server: vm3.doooo.top, port: 42117, type: vmess, uuid: 95d569e2-6a05-4079-8e02-8c52127ca932, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id032 {name: 🇺🇸 V美US18 - V2Board, server: v18.toppp.cc, port: 42118, type: vmess, uuid: 95d569e2-6a05-4079-8e02-8c52127ca932, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- *id012
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id013
+- *id014
+- *id015
+- *id016
+- *id017
+- *id018
+- *id019
+- *id020
+- *id021
+- *id022
+- *id023
+- *id024
+- *id025
+- *id026
+- *id027
+- *id028
+- *id029
+- *id030
+- *id031
+- *id032
+- *id033
+- {name: 🇮🇩 苹果ID账号：aconguyen6z8@icloud.com密码：Yenc3d99hg - V2Board, server: rhfghfghfg, port: 1424, type: ss, cipher: chacha20-ietf-poly1305, password: 8a6a9591-7d5e-42b0-8782-44f7ebcf99bb, udp: true}
+- {name: 🇮🇩 苹果ID账号：jilliancookwtwrf@icloud.com密码：2kfZWS2bhf - V2Board, server: sdgjlkdsgg, port: 6331, type: ss, cipher: chacha20-ietf-poly1305, password: 8a6a9591-7d5e-42b0-8782-44f7ebcf99bb, udp: true}
+- {name: 🇯🇵 v6 | 日本1 - V2Board, server: bjp61.ncybk.app, port: 48293, type: ss, cipher: aes-128-gcm, password: 14ecb86d-3e49-4439-8c19-df6797508ba6, udp: true}
+- {name: 🇯🇵 ss | 日本 | 1 - V2Board, server: bjp21.vncky.app, port: 48982, type: ss, cipher: aes-256-gcm, password: 14ecb86d-3e49-4439-8c19-df6797508ba6, udp: true}
+- {name: 🇯🇵 ss | 日本 | 2 - V2Board, server: bjp22.vncky.app, port: 48985, type: ss, cipher: aes-256-gcm, password: 14ecb86d-3e49-4439-8c19-df6797508ba6, udp: true}
+- {name: 🇸🇬 ss | 新加坡 | 1 - V2Board, server: bsg21.vncky.app, port: 48986, type: ss, cipher: aes-256-gcm, password: 14ecb86d-3e49-4439-8c19-df6797508ba6, udp: true}
+- {name: 🇺🇸 ss | 美国 | 1 - V2Board, server: bus21.vncky.app, port: 48987, type: ss, cipher: aes-256-gcm, password: 14ecb86d-3e49-4439-8c19-df6797508ba6, udp: true}
+- {name: 🇹🇼 ss | 台湾 | 1 - V2Board, server: btw21.vncky.app, port: 48984, type: ss, cipher: aes-256-gcm, password: 14ecb86d-3e49-4439-8c19-df6797508ba6, udp: true}
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id013
+- *id014
+- *id015
+- *id016
+- *id017
+- *id018
+- *id019
+- *id020
+- *id021
+- *id022
+- *id023
+- *id024
+- *id025
+- *id026
+- *id027
+- *id028
+- *id029
+- *id030
+- *id031
+- *id032
+- {name: 'Node [193.123.95.170] - V2Board', server: 193.123.95.170, port: 14471, type: vmess, uuid: fff3ec87-cf2b-4b48-97b4-6ad262988c4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws-path}, udp: true}
+- {name: 'Node [158.101.7.73] - V2Board', server: 158.101.7.73, port: 11176, type: vmess, uuid: fff3ec87-cf2b-4b48-97b4-6ad262988c4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws-path}, udp: true}
+- {name: 'Node [152.69.206.73] - V2Board', server: 152.69.206.73, port: 12794, type: vmess, uuid: fff3ec87-cf2b-4b48-97b4-6ad262988c4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws-path}, udp: true}
+- {name: 'Node [152.67.218.216] - V2Board', server: 152.67.218.216, port: 17992, type: vmess, uuid: fff3ec87-cf2b-4b48-97b4-6ad262988c4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws-path}, udp: true}
+- {name: 'Node [141.144.232.190] - V2Board', server: 141.144.232.190, port: 13529, type: vmess, uuid: fff3ec87-cf2b-4b48-97b4-6ad262988c4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws-path}, udp: true}
+- {name: 'Node [132.145.99.228] - V2Board', server: 132.145.99.228, port: 13724, type: vmess, uuid: fff3ec87-cf2b-4b48-97b4-6ad262988c4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws-path}, udp: true}
+- {name: 'Node [129.151.158.174] - V2Board', server: 129.151.158.174, port: 15175, type: vmess, uuid: fff3ec87-cf2b-4b48-97b4-6ad262988c4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws-path}, udp: true}
+- {name: 'Node [129.151.253.134] - V2Board', server: 129.151.253.134, port: 15069, type: vmess, uuid: fff3ec87-cf2b-4b48-97b4-6ad262988c4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws-path}, udp: true}
+- {name: 'Node [129.80.193.177] - V2Board', server: 129.80.193.177, port: 13203, type: vmess, uuid: fff3ec87-cf2b-4b48-97b4-6ad262988c4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws-path}, udp: true}
+- {name: 'Node [152.67.161.155] - V2Board', server: 152.67.161.155, port: 17355, type: vmess, uuid: fff3ec87-cf2b-4b48-97b4-6ad262988c4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws-path}, udp: true}
+- {name: 'Node [158.101.229.162] - V2Board', server: 158.101.229.162, port: 15227, type: vmess, uuid: fff3ec87-cf2b-4b48-97b4-6ad262988c4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws-path}, udp: true}
+- {name: 'Node [152.70.53.233] - V2Board', server: 152.70.53.233, port: 11959, type: vmess, uuid: fff3ec87-cf2b-4b48-97b4-6ad262988c4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws-path}, udp: true}
+- {name: 'Node [168.138.68.36] - V2Board', server: 168.138.68.36, port: 14252, type: vmess, uuid: fff3ec87-cf2b-4b48-97b4-6ad262988c4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws-path}, udp: true}
+- {name: 'Node [129.152.13.117] - V2Board', server: 129.152.13.117, port: 11691, type: vmess, uuid: fff3ec87-cf2b-4b48-97b4-6ad262988c4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws-path}, udp: true}
+- {name: 'Node [129.151.70.113] - V2Board', server: 129.151.70.113, port: 18968, type: vmess, uuid: fff3ec87-cf2b-4b48-97b4-6ad262988c4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ws-path}, udp: true}
+- {name: 🇺🇸 美国直连ss - V2Board, server: us1-ss.flyparts.cn, port: 10020, type: ss, cipher: chacha20-ietf-poly1305, password: 72cc0df7-a248-4c6f-8875-de53da0a2806, udp: true}
+- {name: 🇺🇸 美国直连V2 - V2Board, server: us1-ss.flyparts.cn, port: 10022, type: vmess, uuid: 72cc0df7-a248-4c6f-8875-de53da0a2806, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us1-ss.flyparts.cn}}, udp: true}
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- *id033
+- {name: 🇺🇸 US01 - V2Board, server: ne-cbe4k7vz.neurix.sbs, port: 10000, type: vmess, uuid: 2c134187-ade5-477e-b708-e69131db64be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us01.neurix.icu, udp: true}
+- {name: 🇺🇸 US02 - V2Board, server: ne-cbe4k7vz.neurix.sbs, port: 10001, type: vmess, uuid: 2c134187-ade5-477e-b708-e69131db64be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us02.neurix.icu, udp: true}
+- {name: 🇺🇸 US03 - V2Board, server: ne-cbe4k7vz.neurix.sbs, port: 10002, type: vmess, uuid: 2c134187-ade5-477e-b708-e69131db64be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us03.neurix.icu, udp: true}
+- {name: 🇺🇸 US04 - V2Board, server: ne-cbe4k7vz.neurix.sbs, port: 10003, type: vmess, uuid: 2c134187-ade5-477e-b708-e69131db64be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us04.neurix.icu, udp: true}
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- {name: xqnqn.com防失联 - V2Board, server: 001.limenodebgp.com, port: 30601, type: ss, cipher: aes-128-gcm, password: a59e5174-b8c3-400e-a855-714c59f8ba3b, udp: true}
+- {name: 🇯🇵 日本一 - V2Board, server: 001.limenodebgp.com, port: 30601, type: ss, cipher: aes-128-gcm, password: a59e5174-b8c3-400e-a855-714c59f8ba3b, udp: true}
+- {name: 🇯🇵 日本二 - V2Board, server: 002.limenodebgp.com, port: 30602, type: ss, cipher: aes-128-gcm, password: a59e5174-b8c3-400e-a855-714c59f8ba3b, udp: true}
+- {name: 🇯🇵 日本三 - V2Board, server: 003.limenodebgp.com, port: 30603, type: ss, cipher: aes-128-gcm, password: a59e5174-b8c3-400e-a855-714c59f8ba3b, udp: true}
+- {name: 🇯🇵 日本四 - V2Board, server: 004.limenodebgp.com, port: 30604, type: ss, cipher: aes-128-gcm, password: a59e5174-b8c3-400e-a855-714c59f8ba3b, udp: true}
+- {name: 🇯🇵 日本五 - V2Board, server: 005.limenodebgp.com, port: 30605, type: ss, cipher: aes-128-gcm, password: a59e5174-b8c3-400e-a855-714c59f8ba3b, udp: true}
+- {name: 🇯🇵 日本六 - V2Board, server: 006.limenodebgp.com, port: 30606, type: ss, cipher: aes-128-gcm, password: a59e5174-b8c3-400e-a855-714c59f8ba3b, udp: true}
+- {name: 🇭🇰 香港一 - V2Board, server: 01.limenodebgp.com, port: 30607, type: ss, cipher: aes-128-gcm, password: a59e5174-b8c3-400e-a855-714c59f8ba3b, udp: true}
+- {name: 🇭🇰 香港二 - V2Board, server: 02.limenodebgp.com, port: 30608, type: ss, cipher: aes-128-gcm, password: a59e5174-b8c3-400e-a855-714c59f8ba3b, udp: true}
+- {name: 🇭🇰 香港三 - V2Board, server: 03.limenodebgp.com, port: 30609, type: ss, cipher: aes-128-gcm, password: a59e5174-b8c3-400e-a855-714c59f8ba3b, udp: true}
+- {name: 🇭🇰 香港四 - V2Board, server: 04.limenodebgp.com, port: 30610, type: ss, cipher: aes-128-gcm, password: a59e5174-b8c3-400e-a855-714c59f8ba3b, udp: true}
+- {name: 🇭🇰 香港五 - V2Board, server: 05.limenodebgp.com, port: 30611, type: ss, cipher: aes-128-gcm, password: a59e5174-b8c3-400e-a855-714c59f8ba3b, udp: true}
+- {name: 🇭🇰 香港六 - V2Board, server: 06.limenodebgp.com, port: 30612, type: ss, cipher: aes-128-gcm, password: a59e5174-b8c3-400e-a855-714c59f8ba3b, udp: true}
+- {name: 🇭🇰 香港七 - V2Board, server: 07.limenodebgp.com, port: 30613, type: ss, cipher: aes-128-gcm, password: a59e5174-b8c3-400e-a855-714c59f8ba3b, udp: true}
+- {name: 🇭🇰 香港八 - V2Board, server: 08.limenodebgp.com, port: 30614, type: ss, cipher: aes-128-gcm, password: a59e5174-b8c3-400e-a855-714c59f8ba3b, udp: true}
+- {name: 🇺🇸 美国一 - V2Board, server: 001.limenodebgp.com, port: 30615, type: ss, cipher: aes-128-gcm, password: a59e5174-b8c3-400e-a855-714c59f8ba3b, udp: true}
+- {name: 🇺🇸 美国二 - V2Board, server: 002.limenodebgp.com, port: 30616, type: ss, cipher: aes-128-gcm, password: a59e5174-b8c3-400e-a855-714c59f8ba3b, udp: true}
+- {name: 🇺🇸 美国三 - V2Board, server: 003.limenodebgp.com, port: 30617, type: ss, cipher: aes-128-gcm, password: a59e5174-b8c3-400e-a855-714c59f8ba3b, udp: true}
+- {name: 🇺🇸 美国四 - V2Board, server: 004.limenodebgp.com, port: 30618, type: ss, cipher: aes-128-gcm, password: a59e5174-b8c3-400e-a855-714c59f8ba3b, udp: true}
+- {name: 🇺🇸 美国五 - V2Board, server: 005.limenodebgp.com, port: 30619, type: ss, cipher: aes-128-gcm, password: a59e5174-b8c3-400e-a855-714c59f8ba3b, udp: true}
+- {name: 🇺🇸 美国六 - V2Board, server: 006.limenodebgp.com, port: 30620, type: ss, cipher: aes-128-gcm, password: a59e5174-b8c3-400e-a855-714c59f8ba3b, udp: true}
+- {name: 🇸🇬 新加坡一 - V2Board, server: 01.limenodebgp.com, port: 30621, type: ss, cipher: aes-128-gcm, password: a59e5174-b8c3-400e-a855-714c59f8ba3b, udp: true}
+- {name: 🇸🇬 新加坡二 - V2Board, server: 02.limenodebgp.com, port: 30622, type: ss, cipher: aes-128-gcm, password: a59e5174-b8c3-400e-a855-714c59f8ba3b, udp: true}
+- {name: 🇸🇬 新加坡三 - V2Board, server: 03.limenodebgp.com, port: 30623, type: ss, cipher: aes-128-gcm, password: a59e5174-b8c3-400e-a855-714c59f8ba3b, udp: true}
+- {name: 🇸🇬 新加坡四 - V2Board, server: 04.limenodebgp.com, port: 30624, type: ss, cipher: aes-128-gcm, password: a59e5174-b8c3-400e-a855-714c59f8ba3b, udp: true}
+- {name: 🇸🇬 新加坡五 - V2Board, server: 05.limenodebgp.com, port: 30625, type: ss, cipher: aes-128-gcm, password: a59e5174-b8c3-400e-a855-714c59f8ba3b, udp: true}
+- {name: 🇸🇬 新加坡六 - V2Board, server: 06.limenodebgp.com, port: 30626, type: ss, cipher: aes-128-gcm, password: a59e5174-b8c3-400e-a855-714c59f8ba3b, udp: true}
+- {name: 🇹🇼 台湾一 - V2Board, server: 01.limenodebgp.com, port: 30628, type: ss, cipher: aes-128-gcm, password: a59e5174-b8c3-400e-a855-714c59f8ba3b, udp: true}
+- {name: 🇹🇼 台湾二 - V2Board, server: 02.limenodebgp.com, port: 30629, type: ss, cipher: aes-128-gcm, password: a59e5174-b8c3-400e-a855-714c59f8ba3b, udp: true}
+- {name: 🇰🇷 韩国一 - V2Board, server: 001.limenodebgp.com, port: 30630, type: ss, cipher: aes-128-gcm, password: a59e5174-b8c3-400e-a855-714c59f8ba3b, udp: true}
+- {name: 🇰🇷 韩国二 - V2Board, server: 002.limenodebgp.com, port: 30631, type: ss, cipher: aes-128-gcm, password: a59e5174-b8c3-400e-a855-714c59f8ba3b, udp: true}

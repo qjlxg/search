@@ -1,8 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇺🇸 ⚡️US美国 - 01  | ChatGPT - V2Board, server: za.peaceandlove2017.com, port: 16171, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ZTA0YmEwNjZhYzVkMmI0Yg==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇺🇸 ⚡️US美国 - 02 | ChatGPT - V2Board, server: za.peaceandlove2017.com, port: 23266, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇺🇸 ️⚡️US美国 - 03 | ChatGPT - V2Board, server: za.peaceandlove2017.com, port: 28107, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇺🇸 ⚡️US美国 - 04 | ChatGPT - V2Board, server: za.peaceandlove2017.com, port: 22440, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
-- {name: 🇺🇸 ⚡️US美国 - 05 | Gemini - V2Board, server: za.peaceandlove2017.com, port: 35515, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}

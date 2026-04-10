@@ -1,5 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇹🇼 V1 | 台湾1 - V2Board, server: tw91.appmimi.com, port: 49021, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
-- {name: 🇹🇼 V1 | 台湾2 - V2Board, server: tw92.appmimi.com, port: 49022, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}

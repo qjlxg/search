@@ -1,0 +1,9 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇩🇪 德国-法兰克福-001 - V2Board, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 2878a25a-1a19-4673-8ce1-13f95c7d7d92, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
+- {name: 🇩🇪 德国-法兰克福-002 - V2Board, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 2878a25a-1a19-4673-8ce1-13f95c7d7d92, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
+- {name: 🇩🇪 德国-法兰克福-003 - V2Board, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 2878a25a-1a19-4673-8ce1-13f95c7d7d92, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+- {name: 🇩🇪 德国-法兰克福-004 - V2Board, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 2878a25a-1a19-4673-8ce1-13f95c7d7d92, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+- {name: ❤️故障报修邮箱❤️ - V2Board, server: pdgzb.cmvvb.online, port: 8080, type: vmess, uuid: 2878a25a-1a19-4673-8ce1-13f95c7d7d92, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pdgzb.cmvvb.online}}, udp: true}
+- {name: ℹ️ 邮箱:louwangzhiyu.org@gmail.com - V2Board, server: snhkg.cmvvb.online, port: 8080, type: vmess, uuid: 2878a25a-1a19-4673-8ce1-13f95c7d7d92, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: snhkg.cmvvb.online}}, udp: true}
