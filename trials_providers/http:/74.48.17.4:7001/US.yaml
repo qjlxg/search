@@ -1,0 +1,4 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇺🇸 美国02 - V2Board, server: shayu.us-2.798777.xyz, port: 11001, type: hysteria2, ports: 11001, password: d74a79aa-f0a0-44c9-8509-789eed778d61, sni: 798777.xyz, skip-cert-verify: true, udp: true}

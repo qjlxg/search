@@ -1,0 +1,5 @@
+%YAML 1.2
+---
+proxies:
+- {name: '🇫🇷 [ss]法国 - V2Board', server: 154.3.37.100, port: 26307, type: ss, cipher: 2022-blake3-aes-256-gcm, password: MjEzMDgzMzFjMmZhNGExYjAyNmM3ZDdjYzFmZmY4YWE=:ZTYyYTQ4Y2UtNmZkMC00MmI1LWJlNjEtNWZkMDA4YjM=, udp: true}
+- {name: '🇫🇷 [ss]FR.OVH - V2Board', server: 37.187.31.49, port: 45400, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YjQyNDdhODRjNWEzZjBmNg==:ZTYyYTQ4Y2UtNmZkMC00Mg==, udp: true}
