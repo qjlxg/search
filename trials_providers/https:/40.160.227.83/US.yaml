@@ -1,0 +1,4 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇺🇸 美国 中转 | JP-FWD - V2Board, server: tuntro005.instconn.com, port: 10863, type: trojan, password: 95a0bfa0-0b03-470d-9c5d-864f6e586a8c, sni: grid.983305.jasmine-douyin.top, skip-cert-verify: true, udp: true}

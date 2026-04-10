@@ -1,0 +1,6 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇭🇰 HK-SW - V2Board, server: hk.yinxingye.xyz, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 3ad5b8a4-a2e6-4006-9cb6-1a3a6ec6660a, udp: true}
+- {name: 🇭🇰 HK-VM - V2Board, server: hk1.yinxingye.xyz, port: 8088, type: vmess, uuid: 3ad5b8a4-a2e6-4006-9cb6-1a3a6ec6660a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.yinxingye.xyz, udp: true}
+- {name: 🇭🇰 HK-TRO - V2Board, server: hk2.yinxingye.xyz, port: 8888, type: trojan, password: 3ad5b8a4-a2e6-4006-9cb6-1a3a6ec6660a, sni: hk2.yinxingye.xyz, skip-cert-verify: true, udp: true}

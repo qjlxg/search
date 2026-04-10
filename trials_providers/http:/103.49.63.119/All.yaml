@@ -1,0 +1,4 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇺🇸 US-198-V2Node-SS - V2Board, server: 198.44.171.134, port: 2443, type: hysteria2, ports: 2443, password: 1023a67e-e331-4a13-a51f-fbb508f1e840, sni: 198.44.171.134, skip-cert-verify: true, udp: true}

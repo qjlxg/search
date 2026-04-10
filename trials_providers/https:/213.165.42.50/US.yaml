@@ -1,0 +1,5 @@
+%YAML 1.2
+---
+proxies:
+- {name: '🇺🇸USA #2 - SS - V2Board', server: 152.53.89.167, port: 2323, type: ss, cipher: aes-256-gcm, password: df6b2874-f4ae-4a8e-ae0f-82599c31a893, udp: true}
+- {name: 🇺🇸USA - SS - V2Board, server: 152.53.52.21, port: 2323, type: ss, cipher: aes-256-gcm, password: df6b2874-f4ae-4a8e-ae0f-82599c31a893, udp: true}
