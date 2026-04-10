@@ -1,7 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇸🇬 IEPL| 新加坡 - V2Board, server: 47.74.128.123, port: 52416, type: ss, cipher: aes-128-gcm, password: f4g9rnwf9gtgweg5g66h, udp: true}
-- {name: 🇸🇬 SG-443-Trojan-WS-TLS - V2Board, server: 8.220.134.136, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
-- {name: 🇸🇬 专线A1-新加坡1-3倍率 - V2Board, server: zf.sg-iepl.com, port: 35058, type: ss, cipher: chacha20-ietf-poly1305, password: b0c5db43-9f33-47ab-be62-e9811359ce35, udp: true}
-- {name: 🇸🇬 专线A1-新加坡2-3倍率 - V2Board, server: zf.sg-iepl.com, port: 57598, type: ss, cipher: chacha20-ietf-poly1305, password: b0c5db43-9f33-47ab-be62-e9811359ce35, udp: true}

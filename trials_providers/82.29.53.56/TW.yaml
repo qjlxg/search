@@ -1,0 +1,6 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇹🇼 ⚡️TW台湾 - 01  | Netflix - V2Board, server: za.peaceandlove2017.com, port: 56749, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇹🇼 ️⚡️TW台湾 - 02 | Netflix - V2Board, server: za.peaceandlove2017.com, port: 25417, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇹🇼 ⚡️TW台湾 - 03 | Netflix - V2Board, server: za.peaceandlove2017.com, port: 24521, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}

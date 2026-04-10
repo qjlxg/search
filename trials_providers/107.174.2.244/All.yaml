@@ -1,4 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇯🇵 hy-日本(三网优化+加密) - V2Board, server: jp01.pkgvps.dpdns.org, port: 8443, type: hysteria2, ports: 8443, password: 76e7a71d-73cf-42b4-8772-5289f0433b1f, sni: jp01.pkgvps.dpdns.org, skip-cert-verify: true, udp: true}

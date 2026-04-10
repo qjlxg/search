@@ -1,13 +1,17 @@
 %YAML 1.2
 ---
 proxies:
-- {name: 🇯🇵 hy-日本(三网优化+加密) - V2Board, server: jp01.pkgvps.dpdns.org, port: 8443, type: hysteria2, ports: 8443, password: 76e7a71d-73cf-42b4-8772-5289f0433b1f, sni: jp01.pkgvps.dpdns.org, skip-cert-verify: true, udp: true}
-- &id001 {name: 🇯🇵 日本IEPL - V2Board, server: 110.242.74.102, port: 10003, type: ss, cipher: aes-256-gcm, password: 909ca374-501a-4a34-8c1e-a5be3cadbeb2, udp: true}
-- *id001
-- {name: 🇯🇵移动优化|测试节点 - V2Board, server: 154.83.94.7, port: 30043, type: ss, cipher: chacha20-ietf-poly1305, password: 2ae1cf9b-4d05-4d4a-bc98-7c6d11efbf5d, udp: true}
-- *id001
-- {name: 🇯🇵 专线A1-日本1-3倍率 - V2Board, server: zf.sg-iepl.com, port: 22168, type: ss, cipher: chacha20-ietf-poly1305, password: b0c5db43-9f33-47ab-be62-e9811359ce35, udp: true}
-- {name: 🇯🇵 专线A1-日本2-3倍率 - V2Board, server: zf.sg-iepl.com, port: 42721, type: ss, cipher: chacha20-ietf-poly1305, password: b0c5db43-9f33-47ab-be62-e9811359ce35, udp: true}
-- {name: 🇯🇵 专线A1-日本3-流媒体全解锁3倍率 - V2Board, server: zf.sg-iepl.com, port: 58490, type: ss, cipher: chacha20-ietf-poly1305, password: b0c5db43-9f33-47ab-be62-e9811359ce35, udp: true}
-- {name: 🇯🇵 专线A1-日本4-家宽IP视频AI全解锁Tiktok运营数据好-3倍率 - V2Board, server: zf.sg-iepl.com, port: 8641, type: ss, cipher: chacha20-ietf-poly1305, password: b0c5db43-9f33-47ab-be62-e9811359ce35, udp: true}
-- *id001
+- {name: 🇯🇵 V日JP8【未标注都是1倍节点】 - V2Board, server: v8.toppp.cc, port: 42108, type: vmess, uuid: 00e465c9-af0e-472f-9adb-b465ee528e63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 V日JP14 - V2Board, server: vm3.doooo.top, port: 42114, type: vmess, uuid: 00e465c9-af0e-472f-9adb-b465ee528e63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 V日JP15 - V2Board, server: vm3.doooo.top, port: 42115, type: vmess, uuid: 00e465c9-af0e-472f-9adb-b465ee528e63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 V1 | 日本1 - V2Board, server: 162.141.131.89, port: 19201, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
+- {name: 🇯🇵 V1 | 日本2 - V2Board, server: jp92.appmimi.com, port: 49032, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
+- {name: 🇯🇵 V1 | 日本3 - V2Board, server: jp93.appmimi.com, port: 49033, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
+- {name: 🇯🇵 V1 | 日本4 - V2Board, server: jp94.appmimi.com, port: 49034, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
+- {name: 🇯🇵 V1 | 日本5 - V2Board, server: jp95.appmimi.com, port: 49040, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
+- {name: 🇯🇵 ⚡️JP日本 - 01  | Gemini - V2Board, server: za.peaceandlove2017.com, port: 45983, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇯🇵 ⚡️JP日本 - 02 | HBO Max - V2Board, server: za.peaceandlove2017.com, port: 34075, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇯🇵 ⚡️JP日本 - 03 | Gemini - V2Board, server: za.peaceandlove2017.com, port: 48082, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇯🇵 ⚡️️JP日本 - 04 | Gemini - V2Board, server: za.peaceandlove2017.com, port: 13675, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇯🇵 🌈 JP日本 | 海外使用 - V2Board, server: jp--01.bmv0zmx554mb6yc8.com, port: 30001, type: vmess, uuid: 1a383df1-79ff-4f70-97b9-0cc867d45815, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 Japan | 1 - V2Board, server: global.digital-nvme.com, port: 39503, type: trojan, password: 841d69d2-8738-47be-94d5-ad5618bf407b, sni: mmbiz.qpic.cn, skip-cert-verify: true, udp: true}

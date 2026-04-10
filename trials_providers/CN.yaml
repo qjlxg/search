@@ -1,36 +1,39 @@
 %YAML 1.2
 ---
 proxies:
-- &id001 {name: 🇭🇰 香港IEPL - V2Board, server: 110.242.74.102, port: 10001, type: ss, cipher: aes-256-gcm, password: 909ca374-501a-4a34-8c1e-a5be3cadbeb2, udp: true}
-- &id002 {name: 🇹🇼 🇨🇳 台湾IEPL - V2Board, server: 110.242.74.102, port: 10002, type: ss, cipher: aes-256-gcm, password: 909ca374-501a-4a34-8c1e-a5be3cadbeb2, udp: true}
-- *id001
-- *id002
-- {name: 🇹🇼台湾住宅家宽01 - V2Board, server: 151.242.165.213, port: 30039, type: ss, cipher: chacha20-ietf-poly1305, password: 2ae1cf9b-4d05-4d4a-bc98-7c6d11efbf5d, udp: true}
-- {name: '🇭🇰 [vmess]香港测试vmess - V2Board', server: site03.ps66.uk, port: 58089, type: vmess, uuid: 2e8cb2ce-2d62-48b6-aec5-06f23075b9bb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /edu, headers: {Host: site03.ps66.uk}}, udp: true}
-- {name: 🇭🇰 移动-HKG-443-Trojan-WS-TLS - V2Board, server: 104.18.93.94, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
-- {name: 🇭🇰 移动-HKG-80-Trojan-WS - V2Board, server: 104.18.93.94, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
-- {name: 🇭🇰 移动-HKG-443-Trojan-WS-TLS - V2Board 2, server: 104.16.156.124, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
-- {name: 🇭🇰 移动-HKG-80-Trojan-WS - V2Board 2, server: 104.16.156.124, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
-- {name: 🇭🇰 移动-HKG-443-Trojan-WS-TLS - V2Board 3, server: 104.17.54.193, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
-- {name: 🇭🇰 移动-HKG-80-Trojan-WS - V2Board 3, server: 104.17.54.193, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
-- {name: 🇭🇰 移动-HKG-443-Trojan-WS-TLS - V2Board 4, server: 104.16.147.44, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
-- {name: 🇭🇰 移动-HKG-80-Trojan-WS - V2Board 4, server: 104.16.147.44, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
-- {name: 🇭🇰 移动-HKG-443-Trojan-WS-TLS - V2Board 5, server: 104.17.152.193, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
-- {name: 🇭🇰 移动-HKG-80-Trojan-WS - V2Board 5, server: 104.17.152.193, port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
-- {name: 🇭🇰 移动-HKG-443-Trojan-WS-TLS - V2Board 6, server: '[2606:4700:57::264e:b821]', port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
-- {name: 🇭🇰 移动-HKG-80-Trojan-WS - V2Board 6, server: '[2606:4700:57::264e:b821]', port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
-- {name: 🇭🇰 移动-HKG-443-Trojan-WS-TLS - V2Board 7, server: '[2606:4700:57::efe3:6f91]', port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
-- {name: 🇭🇰 移动-HKG-80-Trojan-WS - V2Board 7, server: '[2606:4700:57::efe3:6f91]', port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
-- {name: 🇭🇰 移动-HKG-443-Trojan-WS-TLS - V2Board 8, server: '[2606:4700:57::4dc4:e8d7]', port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
-- {name: 🇭🇰 移动-HKG-80-Trojan-WS - V2Board 8, server: '[2606:4700:57::4dc4:e8d7]', port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
-- {name: 🇭🇰 移动-HKG-443-Trojan-WS-TLS - V2Board 9, server: '[2606:4700:57::2240:e886]', port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
-- {name: 🇭🇰 移动-HKG-80-Trojan-WS - V2Board 9, server: '[2606:4700:57::2240:e886]', port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
-- {name: 🇭🇰 移动-HKG-443-Trojan-WS-TLS - V2Board 10, server: '[2606:4700:57::4917:98c]', port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
-- {name: 🇭🇰 移动-HKG-80-Trojan-WS - V2Board 10, server: '[2606:4700:57::4917:98c]', port: 80, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048}, udp: true}
-- *id001
-- *id002
-- {name: 🇹🇼 专线A1-台湾1-流媒体全解锁TikTok优秀3倍率 - V2Board, server: zf.sg-iepl.com, port: 13599, type: ss, cipher: chacha20-ietf-poly1305, password: b0c5db43-9f33-47ab-be62-e9811359ce35, udp: true}
-- {name: 🇭🇰 专线A1-香港3-极纯家宽IP支持Cityline流媒体全解锁-3倍率 - V2Board, server: zf.sg-iepl.com, port: 49642, type: ss, cipher: chacha20-ietf-poly1305, password: b0c5db43-9f33-47ab-be62-e9811359ce35, udp: true}
-- {name: 🇭🇰 专线A1-香港4-极纯家宽IP支持Cityline流媒体全解锁-3倍率 - V2Board, server: zf.sg-iepl.com, port: 6740, type: ss, cipher: chacha20-ietf-poly1305, password: b0c5db43-9f33-47ab-be62-e9811359ce35, udp: true}
-- *id001
-- *id002
+- {name: 🇹🇼 V这里是新平台 - V2Board, server: 5.102.124.129, port: 42105, type: vmess, uuid: 00e465c9-af0e-472f-9adb-b465ee528e63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 V港HK7 - V2Board, server: v7.toppp.cc, port: 42107, type: vmess, uuid: 00e465c9-af0e-472f-9adb-b465ee528e63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 V台TW10 - V2Board, server: v10.toppp.cc, port: 42110, type: vmess, uuid: 00e465c9-af0e-472f-9adb-b465ee528e63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 ipv6台TW11 - V2Board, server: v11.toppp.cc, port: 42111, type: vmess, uuid: 00e465c9-af0e-472f-9adb-b465ee528e63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: '🇭🇰 ipv6港HK12[手机流量可用] - V2Board', server: v12.toppp.cc, port: 42112, type: vmess, uuid: 00e465c9-af0e-472f-9adb-b465ee528e63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 V1 | 香港1 - V2Board, server: hk91.appmimi.com, port: 49011, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
+- {name: 🇭🇰 V1 | 香港2 - V2Board, server: hk92.appmimi.com, port: 49012, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
+- {name: 🇭🇰 V1 | 香港3 - V2Board, server: hk93.appmimi.com, port: 49013, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
+- {name: 🇭🇰 V1 | 香港4 - V2Board, server: hk94.appmimi.com, port: 49014, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
+- {name: 🇭🇰 V1 | 香港5 - V2Board, server: hk95.appmimi.com, port: 49015, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
+- {name: 🇭🇰 V1 | 香港6 - V2Board, server: hk96.appmimi.com, port: 49016, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
+- {name: 🇭🇰 V1 | 香港7 - V2Board, server: hk97.appmimi.com, port: 49017, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
+- {name: 🇭🇰 V1 | 香港8 - V2Board, server: hk98.appmimi.com, port: 49018, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
+- {name: 🇭🇰 V1 | 香港9 - V2Board, server: hk99.appmimi.com, port: 49019, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
+- {name: 🇭🇰 V1 | 香港10 - V2Board, server: 38.76.141.21, port: 49020, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
+- {name: 🇹🇼 V1 | 台湾1 - V2Board, server: tw91.appmimi.com, port: 49021, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
+- {name: 🇹🇼 V1 | 台湾2 - V2Board, server: tw92.appmimi.com, port: 49022, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
+- {name: 🇭🇰 ⚡️️HK香港 - 01  | Disney - V2Board, server: za.peaceandlove2017.com, port: 42052, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇭🇰 ⚡️️HK香港 - 02 | Disney - V2Board, server: za.peaceandlove2017.com, port: 42053, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇭🇰 ⚡️️HK香港 - 03 | Disney - V2Board, server: za.peaceandlove2017.com, port: 42054, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇭🇰 ⚡️️HK香港 - 04 | Disney - V2Board, server: za.peaceandlove2017.com, port: 42055, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇭🇰 ⚡️️HK香港 - 05 | Disney - V2Board, server: za.peaceandlove2017.com, port: 42056, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇭🇰 ⚡️️HK香港 - 06 | Disney - V2Board, server: za.peaceandlove2017.com, port: 23479, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇭🇰 ⚡️HK香港 - 07 | Netflix - V2Board, server: za.peaceandlove2017.com, port: 39648, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇭🇰 ⚡️HK香港 - 08 | Netflix - V2Board, server: za.peaceandlove2017.com, port: 14987, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇭🇰 ⚡️HK香港 - 09 | Gemini - V2Board, server: za.peaceandlove2017.com, port: 10228, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇭🇰 ⚡️HK香港 - 10 | Gemini - V2Board, server: za.peaceandlove2017.com, port: 22191, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇭🇰 ⚡️HK香港 - 11 | HBO Max - V2Board, server: za.peaceandlove2017.com, port: 23834, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇭🇰 ⚡️HK香港 - 12 | Netflix - V2Board, server: za.peaceandlove2017.com, port: 10518, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇹🇼 ⚡️TW台湾 - 01  | Netflix - V2Board, server: za.peaceandlove2017.com, port: 56749, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇹🇼 ️⚡️TW台湾 - 02 | Netflix - V2Board, server: za.peaceandlove2017.com, port: 25417, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇹🇼 ⚡️TW台湾 - 03 | Netflix - V2Board, server: za.peaceandlove2017.com, port: 24521, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇭🇰 🌈 HK香港 - 01 | 海外使用 - V2Board, server: hk-hgc.cdn-yx.buzz, port: 20052, type: trojan, password: 1a383df1-79ff-4f70-97b9-0cc867d45815, sni: hk-hgc.cdn-yx.buzz, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 🌈 HK香港 - 02 | 海外使用 - V2Board, server: hk-hkbn.cdn-yx.buzz, port: 20052, type: trojan, password: 1a383df1-79ff-4f70-97b9-0cc867d45815, sni: hk-hkbn.cdn-yx.buzz, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 Hong Kong | 1 - V2Board, server: global.digital-nvme.com, port: 39501, type: trojan, password: 841d69d2-8738-47be-94d5-ad5618bf407b, sni: mmbiz.qpic.cn, skip-cert-verify: true, udp: true}
+- {name: '🇭🇰 香港CN2电信-TL-[id:7] - V2Board', server: gzbgpww.v0tkrelay.top, port: 36001, type: ss, cipher: chacha20-ietf-poly1305, password: 9ce7b312-3a71-4e0b-b268-f609a7276718, udp: true}

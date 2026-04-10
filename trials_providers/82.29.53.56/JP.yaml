@@ -1,0 +1,8 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇯🇵 ⚡️JP日本 - 01  | Gemini - V2Board, server: za.peaceandlove2017.com, port: 45983, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇯🇵 ⚡️JP日本 - 02 | HBO Max - V2Board, server: za.peaceandlove2017.com, port: 34075, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇯🇵 ⚡️JP日本 - 03 | Gemini - V2Board, server: za.peaceandlove2017.com, port: 48082, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇯🇵 ⚡️️JP日本 - 04 | Gemini - V2Board, server: za.peaceandlove2017.com, port: 13675, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇯🇵 🌈 JP日本 | 海外使用 - V2Board, server: jp--01.bmv0zmx554mb6yc8.com, port: 30001, type: vmess, uuid: 1a383df1-79ff-4f70-97b9-0cc867d45815, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}

@@ -1,0 +1,7 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇸🇬 ⚡️SG新加坡 - 01  | Disney - V2Board, server: za.peaceandlove2017.com, port: 20120, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇸🇬 ⚡️SG新加坡 - 02 | Disney - V2Board, server: za.peaceandlove2017.com, port: 22875, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇸🇬 ⚡️SG新加坡 - 03 | Gemini - V2Board, server: za.peaceandlove2017.com, port: 28269, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇸🇬 🌈 SG新加坡 | 海外使用 - V2Board, server: sg--01.bmv0zmx554mb6yc8.com, port: 30001, type: vmess, uuid: 1a383df1-79ff-4f70-97b9-0cc867d45815, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}

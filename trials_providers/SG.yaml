@@ -1,11 +1,13 @@
 %YAML 1.2
 ---
 proxies:
-- {name: 🇸🇬 IEPL| 新加坡 - V2Board, server: 47.74.128.123, port: 52416, type: ss, cipher: aes-128-gcm, password: f4g9rnwf9gtgweg5g66h, udp: true}
-- &id001 {name: 🇸🇬 新加坡IEPL - V2Board, server: 110.242.74.102, port: 10004, type: ss, cipher: aes-256-gcm, password: 909ca374-501a-4a34-8c1e-a5be3cadbeb2, udp: true}
-- *id001
-- {name: 🇸🇬 SG-443-Trojan-WS-TLS - V2Board, server: 8.220.134.136, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
-- *id001
-- {name: 🇸🇬 专线A1-新加坡1-3倍率 - V2Board, server: zf.sg-iepl.com, port: 35058, type: ss, cipher: chacha20-ietf-poly1305, password: b0c5db43-9f33-47ab-be62-e9811359ce35, udp: true}
-- {name: 🇸🇬 专线A1-新加坡2-3倍率 - V2Board, server: zf.sg-iepl.com, port: 57598, type: ss, cipher: chacha20-ietf-poly1305, password: b0c5db43-9f33-47ab-be62-e9811359ce35, udp: true}
-- *id001
+- {name: 🇸🇬 V新SG9 - V2Board, server: v9.toppp.cc, port: 42109, type: vmess, uuid: 00e465c9-af0e-472f-9adb-b465ee528e63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 V1 | 新加坡1 - V2Board, server: sg91.appmimi.com, port: 49041, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
+- {name: 🇸🇬 V1 | 新加坡2 - V2Board, server: sg92.appmimi.com, port: 49042, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
+- {name: 🇸🇬 V1 | 新加坡3 - V2Board, server: sg93.appmimi.com, port: 49043, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
+- {name: 🇸🇬 ⚡️SG新加坡 - 01  | Disney - V2Board, server: za.peaceandlove2017.com, port: 20120, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇸🇬 ⚡️SG新加坡 - 02 | Disney - V2Board, server: za.peaceandlove2017.com, port: 22875, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇸🇬 ⚡️SG新加坡 - 03 | Gemini - V2Board, server: za.peaceandlove2017.com, port: 28269, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇸🇬 🌈 SG新加坡 | 海外使用 - V2Board, server: sg--01.bmv0zmx554mb6yc8.com, port: 30001, type: vmess, uuid: 1a383df1-79ff-4f70-97b9-0cc867d45815, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 Singapore | 1 - V2Board, server: global.digital-nvme.com, port: 39502, type: trojan, password: 841d69d2-8738-47be-94d5-ad5618bf407b, sni: mmbiz.qpic.cn, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡电信IEPL-02 - V2Board, server: gzbgpww.v0tkrelay.top, port: 34002, type: ss, cipher: chacha20-ietf-poly1305, password: 9ce7b312-3a71-4e0b-b268-f609a7276718, udp: true}

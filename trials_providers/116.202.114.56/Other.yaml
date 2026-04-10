@@ -1,0 +1,4 @@
+%YAML 1.2
+---
+proxies:
+- {name: Tai wan | 1 - V2Board, server: global.digital-nvme.com, port: 39505, type: trojan, password: 841d69d2-8738-47be-94d5-ad5618bf407b, sni: mmbiz.qpic.cn, skip-cert-verify: true, udp: true}

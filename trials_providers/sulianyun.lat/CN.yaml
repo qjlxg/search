@@ -1,4 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇹🇼台湾住宅家宽01 - V2Board, server: 151.242.165.213, port: 30039, type: ss, cipher: chacha20-ietf-poly1305, password: 2ae1cf9b-4d05-4d4a-bc98-7c6d11efbf5d, udp: true}

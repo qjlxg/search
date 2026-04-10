@@ -1,9 +1,0 @@
-%YAML 1.2
----
-proxies:
-- {name: 🇯🇵 hy-日本(三网优化+加密) - V2Board, server: jp01.pkgvps.dpdns.org, port: 8443, type: hysteria2, ports: 8443, password: 76e7a71d-73cf-42b4-8772-5289f0433b1f, sni: jp01.pkgvps.dpdns.org, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵移动优化|测试节点 - V2Board, server: 154.83.94.7, port: 30043, type: ss, cipher: chacha20-ietf-poly1305, password: 2ae1cf9b-4d05-4d4a-bc98-7c6d11efbf5d, udp: true}
-- {name: 🇯🇵 专线A1-日本1-3倍率 - V2Board, server: zf.sg-iepl.com, port: 22168, type: ss, cipher: chacha20-ietf-poly1305, password: b0c5db43-9f33-47ab-be62-e9811359ce35, udp: true}
-- {name: 🇯🇵 专线A1-日本2-3倍率 - V2Board, server: zf.sg-iepl.com, port: 42721, type: ss, cipher: chacha20-ietf-poly1305, password: b0c5db43-9f33-47ab-be62-e9811359ce35, udp: true}
-- {name: 🇯🇵 专线A1-日本3-流媒体全解锁3倍率 - V2Board, server: zf.sg-iepl.com, port: 58490, type: ss, cipher: chacha20-ietf-poly1305, password: b0c5db43-9f33-47ab-be62-e9811359ce35, udp: true}
-- {name: 🇯🇵 专线A1-日本4-家宽IP视频AI全解锁Tiktok运营数据好-3倍率 - V2Board, server: zf.sg-iepl.com, port: 8641, type: ss, cipher: chacha20-ietf-poly1305, password: b0c5db43-9f33-47ab-be62-e9811359ce35, udp: true}

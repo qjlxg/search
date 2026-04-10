@@ -1,23 +1,21 @@
 %YAML 1.2
 ---
 proxies:
-- &id001 {name: 🇺🇸 美国IEPL - V2Board, server: 110.242.74.102, port: 10005, type: ss, cipher: aes-256-gcm, password: 909ca374-501a-4a34-8c1e-a5be3cadbeb2, udp: true}
-- &id002 {name: 🇺🇸 US01 - V2Board, server: ne-cbe4k7vz.neurix.sbs, port: 10000, type: vmess, uuid: 37d28902-46b7-4d51-8bf4-a5f8bfe49464, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us01.neurix.icu, udp: true}
-- &id003 {name: 🇺🇸 US02 - V2Board, server: ne-cbe4k7vz.neurix.sbs, port: 10001, type: vmess, uuid: 37d28902-46b7-4d51-8bf4-a5f8bfe49464, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us02.neurix.icu, udp: true}
-- &id004 {name: 🇺🇸 US03 - V2Board, server: ne-cbe4k7vz.neurix.sbs, port: 10002, type: vmess, uuid: 37d28902-46b7-4d51-8bf4-a5f8bfe49464, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us03.neurix.icu, udp: true}
-- &id005 {name: 🇺🇸 US04 - V2Board, server: ne-cbe4k7vz.neurix.sbs, port: 10003, type: vmess, uuid: 37d28902-46b7-4d51-8bf4-a5f8bfe49464, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us04.neurix.icu, udp: true}
-- *id001
-- {name: 🇺🇸 US-443-Trojan-WS-TLS - V2Board, server: 38.246.73.124, port: 443, type: trojan, password: 06ccdb80-4617-4a4d-b3c6-f754899dce25, sni: gbyz.asia, skip-cert-verify: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: gbyz.asia}}, udp: true}
-- *id001
-- {name: 🇺🇸 专线A1-美国1-3倍率 - V2Board, server: zf.sg-iepl.com, port: 25429, type: ss, cipher: chacha20-ietf-poly1305, password: b0c5db43-9f33-47ab-be62-e9811359ce35, udp: true}
-- {name: 🇺🇸 专线A1-美国2-三网优化3倍率 - V2Board, server: zf.sg-iepl.com, port: 50155, type: ss, cipher: chacha20-ietf-poly1305, password: b0c5db43-9f33-47ab-be62-e9811359ce35, udp: true}
-- {name: 🇺🇸 专线A1-美国3-三网优化Y2B视频快-3倍率 - V2Board, server: zf.sg-iepl.com, port: 51467, type: ss, cipher: chacha20-ietf-poly1305, password: b0c5db43-9f33-47ab-be62-e9811359ce35, udp: true}
-- {name: 🇺🇸 专线A1-美国4-家宽IP银行 视频全解锁-3倍率 - V2Board, server: zf.sg-iepl.com, port: 56512, type: ss, cipher: chacha20-ietf-poly1305, password: b0c5db43-9f33-47ab-be62-e9811359ce35, udp: true}
-- {name: 🇺🇸 专线A1-美国5-家宽ChatGPT流媒体银行全解锁-3倍率 - V2Board, server: zf.sg-iepl.com, port: 21386, type: ss, cipher: chacha20-ietf-poly1305, password: b0c5db43-9f33-47ab-be62-e9811359ce35, udp: true}
-- {name: 🇺🇸 美国-Racknerd-昂贵 - V2Board, server: 192.3.187.29, port: 30001, type: ss, cipher: aes-128-gcm, password: af3d3800-5b1f-4db4-beab-d7bf7e7be51d, udp: true}
-- {name: 🇺🇸 美国-Racknerd-便宜 - V2Board, server: 198.23.237.135, port: 30002, type: ss, cipher: aes-128-gcm, password: af3d3800-5b1f-4db4-beab-d7bf7e7be51d, udp: true}
-- *id001
-- *id002
-- *id003
-- *id004
-- *id005
+- {name: 🇺🇸 ipv6美US13 - V2Board, server: v12.toppp.cc, port: 42113, type: vmess, uuid: 00e465c9-af0e-472f-9adb-b465ee528e63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 V美US16 - V2Board, server: vm3.doooo.top, port: 42116, type: vmess, uuid: 00e465c9-af0e-472f-9adb-b465ee528e63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 V美US17 - V2Board, server: vm3.doooo.top, port: 42117, type: vmess, uuid: 00e465c9-af0e-472f-9adb-b465ee528e63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 V美US18 - V2Board, server: v18.toppp.cc, port: 42118, type: vmess, uuid: 00e465c9-af0e-472f-9adb-b465ee528e63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 V1 | 美国1 - V2Board, server: 167.253.97.155, port: 19201, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
+- {name: 🇺🇸 V1 | 美国2 - V2Board, server: 104.168.11.91, port: 19201, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
+- {name: 🇺🇸 V1 | 美国3 - V2Board, server: 142.171.163.19, port: 19201, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
+- {name: 🇺🇸 V1 | 美国4 - V2Board, server: 23.94.103.170, port: 19201, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
+- {name: 🇺🇸 V1 | 美国5 - V2Board, server: 107.172.101.206, port: 19201, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
+- {name: '🇺🇸 V1 | [海外用户]美国1 - V2Board', server: dd01.appmimi.com, port: 19201, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
+- {name: '🇺🇸 V1 | [海外用户]美国2 - V2Board', server: dd02.appmimi.com, port: 19201, type: ss, cipher: aes-256-gcm, password: 8d2326ed-457b-448d-a2fe-e0e59813158e, udp: true}
+- {name: 🇺🇸 ⚡️US美国 - 01  | ChatGPT - V2Board, server: za.peaceandlove2017.com, port: 16171, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ZTA0YmEwNjZhYzVkMmI0Yg==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇺🇸 ⚡️US美国 - 02 | ChatGPT - V2Board, server: za.peaceandlove2017.com, port: 23266, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇺🇸 ️⚡️US美国 - 03 | ChatGPT - V2Board, server: za.peaceandlove2017.com, port: 28107, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇺🇸 ⚡️US美国 - 04 | ChatGPT - V2Board, server: za.peaceandlove2017.com, port: 22440, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇺🇸 ⚡️US美国 - 05 | Gemini - V2Board, server: za.peaceandlove2017.com, port: 35515, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTQ3YmEwMTQ5NDUxYzAzOA==:MWEzODNkZjEtNzlmZi00Zg==, udp: true}
+- {name: 🇺🇸 United States | 1 - V2Board, server: global.digital-nvme.com, port: 39504, type: trojan, password: 841d69d2-8738-47be-94d5-ad5618bf407b, sni: mmbiz.qpic.cn, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国洛杉矶LA线路01 - V2Board, server: gzbgpww.v0tkrelay.top, port: 33691, type: ss, cipher: chacha20-ietf-poly1305, password: 9ce7b312-3a71-4e0b-b268-f609a7276718, udp: true}
