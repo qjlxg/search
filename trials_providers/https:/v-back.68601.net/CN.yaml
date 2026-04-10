@@ -1,0 +1,4 @@
+%YAML 1.2
+---
+proxies:
+- {name: '🇭🇰 香港CN2电信-TL-[id:7] - V2Board', server: gzbgpww.v0tkrelay.top, port: 36001, type: ss, cipher: chacha20-ietf-poly1305, password: ed3300fa-4897-4e4f-9e7e-e396b6512f59, udp: true}

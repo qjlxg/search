@@ -1,0 +1,5 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇺🇸 直链#美国01 - V2Board, server: us01.n.lgjsq.top, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 3649d85f-3137-4526-bfbf-06b266f9a1b1, udp: true}
+- {name: 🇺🇸 转发#美国01 - V2Board, server: rk1.mlrk0.cc, port: 10002, type: ss, cipher: chacha20-ietf-poly1305, password: 3649d85f-3137-4526-bfbf-06b266f9a1b1, udp: true}

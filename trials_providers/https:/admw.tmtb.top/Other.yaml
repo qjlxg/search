@@ -1,0 +1,8 @@
+%YAML 1.2
+---
+proxies:
+- {name: ℹ️ ★网站最新域名tomatobay.cc - V2Board, server: 1.1.1.1, port: 1000, type: vmess, uuid: d6764317-38eb-495a-a8c7-67b474ef06ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: ℹ️ ★在线客服永不失联tmtbcloud.top - V2Board, server: 1.1.1.1, port: 1000, type: vmess, uuid: d6764317-38eb-495a-a8c7-67b474ef06ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: ℹ️ 有更多地区节点需求，请联系客服 - V2Board, server: 1.1.1.1, port: 1000, type: vmess, uuid: d6764317-38eb-495a-a8c7-67b474ef06ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: 'ℹ️ TG客服: tomatobaybot - V2Board', server: 1.1.1.1, port: 1000, type: vmess, uuid: d6764317-38eb-495a-a8c7-67b474ef06ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: ℹ️ TG群组：tmtbgood - V2Board, server: 1.1.1.1, port: 1000, type: vmess, uuid: d6764317-38eb-495a-a8c7-67b474ef06ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}

@@ -1,0 +1,5 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇺🇸 usa-test-singlink-02 - V2Board, server: 23.80.90.220, port: 12378, type: ss, cipher: aes-128-gcm, password: a0676f0c-8340-49d5-9d01-d3c8007b3707, udp: true}
+- {name: 🇺🇸 usa-test-singlink-3 - V2Board, server: 38.46.155.193, port: 12781, type: ss, cipher: aes-128-gcm, password: a0676f0c-8340-49d5-9d01-d3c8007b3707, udp: true}

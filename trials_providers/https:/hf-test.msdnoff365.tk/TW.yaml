@@ -1,0 +1,4 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇹🇼 Taiwan-01 - V2Board, server: tw001.969693.xyz, port: 22592, type: hysteria2, ports: 22592, password: 7add5265-e643-4447-962c-57f8087bb9fc, sni: tw001.969693.xyz, skip-cert-verify: true, udp: true}

@@ -1,0 +1,4 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇸🇬 IEPL · 新加坡SG · 204 - V2Board, server: 45.250.185.142, port: 16114, type: ss, cipher: chacha20-ietf-poly1305, password: b66fdc11-7629-4210-ac4a-2dd1a27dec13, udp: true}

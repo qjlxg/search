@@ -1,0 +1,4 @@
+%YAML 1.2
+---
+proxies:
+- {name: 1 - V2Board, server: 34.82.96.138, port: 3000, type: vmess, uuid: ed373d97-9bef-4fd9-aa2a-03511cb660d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}

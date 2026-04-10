@@ -1,0 +1,6 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇺🇸Homiefroxy.com - V2Board, server: us004.969693.xyz, port: 22311, type: hysteria2, ports: 22311, password: 7add5265-e643-4447-962c-57f8087bb9fc, sni: us004.969693.xyz, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸US-Phoenix-02-T - V2Board, server: us01.bmmsdn.tk, port: 23724, type: hysteria2, ports: 23724, password: 7add5265-e643-4447-962c-57f8087bb9fc, sni: us01.bmmsdn.tk, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸US-Washington-02 - V2Board, server: us03.bmmsdn.tk, port: 22543, type: hysteria2, ports: 22543, password: 7add5265-e643-4447-962c-57f8087bb9fc, skip-cert-verify: true, udp: true}
