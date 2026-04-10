@@ -1,0 +1,4 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇺🇸 试用节点-美国 - V2Board, server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: 007314db-2583-4ac2-ac71-fd09552cffc6, udp: true}

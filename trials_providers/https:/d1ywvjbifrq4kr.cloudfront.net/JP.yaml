@@ -1,0 +1,7 @@
+%YAML 1.2
+---
+proxies:
+- {name: '🇯🇵 [vmess]日本1 - V2Board', server: ip4-jp1.vp1000.net, port: 443, type: vmess, uuid: 1804ac75-5e72-4e0c-a622-0e9d11f5adce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicpaylfastpDisney, headers: {Host: ip4-jp1.vp1000.net}}, udp: true}
+- {name: '🇯🇵 [vmess]日本2 - V2Board', server: ip4-jp2.vp1000.net, port: 443, type: vmess, uuid: 1804ac75-5e72-4e0c-a622-0e9d11f5adce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicpaylfastpDisney, headers: {Host: ip4-jp2.vp1000.net}}, udp: true}
+- {name: '🇯🇵 [vmess]日本3 - V2Board', server: ip6-jp1.vp1000.net, port: 443, type: vmess, uuid: 1804ac75-5e72-4e0c-a622-0e9d11f5adce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicpaylfastpDisney, headers: {Host: ip4-jp1.vp1000.net}}, udp: true}
+- {name: '🇯🇵 [vmess]日本4 - V2Board', server: ip6-jp2.vp1000.net, port: 443, type: vmess, uuid: 1804ac75-5e72-4e0c-a622-0e9d11f5adce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicpaylfastpDisney, headers: {Host: ip4-jp2.vp1000.net}}, udp: true}

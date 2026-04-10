@@ -1,0 +1,6 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇩🇪Germany-UDP - V2Board, server: de001.666633.best, port: 23276, type: hysteria2, ports: 23276, password: da5985a9-e47d-4545-9c9d-577483642e39, sni: de001.666633.best, skip-cert-verify: true, udp: true}
+- {name: 🇻🇳Vietnam-03 - V2Board, server: th001.bmmsdn.tk, port: 23733, type: hysteria2, ports: 23733, password: da5985a9-e47d-4545-9c9d-577483642e39, sni: th001.bmmsdn.tk, skip-cert-verify: true, udp: true}
+- {name: 🇮🇳India-03 - V2Board, server: in02.bmmsdn.tk, port: 22812, type: hysteria2, ports: 22812, password: da5985a9-e47d-4545-9c9d-577483642e39, sni: in02.bmmsdn.tk, skip-cert-verify: true, udp: true}

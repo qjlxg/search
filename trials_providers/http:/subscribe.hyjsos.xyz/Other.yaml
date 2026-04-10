@@ -1,0 +1,11 @@
+%YAML 1.2
+---
+proxies:
+- {name: '🇮🇳 [vmess]印度1 - V2Board', server: ip6-in1.vp1000.net, port: 443, type: vmess, uuid: 849bc3c0-5f6e-4e79-95b1-7fa1a82f58ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicfastpDisney, headers: {Host: ip4-in2.vp1000.net}}, udp: true}
+- {name: '🇮🇳 [vmess]印度2 - V2Board', server: ip4-in2.vp1000.net, port: 443, type: vmess, uuid: 849bc3c0-5f6e-4e79-95b1-7fa1a82f58ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicfastpDisney, headers: {Host: ip4-in2.vp1000.net}}, udp: true}
+- {name: '🇮🇳 [vmess]印度3 - V2Board', server: ip6-in3.vp1000.net, port: 443, type: vmess, uuid: 849bc3c0-5f6e-4e79-95b1-7fa1a82f58ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicfastpDisney, headers: {Host: ip4-in4.vp1000.net}}, udp: true}
+- {name: '🇮🇳 [vmess]印度4 - V2Board', server: ip4-in4.vp1000.net, port: 443, type: vmess, uuid: 849bc3c0-5f6e-4e79-95b1-7fa1a82f58ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicfastpDisney, headers: {Host: ip4-in4.vp1000.net}}, udp: true}
+- {name: '🇧🇷 [vmess]巴西1 - V2Board', server: br.vp1000.net, port: 443, type: vmess, uuid: 849bc3c0-5f6e-4e79-95b1-7fa1a82f58ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicpDisney, headers: {Host: br.vp1000.net}}, udp: true}
+- {name: '🇧🇷 [vmess]巴西2 - V2Board', server: br3.vp1000.net, port: 443, type: vmess, uuid: 849bc3c0-5f6e-4e79-95b1-7fa1a82f58ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicpDisney, headers: {Host: br3.vp1000.net}}, udp: true}
+- {name: '🇧🇷 [vmess]巴西3 - V2Board', server: 2603:c021:c006:3fee:0:83af:48c6:2edc, port: 443, type: vmess, uuid: 849bc3c0-5f6e-4e79-95b1-7fa1a82f58ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicpDisney, headers: {Host: br3.vp1000.net}}, udp: true}
+- {name: '🇧🇷 [vmess]巴西4 - V2Board', server: ip6-br5.vp1000.net, port: 443, type: vmess, uuid: 849bc3c0-5f6e-4e79-95b1-7fa1a82f58ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicpDisney, headers: {Host: br.vp1000.net}}, udp: true}

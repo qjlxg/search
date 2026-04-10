@@ -1,0 +1,41 @@
+%YAML 1.2
+---
+proxies:
+- {name: ℹ️ 📌官网 https://2025.bingoboot.com/ - V2Board, server: hk90.appmimi.com, port: 49000, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: ℹ️ 🆘邮箱 sbgetvpn@gmail.com - V2Board, server: hk90.appmimi.com, port: 49000, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: V0 | ✅免费体验·随机线路 - V2Board, server: hk90.appmimi.com, port: 49000, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇭🇰 V1 | 香港1 - V2Board, server: hk91.appmimi.com, port: 49011, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇭🇰 V1 | 香港2 - V2Board, server: hk92.appmimi.com, port: 49012, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇭🇰 V1 | 香港3 - V2Board, server: hk93.appmimi.com, port: 49013, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇭🇰 V1 | 香港4 - V2Board, server: hk94.appmimi.com, port: 49014, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇭🇰 V1 | 香港5 - V2Board, server: hk95.appmimi.com, port: 49015, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇭🇰 V1 | 香港6 - V2Board, server: hk96.appmimi.com, port: 49016, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇭🇰 V1 | 香港7 - V2Board, server: hk97.appmimi.com, port: 49017, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇭🇰 V1 | 香港8 - V2Board, server: hk98.appmimi.com, port: 49018, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇭🇰 V1 | 香港9 - V2Board, server: hk99.appmimi.com, port: 49019, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇭🇰 V1 | 香港10 - V2Board, server: 38.76.141.21, port: 49020, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇹🇼 V1 | 台湾1 - V2Board, server: tw91.appmimi.com, port: 49021, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇹🇼 V1 | 台湾2 - V2Board, server: tw92.appmimi.com, port: 49022, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇰🇷 V1 | 韩国1 - V2Board, server: kr91.appmimi.com, port: 49026, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇯🇵 V1 | 日本1 - V2Board, server: 162.141.131.89, port: 19201, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇯🇵 V1 | 日本2 - V2Board, server: jp92.appmimi.com, port: 49032, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇯🇵 V1 | 日本3 - V2Board, server: jp93.appmimi.com, port: 49033, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇯🇵 V1 | 日本4 - V2Board, server: jp94.appmimi.com, port: 49034, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇯🇵 V1 | 日本5 - V2Board, server: jp95.appmimi.com, port: 49040, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇸🇬 V1 | 新加坡1 - V2Board, server: sg91.appmimi.com, port: 49041, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇸🇬 V1 | 新加坡2 - V2Board, server: sg92.appmimi.com, port: 49042, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇸🇬 V1 | 新加坡3 - V2Board, server: sg93.appmimi.com, port: 49043, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇹🇭 V1 | 泰国1 - V2Board, server: th91.appmimi.com, port: 49047, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇻🇳 V1 | 越南1 - V2Board, server: vn91.appmimi.com, port: 49048, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇹🇷 V1 | 土耳其1 - V2Board, server: tr91.appmimi.com, port: 49050, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇺🇸 V1 | 美国1 - V2Board, server: 167.253.97.155, port: 19201, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇺🇸 V1 | 美国2 - V2Board, server: 104.168.11.91, port: 19201, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇺🇸 V1 | 美国3 - V2Board, server: 142.171.163.19, port: 19201, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇺🇸 V1 | 美国4 - V2Board, server: 23.94.103.170, port: 19201, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇺🇸 V1 | 美国5 - V2Board, server: 107.172.101.206, port: 19201, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇦🇷 V1 | 阿根廷1 - V2Board, server: ar91.appmimi.com, port: 49073, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇬🇧 V1 | 英国1 - V2Board, server: gb91.appmimi.com, port: 49081, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: 🇷🇺 V1 | 俄罗斯1 - V2Board, server: ru91.appmimi.com, port: 49094, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: '🇺🇸 V1 | [海外用户]美国1 - V2Board', server: dd01.appmimi.com, port: 19201, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: '🇺🇸 V1 | [海外用户]美国2 - V2Board', server: dd02.appmimi.com, port: 19201, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}
+- {name: V1 | 试验线路1 - V2Board, server: xj99.appmimi.com, port: 19201, type: ss, cipher: aes-256-gcm, password: d64fa381-2bc5-46a3-8c0a-25c63d5f88fa, udp: true}

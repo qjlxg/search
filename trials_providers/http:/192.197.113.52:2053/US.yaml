@@ -1,0 +1,4 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇺🇸 美国 - V2Board, server: 107.161.92.142, port: 663, type: vmess, uuid: cc1869df-56b1-4513-bbf8-dc9d6309f53a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}

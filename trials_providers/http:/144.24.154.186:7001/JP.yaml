@@ -1,0 +1,6 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇯🇵 Japan-04 - V2Board, server: j287s-jp.969693.xyz, port: 22390, type: hysteria2, ports: 22390, password: da5985a9-e47d-4545-9c9d-577483642e39, sni: j287s-jp.969693.xyz, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 Japan-01 - V2Board, server: jp001.969693.xyz, port: 22849, type: hysteria2, ports: 22849, password: da5985a9-e47d-4545-9c9d-577483642e39, sni: jp001.969693.xyz, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 Japan-02 - V2Board, server: jp001v6.969693.xyz, port: 23002, type: hysteria2, ports: 23002, password: da5985a9-e47d-4545-9c9d-577483642e39, sni: jp001v6.969693.xyz, skip-cert-verify: true, udp: true}

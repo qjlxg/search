@@ -1,0 +1,6 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇫🇷 Hy2-France - V2Board, server: 51.195.241.243, port: 443, type: hysteria2, ports: 443, password: 12fd9995-ced7-4168-ab5f-09d8a785aa24, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 Hy2-HongKong - V2Board, server: 46.20.109.199, port: 443, type: hysteria2, ports: 443, password: 12fd9995-ced7-4168-ab5f-09d8a785aa24, sni: bing.com, skip-cert-verify: true, udp: true}
+- {name: 🇫🇷 Hy2-France-Sub - V2Board, server: 51.195.241.243, port: 50000, type: hysteria2, ports: 50000, password: 12fd9995-ced7-4168-ab5f-09d8a785aa24, sni: bing.com, skip-cert-verify: true, udp: true}

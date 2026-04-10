@@ -1,0 +1,5 @@
+%YAML 1.2
+---
+proxies:
+- {name: ss - V2Board, server: 142.171.106.233, port: 9999, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MGY3YjYwYmMwMzVhN2VjOA==:ZTViMjQwY2QtNDczYS00ZQ==, udp: true}
+- {name: Free - V2Board, server: 103.97.178.98, port: 19999, type: ss, cipher: chacha20-ietf-poly1305, password: e5b240cd-473a-4e1c-abea-8ea2903dd44d, udp: true}

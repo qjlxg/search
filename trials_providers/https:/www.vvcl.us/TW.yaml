@@ -1,0 +1,4 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇹🇼 专线A1-台湾1-流媒体全解锁TikTok优秀3倍率 - V2Board, server: zf.sg-iepl.com, port: 13599, type: ss, cipher: chacha20-ietf-poly1305, password: f185ed87-460b-4d90-8fbb-1b084019f61d, udp: true}

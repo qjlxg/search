@@ -1,0 +1,5 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇸🇬 新加坡电信IEPL-01 - V2Board, server: 82.156.104.6, port: 34001, type: ss, cipher: chacha20-ietf-poly1305, password: 4c9df8c3-67bf-4bd3-ba30-0ed077777d6f, udp: true}
+- {name: 🇸🇬 新加坡电信IEPL-02 - V2Board, server: 124.223.74.102, port: 34002, type: ss, cipher: chacha20-ietf-poly1305, password: 4c9df8c3-67bf-4bd3-ba30-0ed077777d6f, udp: true}

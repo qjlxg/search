@@ -1,5 +1,5 @@
 %YAML 1.2
 ---
 proxies:
-- {name: 123 - V2Board, server: xx.kuchazi.xyz, port: 9090, type: vmess, uuid: e9bc2744-c788-4972-b235-6b380da75ef8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 321 - V2Board, server: 64.83.33.212, port: 12000, type: vmess, uuid: e9bc2744-c788-4972-b235-6b380da75ef8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 123 - V2Board, server: xx.kuchazi.xyz, port: 9090, type: vmess, uuid: e44b4ff3-db5a-4927-80ec-300644f66db2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 321 - V2Board, server: 64.83.33.212, port: 12000, type: vmess, uuid: e44b4ff3-db5a-4927-80ec-300644f66db2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}

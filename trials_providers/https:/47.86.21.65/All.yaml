@@ -1,9 +1,9 @@
 %YAML 1.2
 ---
 proxies:
-- {name: 🇭🇰 HK-SW - V2Board, server: hk.yinxingye.xyz, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 2b2bd9e7-1e19-4e3e-b7c4-55f91ab3ffd7, udp: true}
-- {name: 🇭🇰 HK-VM - V2Board, server: hk1.yinxingye.xyz, port: 8088, type: vmess, uuid: 2b2bd9e7-1e19-4e3e-b7c4-55f91ab3ffd7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.yinxingye.xyz, udp: true}
-- {name: 🇭🇰 HK-TRO - V2Board, server: hk2.yinxingye.xyz, port: 8888, type: trojan, password: 2b2bd9e7-1e19-4e3e-b7c4-55f91ab3ffd7, sni: hk2.yinxingye.xyz, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 US-SW - V2Board, server: us.yinxingye.xyz, port: 2222, type: ss, cipher: chacha20-ietf-poly1305, password: 2b2bd9e7-1e19-4e3e-b7c4-55f91ab3ffd7, udp: true}
-- {name: 🇺🇸 US-VM - V2Board, server: us.yinxingye.xyz, port: 2223, type: vmess, uuid: 2b2bd9e7-1e19-4e3e-b7c4-55f91ab3ffd7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us.yinxingye.xyz, udp: true}
-- {name: 🇺🇸 US-TRO - V2Board, server: us.yinxingye.xyz, port: 2224, type: trojan, password: 2b2bd9e7-1e19-4e3e-b7c4-55f91ab3ffd7, sni: us.yinxingye.xyz, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 HK-SW - V2Board, server: hk.yinxingye.xyz, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 5f4a35e3-f8fe-4814-98d6-4c1cd50f6590, udp: true}
+- {name: 🇭🇰 HK-VM - V2Board, server: hk1.yinxingye.xyz, port: 8088, type: vmess, uuid: 5f4a35e3-f8fe-4814-98d6-4c1cd50f6590, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk1.yinxingye.xyz, udp: true}
+- {name: 🇭🇰 HK-TRO - V2Board, server: hk2.yinxingye.xyz, port: 8888, type: trojan, password: 5f4a35e3-f8fe-4814-98d6-4c1cd50f6590, sni: hk2.yinxingye.xyz, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 US-SW - V2Board, server: us.yinxingye.xyz, port: 2222, type: ss, cipher: chacha20-ietf-poly1305, password: 5f4a35e3-f8fe-4814-98d6-4c1cd50f6590, udp: true}
+- {name: 🇺🇸 US-VM - V2Board, server: us.yinxingye.xyz, port: 2223, type: vmess, uuid: 5f4a35e3-f8fe-4814-98d6-4c1cd50f6590, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us.yinxingye.xyz, udp: true}
+- {name: 🇺🇸 US-TRO - V2Board, server: us.yinxingye.xyz, port: 2224, type: trojan, password: 5f4a35e3-f8fe-4814-98d6-4c1cd50f6590, sni: us.yinxingye.xyz, skip-cert-verify: true, udp: true}

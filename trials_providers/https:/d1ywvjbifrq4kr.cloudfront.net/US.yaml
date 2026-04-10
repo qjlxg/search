@@ -1,0 +1,4 @@
+%YAML 1.2
+---
+proxies:
+- {name: '🇺🇸 [vmess]美国3 - V2Board', server: us3.vp1000.net, port: 443, type: vmess, uuid: 1804ac75-5e72-4e0c-a622-0e9d11f5adce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cp100vp800kkkdsnx, headers: {Host: us3.vp1000.net}}, udp: true}

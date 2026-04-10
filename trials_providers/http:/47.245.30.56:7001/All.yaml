@@ -1,0 +1,7 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇧🇷 巴西1 - V2Board, server: n1-251001.dnsv1.cc, port: 42147, type: ss, cipher: chacha20-ietf-poly1305, password: 1180477c-2559-4605-bc1f-5c2bb377d525, udp: true}
+- {name: 🇧🇷 巴西2 - V2Board, server: n1-251001.dnsv1.cc, port: 41116, type: ss, cipher: chacha20-ietf-poly1305, password: 1180477c-2559-4605-bc1f-5c2bb377d525, udp: true}
+- {name: 🇧🇷 巴西3 - V2Board, server: n1-251001.dnsv1.cc, port: 41121, type: ss, cipher: chacha20-ietf-poly1305, password: 1180477c-2559-4605-bc1f-5c2bb377d525, udp: true}
+- {name: 🇧🇷 巴西4 - V2Board, server: n1-251001.dnsv1.cc, port: 28193, type: ss, cipher: chacha20-ietf-poly1305, password: 1180477c-2559-4605-bc1f-5c2bb377d525, udp: true}

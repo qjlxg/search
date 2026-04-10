@@ -1,0 +1,4 @@
+%YAML 1.2
+---
+proxies:
+- {name: ℹ️ 如果只有本节点说明您的客户端过旧/不支持我们使用的协议 请尝试更新/更换客户端 - V2Board, server: jhruovb6.telecom.moe, port: 443, type: hysteria2, ports: 443, password: e8c770cf-8720-4721-98a9-7b29f344fa97, obfs: salamander, obfs-password: ZcghdCv3pVCDn5MC, sni: jhruovb.telecom.moe, skip-cert-verify: true, udp: true}

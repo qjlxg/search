@@ -1,0 +1,4 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇭🇰 试用节点-香港 - V2Board, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 41e7e746-08bf-4bc6-8efe-c0eebcc6a800, udp: true}

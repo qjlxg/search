@@ -1,0 +1,4 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇭🇰 香港高速节点 一机一节点 - V2Board, server: 206.237.28.189, port: 443, type: vmess, uuid: 8b5b5d18-ca60-441b-9ac8-0ff6d20f71be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}

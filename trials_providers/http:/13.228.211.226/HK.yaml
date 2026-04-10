@@ -1,0 +1,4 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇭🇰 香港-线路1 - V2Board, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: c8302848-ddc2-47dc-9ba7-e1305d2b49eb, udp: true}

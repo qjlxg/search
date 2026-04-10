@@ -1,0 +1,4 @@
+%YAML 1.2
+---
+proxies:
+- {name: hy2 - V2Board, server: hy2.v2test.top, port: 51888, type: hysteria2, ports: 51888, password: cbd8b786-43a6-441b-8d58-a419a8ccf6b0, obfs: salamander, obfs-password: 9r0JsLTpAe9Cu4AJ, sni: www.apple.com, skip-cert-verify: true, udp: true}

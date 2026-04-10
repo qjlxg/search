@@ -1,5 +1,5 @@
 %YAML 1.2
 ---
 proxies:
-- {name: 🇸🇬新加坡1 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23234, type: ss, cipher: chacha20-ietf-poly1305, password: ac26280e-435b-4246-8bc7-c3edc3f346f5, udp: true}
-- {name: 🇸🇬新加坡2 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 15335, type: ss, cipher: chacha20-ietf-poly1305, password: ac26280e-435b-4246-8bc7-c3edc3f346f5, udp: true}
+- {name: 🇸🇬新加坡1 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23234, type: ss, cipher: chacha20-ietf-poly1305, password: 19005f18-5750-4e16-ba51-ea0d6678bca6, udp: true}
+- {name: 🇸🇬新加坡2 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 15335, type: ss, cipher: chacha20-ietf-poly1305, password: 19005f18-5750-4e16-ba51-ea0d6678bca6, udp: true}

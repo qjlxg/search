@@ -1,8 +1,8 @@
 %YAML 1.2
 ---
 proxies:
-- {name: 🇭🇰香港1 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 47077, type: ss, cipher: chacha20-ietf-poly1305, password: ac26280e-435b-4246-8bc7-c3edc3f346f5, udp: true}
-- {name: 🇭🇰香港2 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23317, type: ss, cipher: chacha20-ietf-poly1305, password: ac26280e-435b-4246-8bc7-c3edc3f346f5, udp: true}
-- {name: 🇭🇰香港3 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23333, type: ss, cipher: chacha20-ietf-poly1305, password: ac26280e-435b-4246-8bc7-c3edc3f346f5, udp: true}
-- {name: 🇭🇰香港4 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23314, type: ss, cipher: chacha20-ietf-poly1305, password: ac26280e-435b-4246-8bc7-c3edc3f346f5, udp: true}
-- {name: 🇹🇼台湾 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 14275, type: ss, cipher: chacha20-ietf-poly1305, password: ac26280e-435b-4246-8bc7-c3edc3f346f5, udp: true}
+- {name: 🇭🇰香港1 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 47077, type: ss, cipher: chacha20-ietf-poly1305, password: 19005f18-5750-4e16-ba51-ea0d6678bca6, udp: true}
+- {name: 🇭🇰香港2 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23317, type: ss, cipher: chacha20-ietf-poly1305, password: 19005f18-5750-4e16-ba51-ea0d6678bca6, udp: true}
+- {name: 🇭🇰香港3 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23333, type: ss, cipher: chacha20-ietf-poly1305, password: 19005f18-5750-4e16-ba51-ea0d6678bca6, udp: true}
+- {name: 🇭🇰香港4 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23314, type: ss, cipher: chacha20-ietf-poly1305, password: 19005f18-5750-4e16-ba51-ea0d6678bca6, udp: true}
+- {name: 🇹🇼台湾 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 14275, type: ss, cipher: chacha20-ietf-poly1305, password: 19005f18-5750-4e16-ba51-ea0d6678bca6, udp: true}

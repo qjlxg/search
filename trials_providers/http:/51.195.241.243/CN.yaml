@@ -1,0 +1,4 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇭🇰 Hy2-HongKong - V2Board, server: 46.20.109.199, port: 443, type: hysteria2, ports: 443, password: 12fd9995-ced7-4168-ab5f-09d8a785aa24, sni: bing.com, skip-cert-verify: true, udp: true}

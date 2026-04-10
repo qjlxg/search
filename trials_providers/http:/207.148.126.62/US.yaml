@@ -1,5 +1,5 @@
 %YAML 1.2
 ---
 proxies:
-- {name: 🇺🇸 cn1美国|1x - V2Board, server: xn--1-eo6a9f4b00af2lsoy.8888888888.sbs, port: 25593, type: ss, cipher: aes-128-gcm, password: f6a3fadf-d14c-4451-9ccd-80fd2764a735, udp: true}
-- {name: 🇺🇸 cn2美国|1x - V2Board, server: xn--2-eo6a9f4b00af2lsoy.8888888888.sbs, port: 25593, type: ss, cipher: aes-128-gcm, password: f6a3fadf-d14c-4451-9ccd-80fd2764a735, udp: true}
+- {name: 🇺🇸 cn1美国|1x - V2Board, server: xn--1-eo6a9f4b00af2lsoy.8888888888.sbs, port: 25593, type: ss, cipher: aes-128-gcm, password: c4486ba9-3c7b-40ef-87d6-f253d6b04c25, udp: true}
+- {name: 🇺🇸 cn2美国|1x - V2Board, server: xn--2-eo6a9f4b00af2lsoy.8888888888.sbs, port: 25593, type: ss, cipher: aes-128-gcm, password: c4486ba9-3c7b-40ef-87d6-f253d6b04c25, udp: true}

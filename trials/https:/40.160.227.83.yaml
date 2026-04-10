@@ -106,13 +106,13 @@ proxy-groups:
   type: select
   proxies: *id004
 proxies:
-- {name: ℹ️ 购买节点 - Buy paopao.cx - V2Board, server: tuntro001.instconn.com, port: 40621, type: trojan, password: 95a0bfa0-0b03-470d-9c5d-864f6e586a8c, sni: tvmost.jasmine-douyin.top, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本 中转 | JP-FWD - V2Board, server: tuntro002.instconn.com, port: 20253, type: trojan, password: 95a0bfa0-0b03-470d-9c5d-864f6e586a8c, sni: bing.3668989.xyz, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国 中转 | JP-FWD - V2Board, server: tuntro005.instconn.com, port: 10863, type: trojan, password: 95a0bfa0-0b03-470d-9c5d-864f6e586a8c, sni: grid.983305.jasmine-douyin.top, skip-cert-verify: true, udp: true}
-- {name: 🇩🇪 德国 联通 | DE-CU - V2Board, server: tuntro010.instconn.com, port: 443, type: trojan, password: 95a0bfa0-0b03-470d-9c5d-864f6e586a8c, sni: frankfurtrm2.686911.xyz, skip-cert-verify: true, udp: true}
-- {name: 🇰🇷 韩国 首尔 全网 | KR-Seoul-All - V2Board, server: tuntro013.instconn.com, port: 10431, type: trojan, password: 95a0bfa0-0b03-470d-9c5d-864f6e586a8c, sni: souer.jasmine-douyin.top, skip-cert-verify: true, udp: true}
-- {name: 🇻🇳 越南 移动 | VN-CM - V2Board, server: tuntro019.instconn.com, port: 44790, type: trojan, password: 95a0bfa0-0b03-470d-9c5d-864f6e586a8c, sni: vntb.686911.xyz, skip-cert-verify: true, udp: true}
-- {name: 🇹🇷 土耳其 中转 | TR-FWD - V2Board, server: tuntro020.instconn.com, port: 41056, type: trojan, password: 95a0bfa0-0b03-470d-9c5d-864f6e586a8c, sni: bing.686911.xyz, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 购买节点 - Buy paopao.cx - V2Board, server: tuntro001.instconn.com, port: 40621, type: trojan, password: 22357aaf-c7f3-42fa-9629-6c941d2c71e2, sni: tvmost.jasmine-douyin.top, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 中转 | JP-FWD - V2Board, server: tuntro002.instconn.com, port: 20253, type: trojan, password: 22357aaf-c7f3-42fa-9629-6c941d2c71e2, sni: bing.3668989.xyz, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国 中转 | JP-FWD - V2Board, server: tuntro005.instconn.com, port: 10863, type: trojan, password: 22357aaf-c7f3-42fa-9629-6c941d2c71e2, sni: grid.983305.jasmine-douyin.top, skip-cert-verify: true, udp: true}
+- {name: 🇩🇪 德国 联通 | DE-CU - V2Board, server: tuntro010.instconn.com, port: 443, type: trojan, password: 22357aaf-c7f3-42fa-9629-6c941d2c71e2, sni: frankfurtrm2.686911.xyz, skip-cert-verify: true, udp: true}
+- {name: 🇰🇷 韩国 首尔 全网 | KR-Seoul-All - V2Board, server: tuntro013.instconn.com, port: 10431, type: trojan, password: 22357aaf-c7f3-42fa-9629-6c941d2c71e2, sni: souer.jasmine-douyin.top, skip-cert-verify: true, udp: true}
+- {name: 🇻🇳 越南 移动 | VN-CM - V2Board, server: tuntro019.instconn.com, port: 44790, type: trojan, password: 22357aaf-c7f3-42fa-9629-6c941d2c71e2, sni: vntb.686911.xyz, skip-cert-verify: true, udp: true}
+- {name: 🇹🇷 土耳其 中转 | TR-FWD - V2Board, server: tuntro020.instconn.com, port: 41056, type: trojan, password: 22357aaf-c7f3-42fa-9629-6c941d2c71e2, sni: bing.686911.xyz, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT

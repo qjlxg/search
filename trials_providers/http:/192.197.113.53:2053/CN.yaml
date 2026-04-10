@@ -1,0 +1,9 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇭🇰 香港-1 - V2Board, server: 95.40.66.13, port: 663, type: ss, cipher: chacha20-ietf-poly1305, password: 244c60d1-6b43-4de6-bb5d-22cdc5280d41, udp: true}
+- {name: 🇭🇰 香港 - V2Board, server: 27.152.180.32, port: 28070, type: ss, cipher: chacha20-ietf-poly1305, password: 244c60d1-6b43-4de6-bb5d-22cdc5280d41, udp: true}
+- {name: 🇭🇰 香港-2 - V2Board, server: 27.152.180.32, port: 28071, type: ss, cipher: chacha20-ietf-poly1305, password: 244c60d1-6b43-4de6-bb5d-22cdc5280d41, udp: true}
+- {name: 🇭🇰 香港-3 - V2Board, server: 2408:873c:3010:6:1:1:0:102, port: 35619, type: ss, cipher: chacha20-ietf-poly1305, password: 244c60d1-6b43-4de6-bb5d-22cdc5280d41, udp: true}
+- {name: 🇭🇰 香港-4 - V2Board, server: 27.152.180.32, port: 28085, type: ss, cipher: chacha20-ietf-poly1305, password: 244c60d1-6b43-4de6-bb5d-22cdc5280d41, udp: true}
+- {name: 🇹🇼 台湾 - V2Board, server: 27.152.180.32, port: 28081, type: ss, cipher: chacha20-ietf-poly1305, password: 244c60d1-6b43-4de6-bb5d-22cdc5280d41, udp: true}

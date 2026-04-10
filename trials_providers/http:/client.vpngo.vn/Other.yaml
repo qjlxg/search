@@ -1,0 +1,5 @@
+%YAML 1.2
+---
+proxies:
+- {name: '🇮🇩 User ID: 92 - V2Board', server: expired.example.com, port: 80, type: vmess, uuid: 086e5907-2278-439a-8f3c-9b7caa6ad625, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /expired, headers: {Host: expired.example.com}}, udp: true}
+- {name: Gói của bạn đã hết hạn - V2Board, server: expired.example.com, port: 80, type: vmess, uuid: 086e5907-2278-439a-8f3c-9b7caa6ad625, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /expired, headers: {Host: expired.example.com}}, udp: true}

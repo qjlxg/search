@@ -1,0 +1,8 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇺🇸 专线A1-美国1-3倍率 - V2Board, server: zf.sg-iepl.com, port: 25429, type: ss, cipher: chacha20-ietf-poly1305, password: f185ed87-460b-4d90-8fbb-1b084019f61d, udp: true}
+- {name: 🇺🇸 专线A1-美国2-三网优化3倍率 - V2Board, server: zf.sg-iepl.com, port: 50155, type: ss, cipher: chacha20-ietf-poly1305, password: f185ed87-460b-4d90-8fbb-1b084019f61d, udp: true}
+- {name: 🇺🇸 专线A1-美国3-三网优化Y2B视频快-3倍率 - V2Board, server: zf.sg-iepl.com, port: 51467, type: ss, cipher: chacha20-ietf-poly1305, password: f185ed87-460b-4d90-8fbb-1b084019f61d, udp: true}
+- {name: 🇺🇸 专线A1-美国4-家宽IP银行 视频全解锁-3倍率 - V2Board, server: zf.sg-iepl.com, port: 56512, type: ss, cipher: chacha20-ietf-poly1305, password: f185ed87-460b-4d90-8fbb-1b084019f61d, udp: true}
+- {name: 🇺🇸 专线A1-美国5-家宽ChatGPT流媒体银行全解锁-3倍率 - V2Board, server: zf.sg-iepl.com, port: 21386, type: ss, cipher: chacha20-ietf-poly1305, password: f185ed87-460b-4d90-8fbb-1b084019f61d, udp: true}

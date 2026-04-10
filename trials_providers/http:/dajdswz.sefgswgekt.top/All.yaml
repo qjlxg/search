@@ -1,0 +1,12 @@
+%YAML 1.2
+---
+proxies:
+- {name: ℹ️ 官网:best.idsduf.com - V2Board, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: ba62b0a0-224e-49d8-b1a6-42703d2bcfa3, udp: true}
+- {name: 试用一小时2g - V2Board, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: ba62b0a0-224e-49d8-b1a6-42703d2bcfa3, udp: true}
+- {name: ℹ️ 购买后请更新订阅 - V2Board, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: ba62b0a0-224e-49d8-b1a6-42703d2bcfa3, udp: true}
+- {name: ℹ️ 购买后获取更多节点 - V2Board, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: ba62b0a0-224e-49d8-b1a6-42703d2bcfa3, udp: true}
+- {name: 🇭🇰 试用节点-香港 - V2Board, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: ba62b0a0-224e-49d8-b1a6-42703d2bcfa3, udp: true}
+- {name: 🇸🇬 试用节点-新加坡 - V2Board, server: jry.izenny.com, port: 57884, type: ss, cipher: chacha20-ietf-poly1305, password: ba62b0a0-224e-49d8-b1a6-42703d2bcfa3, udp: true}
+- {name: 🇹🇼 试用节点-台湾 - V2Board, server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: ba62b0a0-224e-49d8-b1a6-42703d2bcfa3, udp: true}
+- {name: 🇺🇸 试用节点-美国 - V2Board, server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: ba62b0a0-224e-49d8-b1a6-42703d2bcfa3, udp: true}
+- {name: 🇯🇵 试用节点-日本 - V2Board, server: jry.izenny.com, port: 29571, type: ss, cipher: chacha20-ietf-poly1305, password: ba62b0a0-224e-49d8-b1a6-42703d2bcfa3, udp: true}

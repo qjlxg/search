@@ -1,16 +1,16 @@
 %YAML 1.2
 ---
 proxies:
-- {name: 地区随机1 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23249, type: ss, cipher: chacha20-ietf-poly1305, password: ac26280e-435b-4246-8bc7-c3edc3f346f5, udp: true}
-- {name: 地区随机2 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23155, type: ss, cipher: chacha20-ietf-poly1305, password: ac26280e-435b-4246-8bc7-c3edc3f346f5, udp: true}
-- {name: ℹ️ 如果使用不了，请等30分钟后更新订阅 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 14275, type: ss, cipher: chacha20-ietf-poly1305, password: ac26280e-435b-4246-8bc7-c3edc3f346f5, udp: true}
-- {name: 🇰🇷韩国1 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23242, type: ss, cipher: chacha20-ietf-poly1305, password: ac26280e-435b-4246-8bc7-c3edc3f346f5, udp: true}
-- {name: 🇰🇷韩国2 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23131, type: ss, cipher: chacha20-ietf-poly1305, password: ac26280e-435b-4246-8bc7-c3edc3f346f5, udp: true}
-- {name: 🇬🇧英国1 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23129, type: ss, cipher: chacha20-ietf-poly1305, password: ac26280e-435b-4246-8bc7-c3edc3f346f5, udp: true}
-- {name: 🇩🇪德国1 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 20480, type: ss, cipher: chacha20-ietf-poly1305, password: ac26280e-435b-4246-8bc7-c3edc3f346f5, udp: true}
-- {name: 🇮🇳 印度1 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 12212, type: ss, cipher: chacha20-ietf-poly1305, password: ac26280e-435b-4246-8bc7-c3edc3f346f5, udp: true}
-- {name: 🇦🇺澳大利亚1 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 47051, type: ss, cipher: chacha20-ietf-poly1305, password: ac26280e-435b-4246-8bc7-c3edc3f346f5, udp: true}
-- {name: 🇮🇩印度尼西亚1 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 12218, type: ss, cipher: chacha20-ietf-poly1305, password: ac26280e-435b-4246-8bc7-c3edc3f346f5, udp: true}
-- {name: 🇮🇩印度尼西亚2 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 18937, type: ss, cipher: chacha20-ietf-poly1305, password: ac26280e-435b-4246-8bc7-c3edc3f346f5, udp: true}
-- {name: ℹ️ 续费请到baoge.me - V2Board, server: ydnxy1.cebaoge.me, port: 2325, type: ss, cipher: chacha20-ietf-poly1305, password: ac26280e-435b-4246-8bc7-c3edc3f346f5, udp: true}
-- {name: 🇱🇦 TG客服：@baolaowang - V2Board, server: ydnxy1.cebaoge.me, port: 2325, type: ss, cipher: chacha20-ietf-poly1305, password: ac26280e-435b-4246-8bc7-c3edc3f346f5, udp: true}
+- {name: 地区随机1 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23249, type: ss, cipher: chacha20-ietf-poly1305, password: 19005f18-5750-4e16-ba51-ea0d6678bca6, udp: true}
+- {name: 地区随机2 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23155, type: ss, cipher: chacha20-ietf-poly1305, password: 19005f18-5750-4e16-ba51-ea0d6678bca6, udp: true}
+- {name: ℹ️ 如果使用不了，请等30分钟后更新订阅 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 14275, type: ss, cipher: chacha20-ietf-poly1305, password: 19005f18-5750-4e16-ba51-ea0d6678bca6, udp: true}
+- {name: 🇰🇷韩国1 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23242, type: ss, cipher: chacha20-ietf-poly1305, password: 19005f18-5750-4e16-ba51-ea0d6678bca6, udp: true}
+- {name: 🇰🇷韩国2 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23131, type: ss, cipher: chacha20-ietf-poly1305, password: 19005f18-5750-4e16-ba51-ea0d6678bca6, udp: true}
+- {name: 🇬🇧英国1 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 23129, type: ss, cipher: chacha20-ietf-poly1305, password: 19005f18-5750-4e16-ba51-ea0d6678bca6, udp: true}
+- {name: 🇩🇪德国1 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 20480, type: ss, cipher: chacha20-ietf-poly1305, password: 19005f18-5750-4e16-ba51-ea0d6678bca6, udp: true}
+- {name: 🇮🇳 印度1 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 12212, type: ss, cipher: chacha20-ietf-poly1305, password: 19005f18-5750-4e16-ba51-ea0d6678bca6, udp: true}
+- {name: 🇦🇺澳大利亚1 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 47051, type: ss, cipher: chacha20-ietf-poly1305, password: 19005f18-5750-4e16-ba51-ea0d6678bca6, udp: true}
+- {name: 🇮🇩印度尼西亚1 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 12218, type: ss, cipher: chacha20-ietf-poly1305, password: 19005f18-5750-4e16-ba51-ea0d6678bca6, udp: true}
+- {name: 🇮🇩印度尼西亚2 - V2Board, server: shrimp-door-9527.gym0boy.com, port: 18937, type: ss, cipher: chacha20-ietf-poly1305, password: 19005f18-5750-4e16-ba51-ea0d6678bca6, udp: true}
+- {name: ℹ️ 续费请到baoge.me - V2Board, server: ydnxy1.cebaoge.me, port: 2325, type: ss, cipher: chacha20-ietf-poly1305, password: 19005f18-5750-4e16-ba51-ea0d6678bca6, udp: true}
+- {name: 🇱🇦 TG客服：@baolaowang - V2Board, server: ydnxy1.cebaoge.me, port: 2325, type: ss, cipher: chacha20-ietf-poly1305, password: 19005f18-5750-4e16-ba51-ea0d6678bca6, udp: true}

@@ -1,0 +1,5 @@
+%YAML 1.2
+---
+proxies:
+- {name: 🇯🇵 VIP·日本1·高速 - V2Board, server: 162.141.131.89, port: 17096, type: ss, cipher: aes-256-gcm, password: a2c9f285-e261-4aac-8787-e4d72c2078ab, udp: true}
+- {name: 🇯🇵 VIP·日本2·高速 - V2Board, server: jp02.js.su40.com, port: 47032, type: ss, cipher: aes-256-gcm, password: a2c9f285-e261-4aac-8787-e4d72c2078ab, udp: true}
