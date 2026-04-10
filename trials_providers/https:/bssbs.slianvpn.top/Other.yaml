@@ -1,0 +1,7 @@
+%YAML 1.2
+---
+proxies:
+- {name: ℹ️ 官网:best.idsduf.com - V2Board, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 5616b57c-6817-4cf5-a1bb-c752796339fa, udp: true}
+- {name: 试用一小时2g - V2Board, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 5616b57c-6817-4cf5-a1bb-c752796339fa, udp: true}
+- {name: ℹ️ 购买后请更新订阅 - V2Board, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 5616b57c-6817-4cf5-a1bb-c752796339fa, udp: true}
+- {name: ℹ️ 购买后获取更多节点 - V2Board, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 5616b57c-6817-4cf5-a1bb-c752796339fa, udp: true}
