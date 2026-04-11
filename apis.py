@@ -423,3 +423,42 @@ class TempEmail:
                     found = False
                     for m in msgs:
                         if k in str(m):
+                            code = re_email_code.search(m)
+                            if code: q.put(code[1]); found = True; break
+                    if not found:
+                        if stime() > et: q.put(None)
+                        else: self.__queues[nl] = item; nl += 1
+                del self.__queues[nl:]
+                if not nl: break
+
+# ==================== 判别与算法 (100% 完整保留) ====================
+def guess_panel(host):
+    s = Session(host)
+    try:
+        r = s.get('api/v1/guest/comm/config', timeout=10)
+        if r.ok: return {'type': 'v2board', 'name': r.json().get('data',{}).get('app_name','V2Board')}
+        r = s.get('auth/login', timeout=10)
+        if r.ok and any(x in r.text for x in ['SSPanel', 'staff', 'checkin']): return {'type': 'sspanel'}
+        if r.status_code == 403 and "v2board" in r.text.lower(): return {'type': 'v2board'}
+    except: pass
+    return {}
+
+class AC:
+    def __init__(self): self.__root = AC._Node()
+    def add(self, word):
+        node = self.__root
+        for c in word:
+            if c not in node.edges: node.edges[c] = AC._Node()
+            node = node.edges[c]
+        node.end = True
+    def match(self, s):
+        node = self.__root
+        for c in s:
+            if c in node.edges: node = node.edges[c]
+            else: node = self.__root
+            if node.end: return True
+        return False
+    class _Node:
+        def __init__(self): self.end = False; self.edges = {}
+
+panel_class_map = {'v2board': V2BoardSession, 'sspanel': SSPanelSession, 'hkspeedup': HkspeedupSession}
