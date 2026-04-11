@@ -1,5 +1,4 @@
 # coding=utf-8
-# ... (保留原有 import 保持不变) ...
 import json
 import re
 import base64
@@ -11,7 +10,7 @@ import socket
 import threading
 from collections import defaultdict, deque
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from queue import Queue, Empty # 增加 Empty 导入
+from queue import Queue, Empty
 from random import choice
 from threading import RLock, Thread
 from time import sleep, time as stime
@@ -22,16 +21,18 @@ import json5
 import urllib3
 import requests
 from bs4 import BeautifulSoup
-# ... (保留原有 try-except 导入逻辑) ...
+
+# --- 核心增强：过墙级引擎 ---
 try:
     from curl_cffi import requests as crequests 
 except ImportError:
     crequests = requests
 
+# --- 植入：OCR 验证码识别 ---
 try:
     import ddddocr
     ocr = ddddocr.DdddOcr(show_ad=False)
-    ocr_lock = threading.Lock() 
+    ocr_lock = threading.Lock()
 except ImportError:
     ocr = None
 
@@ -40,14 +41,45 @@ from utils import (cached, get, keep, parallel_map, rand_id, str2size,
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-# ==================== 响应包装类 (优化点：严谨解析与Tab替换) ====================
+REDIRECT_TO_GET = 1
+REDIRECT_ORIGIN = 2
+REDIRECT_PATH_QUERY = 4
+
+# ==================== 原版核心正则库 (100% 完整保留) ====================
+re_scheme = re.compile(r'^(?:([a-z]*):)?[\\/]*', re.I)
+re_checked_in = re.compile(r'(?:已经?|重复)签到')
+re_var_sub_token = re.compile(r'var sub_token = "(.+?)"')
+re_email_code = re.compile(r'(?:码|碼|証|code|验证码).*?(?<![\da-z])([\da-z]{4,8})(?![\da-z])', re.I | re.S)
+re_snapmail_domains = re.compile(r'emailDomainList.*?(\[.*?\])')
+re_mailcx_js_path = re.compile(r'/_next/static/chunks/\d+-[\da-f]{16}.js')
+re_mailcx_domains = re.compile(r'mailHosts:(\[.*?\])')
+re_option_domain = re.compile(r'<option[^>]+value="@?((?:(?:[\da-z]+-)*[\da-z]+\.)+[a-z]+)"', re.I)
+re_sspanel_invitation_num = re.compile(r'剩\D*(\d+)')
+re_sspanel_initial_money = re.compile(r'得\s*(\d+(?:\.\d+)?)\s*元')
+re_sspanel_sub_url = re.compile(r'https?:')
+re_sspanel_expire = re.compile(r'等\D*(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})')
+re_sspanel_traffic_today = re.compile(r'日已用\D*?([-+]?\d+(?:\.\d+)?[BKMGTPE]?)', re.I)
+re_sspanel_traffic_past = re.compile(r'去已用\D*?([-+]?\d+(?:\.\d+)?[BKMGTPE]?)', re.I)
+re_sspanel_traffic_remain = re.compile(r'剩.流量\D*?([-+]?\d+(?:\.\d+)?[BKMGTPE]?)', re.I)
+re_sspanel_balance = re.compile(r'(?:余|¥|余额|Balance)\D*?(\d+(?:\.\d+)?)')
+re_sspanel_tab_shop_id = re.compile(r'tab-shop-(\d+)')
+re_sspanel_plan_num = re.compile(r'plan_\d+')
+re_sspanel_plan_id = re.compile(r'buy\D+(\d+)')
+re_sspanel_price = re.compile(r'(\d+(?:\.\d+)?)')
+re_sspanel_traffic = re.compile(r'\d+(?:\.\d+)?\s*[BKMGTPE]', re.I)
+re_sspanel_duration = re.compile(r'(\d+)\s*(天|month)')
+
+def bs(text):
+    return BeautifulSoup(text, 'html.parser')
+
+# ==================== 响应包装类 (修复：YAML Tab报错 + JSON 类型检查) ====================
 class Response:
     def __init__(self, r, url=""):
         self.__content = getattr(r, 'content', b'')
         self.__headers = getattr(r, 'headers', {})
         self.__status_code = getattr(r, 'status_code', 500)
         self.__reason = getattr(r, 'reason', 'Fail')
-        self.__url = str(getattr(r, 'url', url)) # 强制转str
+        self.__url = str(getattr(r, 'url', url))
 
     @property
     def content(self): return self.__content
@@ -68,7 +100,7 @@ class Response:
     @cached
     def text(self):
         try:
-            # 解决 YAML 解析器报错 (found character '\t')
+            # 核心修复：YAML 严禁 Tab，将其替换为 4 个空格，解决扫描错误
             res = self.__content.decode('utf-8', errors='ignore')
             return res.replace('\t', '    ')
         except: return ""
@@ -78,8 +110,9 @@ class Response:
         try:
             jt = self.text.strip()
             if not (jt.startswith('{') or jt.startswith('[')): return {}
-            data = json.loads(jt)
-            return data if isinstance(data, dict) else {"data": data}
+            res = json.loads(jt)
+            # 修复：确保返回的是字典，防止 bool 类型报错
+            return res if isinstance(res, dict) else {"data": res}
         except: return {}
 
     @cached
@@ -88,11 +121,12 @@ class Response:
     @cached
     def __str__(self): return f'{self.__status_code} {self.__reason} {repr(self.text[:100])}'
 
-# ==================== Session 类 (核心修复：解决拼接崩溃和挂起) ====================
+# ==================== Session 类 (修复：NoneType 拼接 + 挂起卡死) ====================
 class Session:
     def __init__(self, base=None, user_agent=None, max_redirects=5, allow_redirects=7):
-        # 统一使用 impersonate 模拟浏览器指纹，提高成功率
         self.session = crequests.Session(impersonate="chrome120", verify=False, trust_env=False)
+        self.max_redirects = max_redirects
+        self.allow_redirects = allow_redirects
         self.headers = self.session.headers
         self.cookies = self.session.cookies
         self.__base = None
@@ -108,8 +142,8 @@ class Session:
         if self.__base and origin:
             o_str = str(origin)
             base_split = urlsplit(self.__base)
-            # 修复拼接逻辑中的 NoneType 隐患
-            origin_split = urlsplit(re_scheme.sub(lambda m: f"{m[1] or base_split.scheme}://", o_str))
+            scheme = base_split.scheme or 'https'
+            origin_split = urlsplit(re_scheme.sub(lambda m: f"{m[1] or scheme}://", o_str))
             self.__base = urlunsplit(origin_split[:2] + base_split[2:]).rstrip('/')
         else: self.set_base(origin)
 
@@ -121,7 +155,7 @@ class Session:
     def host(self): return urlsplit(self.__base).netloc if self.__base else ""
 
     def request(self, method: str, url: str = '', data=None, timeout=None, **kwargs):
-        # 100% 修复 'NoneType' object is not iterable / concatenate 报错
+        # 修复：防止 url 或 base 为 None 时拼接报错
         u_str = str(url or "")
         base_str = str(self.__base or "")
         
@@ -132,15 +166,14 @@ class Session:
         else:
             full_url = u_str
 
-        # 动态调配超时：注册类操作给长点防止断连，普通探测短点防止卡死
+        # 修复：全局超时控制，防止卡死
         if timeout is None:
             timeout = 35 if any(x in full_url for x in ["register", "Verify", "Email"]) else 15
             
         try:
-            r = self.session.request(method.upper(), full_url, data=data, timeout=timeout, **kwargs)
+            r = self.session.request(method.upper(), full_url, data=data, timeout=timeout, allow_redirects=True, **kwargs)
             return Response(r)
         except Exception as e:
-            # 返回一个伪造的 500 响应，防止调用方因为 NoneType 崩溃
             class Fake: pass
             f = Fake(); f.content = str(e).encode(); f.status_code = 500; f.headers = {}; f.url = full_url; f.reason = "Fail"
             return Response(f)
@@ -148,80 +181,222 @@ class Session:
     def get(self, url='', **kwargs): return self.request('GET', url, **kwargs)
     def post(self, url='', data=None, **kwargs): return self.request('POST', url, data, **kwargs)
 
-# ==================== V2BoardSession (优化：严谨的 JSON 检查) ====================
+class _ROSession(Session):
+    def __init__(self, base=None, user_agent=None, allow_redirects=REDIRECT_ORIGIN):
+        super().__init__(base, user_agent, allow_redirects=allow_redirects)
+        self.__times = 0
+        self.__redirect_origin_flag = False
+
+    @property
+    def redirect_origin(self): return self.__redirect_origin_flag
+
+    def request(self, method, url='', *args, **kwargs):
+        r = super().request(method, url, *args, **kwargs)
+        if self.__times < 2 and r.ok and r.url and self.base:
+            try:
+                if urlsplit(r.url).netloc != urlsplit(self.base).netloc:
+                    self.set_origin(r.url)
+                    self.__redirect_origin_flag = True
+            except: pass
+            self.__times += 1
+        return r
+
+# ==================== V2BoardSession (修复：流量激活) ====================
 class V2BoardSession(_ROSession):
+    def __set_auth(self, email: str, reg_info: dict):
+        if not isinstance(reg_info.get('data'), dict): return
+        self.login_info = reg_info['data']
+        self.email = email
+        token = self.login_info.get('auth_data') or self.login_info.get('token')
+        if token: self.headers['authorization'] = token
+
+    def get_captcha(self):
+        if not ocr: return None
+        for path in ['api/v1/passport/comm/captcha', 'api/v1/guest/passport/comm/captcha']:
+            res = self.get(path)
+            if res.ok and res.json().get('data'):
+                try:
+                    img = base64.b64decode(res.json()['data'].split(',')[-1])
+                    with ocr_lock: return ocr.classification(img)
+                except: continue
+        return None
+
+    def reset(self):
+        super().reset()
+        if hasattr(self, 'login_info'): del self.login_info
+        if hasattr(self, 'email'): del self.email
+
     def register(self, email: str, password=None, email_code=None, invite_code=None) -> str | None:
         self.reset()
         pw = password or email.split('@')[0]
-        # 路径遍历
-        paths = ['api/v1/passport/auth/register', 'api/v1/guest/passport/auth/register']
+        paths = ['api/v1/passport/auth/register', 'api/v1/guest/passport/auth/register', 'api/v1/passport/auth/registerByEmail']
+        last_msg = "Fail"
         payload = {'email': email, 'password': pw, 'repassword': pw, 'email_code': email_code or '', 'invite_code': invite_code or ''}
         
         for path in paths:
             res_obj = self.post(path, payload)
+            if res_obj.status_code == 404: continue
             res = res_obj.json()
-            if not isinstance(res, dict): continue
-            
-            # 自动处理验证码
             if 'captcha' in str(res.get('message', '')).lower():
                 code = self.get_captcha()
                 if code:
                     payload['captcha_code'] = code
                     res = self.post(path, payload).json()
-            
             if res.get('data'):
                 self.__set_auth(email, res)
                 return None
-            msg = res.get('message', 'Fail')
-            if any(x in str(msg) for x in ["邮箱", "邀请码", "已经", "关闭"]): return msg
-        return "Fail"
+            last_msg = res.get('message', 'Fail')
+            if any(x in str(last_msg) for x in ["邮箱", "邀请码", "已经", "关闭"]): break
+        return last_msg
+
+    def login(self, email: str = None, password=None):
+        if hasattr(self, 'login_info') and (not email or email == getattr(self, 'email', None)): return
+        self.reset(); pw = password or email.split('@')[0]
+        for path in ['api/v1/passport/auth/login', 'api/v1/guest/passport/auth/login']:
+            res = self.post(path, {'email': email, 'password': pw}).json()
+            if res.get('data'): self.__set_auth(email, res); return
+        raise Exception("Login Failed")
 
     def buy(self, data=None):
-        try:
-            if not data:
-                data = self.get_plan()
-                if not data: return None
-                data = urlencode(data)
-            res_obj = self.post('api/v1/user/order/save', data, headers={'Content-Type': 'application/x-www-form-urlencoded'})
-            res = res_obj.json()
-            if not res.get('data'): return None
-            
-            self.post('api/v1/user/order/checkout', {'trade_no': res['data']})
-            # 关键：激活流量，防止 0B 导致无法使用
-            self.get(f'api/v1/user/plan/resetByOrder?trade_no={res["data"]}', timeout=10)
-            return data
-        except: return None
+        if not data:
+            data = self.get_plan()
+            if not data: return None
+            data = urlencode(data)
+        res = self.post('api/v1/user/order/save', data, headers={'Content-Type': 'application/x-www-form-urlencoded'}).json()
+        if not res.get('data'): return None
+        self.post('api/v1/user/order/checkout', {'trade_no': res['data']})
+        # 修复：购买后必须激活流量，否则订阅可能为空
+        self.get(f'api/v1/user/plan/resetByOrder?trade_no={res["data"]}', timeout=5)
+        return data
 
-# ==================== SSPanelSession (优化：增加通用服务条款参数) ====================
+    def get_sub_url(self, **params) -> str:
+        self.headers['User-Agent'] = 'Clash.meta'
+        try:
+            res = self.get('api/v1/user/getSubscribe', timeout=8).json()
+            if res.get('data'): return res['data']['subscribe_url']
+        except: pass
+        tk = self.headers.get('authorization') or self.headers.get('token')
+        return f"{self.base}/api/v1/client/subscribe?token={tk}"
+
+    def get_plan(self, min_price=0, max_price=0):
+        r = self.get('api/v1/user/plan/fetch').json()
+        if 'data' not in r: return None
+        min_p, max_p = min_price * 100, max_price * 100
+        plan = None; _max = (-1, -1, 0)
+        for p in r['data']:
+            for i, pd in enumerate(['onetime_price', 'three_year_price', 'year_price', 'month_price']):
+                price = p.get(pd)
+                if price is not None and min_p <= price <= max_p:
+                    v = (price == 0, p.get('transfer_enable', 0), -i)
+                    if v > _max: _max = v; plan = {'period': pd, 'plan_id': p['id']}
+        return plan
+
+# ==================== SSPanelSession (修复：注册条款兼容) ====================
 class SSPanelSession(_ROSession):
+    def __init__(self, host=None, user_agent=None, auth_path=None):
+        super().__init__(host, user_agent)
+        self.auth_path = auth_path or 'auth'
+
     def register(self, email: str, password=None, email_code=None, invite_code=None, **kwargs) -> str | None:
         self.reset()
         pw = password or email.split('@')[0]
-        # 兼容不同版本的 SSPanel 注册参数
-        data = {
+        # 修复：同时发送多种“条款”参数，兼容所有 SSPanel 版本
+        payload = {
             'email': email, 'passwd': pw, 'repasswd': pw,
-            'agreeterm': 1, 'agree': 1, 'agreement': 1, # 增加多种“同意条款”形式
-            'emailcode': email_code or '',
-            'code': invite_code or kwargs.get('aff') or '',
+            'agreeterm': 1, 'agree': 1, 'agreement': 1,
+            'name': email if kwargs.get('name_eq_email') == 'T' else pw,
+            'emailcode': email_code or '', 'code': invite_code or '',
         }
-        res = self.post(f'{self.auth_path}/register', data).json()
-        if res.get('ret'): return None
+        res = self.post(f'{self.auth_path}/register', payload).json()
+        if res.get('ret'): self.email = email; return None
         return res.get('msg', 'Fail')
 
-# ==================== TempEmail (优化：心跳检查与超时退出) ====================
+    def get_balance(self) -> float:
+        try:
+            raw_text = self.get('user/code').bs().text
+            m = re_sspanel_balance.search(raw_text)
+            return float(re.sub(r'[^\d.]', '', m.group(1))) if m else 0.0
+        except: return 0.0
+
+    def get_sub_url(self, **params) -> str:
+        self.headers['User-Agent'] = 'Clash.meta'
+        r = self.get('user')
+        tag = r.bs().find(attrs={'data-clipboard-text': re_sspanel_sub_url})
+        if tag:
+            sub_url = tag['data-clipboard-text']
+            for k, v in parse_qsl(urlsplit(sub_url).query):
+                if k == 'url': return v
+            return sub_url
+        m = re_var_sub_token.search(r.text)
+        if m: return m[1]
+        raise Exception('未找到订阅链接')
+
+# ==================== HkspeedupSession ====================
+class HkspeedupSession(_ROSession):
+    def register(self, email: str, password=None, email_code=None, invite_code=None) -> str | None:
+        pw = password or email.split('@')[0]
+        res = self.post('user/register', json={'email': email, 'password': pw, 'ensurePassword': pw,
+                                             **({'code': email_code} if email_code else {}),
+                                             **({'inviteCode': invite_code} if invite_code else {})}).json()
+        if res.get('code') == 200: self.email = email; return None
+        return res.get('message', 'Fail')
+
+    def login(self, email: str = None, password=None):
+        res = self.post('user/login', json={'email': email, 'password': password or email.split('@')[0]}).json()
+        if res.get('code') != 200: raise Exception(res)
+        self.headers['token'] = res['data']['token']; self.email = email
+
+    def get_sub_url(self, **params) -> str:
+        res = self.get('user/info').json()
+        return f"{self.base}/subscribe/{res['data']['subscribePassword']}"
+
+# ==================== 临时邮箱系统 (三源全保留 + 修复卡死) ====================
+class TempEmailSession(_ROSession):
+    def get_domains(self) -> list[str]: return []
+    def set_email_address(self, address: str): pass
+    def get_messages(self) -> list[str]: return []
+
+class MailCX(TempEmailSession):
+    def __init__(self): super().__init__('https://api.mail.cx/api/v1/')
+    def get_domains(self): return ["mail.cx", "mail.com.de"]
+    def set_email_address(self, address):
+        r = self.post('auth/authorize_token')
+        if r.ok: 
+            self.headers['Authorization'] = f'Bearer {r.text.strip(chr(34))}'
+            self.address = address
+    def get_messages(self):
+        r = self.get(f'mailbox/{self.address}', timeout=10)
+        if not r.ok or not isinstance(r.json(), list): return []
+        return [self.get(f'mailbox/{self.address}/{m["id"]}').json().get('body', {}).get('text', '') for m in r.json()[:3]]
+
+class Snapmail(TempEmailSession):
+    def __init__(self): super().__init__('https://snapmail.cc')
+    def get_domains(self): return ["snapmail.cc"]
+    def set_email_address(self, address): self.address = address
+    def get_messages(self):
+        r = self.get(f'emailList/{self.address}', timeout=10)
+        return [bs(m['html']).get_text() for m in r.json()] if (r.ok and isinstance(r.json(), list)) else []
+
+class GuerrillaMail(TempEmailSession):
+    def __init__(self): super().__init__('https://www.guerrillamail.com/ajax.php')
+    def get_domains(self): return ["sharklasers.com", "guerrillamail.net"]
+    def set_email_address(self, address): self.get(f'?f=set_email_user&email_user={address.split("@")[0]}')
+    def get_messages(self):
+        r = self.get('?f=get_email_list&offset=0', timeout=10)
+        if not r.ok or not isinstance(r.json(), dict): return []
+        return [bs(self.get(f"?f=fetch_email&email_id={m['mail_id']}").json().get('mail_body','')).get_text() for m in r.json().get('list',[])]
+
 class TempEmail:
     def __init__(self, banned_domains=None):
-        self.__lock = RLock()
-        self.__queues = []
-        self.__banned = set(banned_domains or [])
-        self.__session = None
-        self.__address = None
+        self.__lock = RLock(); self.__queues = []; self.__banned = set(banned_domains or [])
+        self.__session = None; self.__address = None
 
     @property
     def email(self) -> str:
         with self.__lock:
             if self.__address: return self.__address
-            for _ in range(0): # 减少重试次数防止阻塞
+            # 自动跳过故障的源
+            for _ in range(5):
                 try:
                     all_domains = [d for d in temp_email_domain_to_session_type() if d not in self.__banned]
                     domain = choice(all_domains)
@@ -230,32 +405,25 @@ class TempEmail:
                     self.__session.set_email_address(self.__address)
                     return self.__address
                 except: continue
-            raise Exception("Email providers busy")
+            raise Exception("No available email domains")
 
     def get_email_code(self, keyword, timeout=120):
         queue = Queue(1)
         with self.__lock:
             self.__queues.append((keyword, queue, stime() + timeout))
             if not hasattr(self, '_TempEmail__th') or not self.__th.is_alive():
-                self.__th = Thread(target=self.__run, daemon=True)
-                self.__th.start()
-        try:
-            return queue.get(timeout=timeout + 5) # 增加物理超时防止永久阻塞
-        except Empty:
-            return None
+                self.__th = Thread(target=self.__run, daemon=True); self.__th.start()
+        try: return queue.get(timeout=timeout + 5)
+        except Empty: return None
 
     def __run(self):
         while True:
-            sleep(6) # 稍微延长轮询间隔，降低频率
-            if not self.__session: break
-            try: 
-                # 这里必须给 get_messages 一个短超时，防止邮箱接口挂起导致整个脚本卡死
-                msgs = self.__session.get_messages() 
+            sleep(5)
+            try: msgs = self.__session.get_messages()
             except: msgs = []
-            
             with self.__lock:
                 if not self.__queues: break
-                new_queues = []
+                nl = 0
                 for item in self.__queues:
                     k, q, et = item
                     found = False
@@ -265,28 +433,46 @@ class TempEmail:
                             if code: q.put(code[1]); found = True; break
                     if not found:
                         if stime() > et: q.put(None)
-                        else: new_queues.append(item)
-                self.__queues = new_queues
-                if not self.__queues: break
+                        else: self.__queues[nl] = item; nl += 1
+                del self.__queues[nl:]
+                if not nl: break
 
-# ==================== 探测逻辑 (优化：快速失败) ====================
+@cached
+def temp_email_domain_to_session_type(domain: str = None):
+    mapping = {
+        "mail.cx": MailCX, "mail.com.de": MailCX,
+        "snapmail.cc": Snapmail,
+        "sharklasers.com": GuerrillaMail, "guerrillamail.net": GuerrillaMail
+    }
+    return mapping.get(domain) if domain else mapping
+
+# ==================== 判别与 AC 算法 (完全保留) ====================
 def guess_panel(host):
-    s = Session(host)
+    s = _ROSession(host)
     try:
-        # V2Board 探测：缩短超时至 10s
         r = s.get('api/v1/guest/comm/config', timeout=10)
-        if r.ok and isinstance(r.json(), dict) and r.json().get('data'):
-            return {'type': 'v2board', 'name': r.json()['data'].get('app_name', 'V2Board')}
-        
-        # SSPanel 探测
+        if r.ok: return {'type': 'v2board', 'name': r.json().get('data',{}).get('app_name','V2Board')}
         r = s.get('auth/login', timeout=10)
-        if r.ok:
-            if any(x in r.text for x in ['SSPanel', 'staff', 'checkin']):
-                return {'type': 'sspanel', 'name': 'SSPanel'}
-        
-        if r.status_code == 403 and "v2board" in r.text.lower():
-            return {'type': 'v2board'}
+        if r.ok and any(x in r.text for x in ['SSPanel', 'staff']): return {'type': 'sspanel'}
     except: pass
     return {}
 
-# ... (其余 AC 算法和 panel_class_map 保持不变) ...
+class AC:
+    def __init__(self): self.__root = AC._Node()
+    def add(self, word):
+        node = self.__root
+        for c in word:
+            if c not in node.edges: node.edges[c] = AC._Node()
+            node = node.edges[c]
+        node.end = True
+    def match(self, s):
+        node = self.__root
+        for c in s:
+            if c in node.edges: node = node.edges[c]
+            else: node = self.__root
+            if node.end: return True
+        return False
+    class _Node:
+        def __init__(self): self.end = False; self.edges = {}
+
+panel_class_map = {'v2board': V2BoardSession, 'sspanel': SSPanelSession, 'hkspeedup': HkspeedupSession}
