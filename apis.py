@@ -10,7 +10,7 @@ import socket
 import threading
 from collections import defaultdict, deque
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from queue import Queue, Empty # 增加 Empty 导入用于超时控制
+from queue import Queue, Empty # 修复卡死：必须导入 Empty
 from random import choice
 from threading import RLock, Thread
 from time import sleep, time as stime
@@ -79,6 +79,7 @@ re_sspanel_duration = re.compile(r'(\d+)\s*(天|month)')
 def bs(text):
     return BeautifulSoup(text, 'html.parser')
 
+
 # ==================== 响应包装类 (解决制表符导致的扫描错误) ====================
 class Response:
     def __init__(self, r, url=""):
@@ -86,7 +87,7 @@ class Response:
         self.__headers = getattr(r, 'headers', {})
         self.__status_code = getattr(r, 'status_code', 500)
         self.__reason = getattr(r, 'reason', 'Fail')
-        self.__url = str(getattr(r, 'url', url)) # 修复：强制 url 为 str
+        self.__url = str(getattr(r, 'url', url)) # 修复：确保URL永远是字符串
 
     @property
     def content(self):
@@ -120,7 +121,7 @@ class Response:
     @cached
     def text(self):
         try:
-            # 修复：转换内容并替换 Tab 为空格，解决 YAML 解析报错 "found character '\t'"
+            # 修复核心报错：转换内容并替换 Tab 为空格，解决 YAML 解析报错 "found character '\t'"
             res = self.__content.decode('utf-8', errors='ignore')
             return res.replace('\t', '    ')
         except:
@@ -133,7 +134,7 @@ class Response:
             if not (jt.startswith('{') or jt.startswith('[')):
                 return {}
             res = json.loads(jt)
-            # 修复：'bool' object has no attribute 'get' 报错，确保返回 dict
+            # 修复核心报错：针对日志中 'bool' object has no attribute 'get' 的修复
             if isinstance(res, dict): return res
             return {"data": res}
         except:
@@ -148,7 +149,7 @@ class Response:
         return f'{self.__status_code} {self.__reason} {repr(self.text[:100])}'
 
 
-# ==================== Session 类 (修复 NoneType 拼接崩溃 + 超时控制) ====================
+# ==================== Session 类 (修复 NoneType 拼接崩溃 + 超时) ====================
 class Session:
     def __init__(self, base=None, user_agent=None, max_redirects=5, allow_redirects=7):
         self.session = crequests.Session(impersonate="chrome120", verify=False, trust_env=False)
@@ -170,8 +171,9 @@ class Session:
         if self.__base and origin:
             o_str = str(origin)
             base_split = urlsplit(self.__base)
-            scheme = base_split.scheme or 'https' # 修复 NoneType 拼接
-            origin_split = urlsplit(re_scheme.sub(lambda m: f"{m[1] or scheme}://", o_str))
+            # 修复核心报错：拼接时防止 scheme 为 None
+            sch = base_split.scheme or 'https'
+            origin_split = urlsplit(re_scheme.sub(lambda m: f"{m[1] or sch}://", o_str))
             self.__base = urlunsplit(origin_split[:2] + base_split[2:]).rstrip('/')
         else:
             self.set_base(origin)
@@ -216,8 +218,8 @@ class Session:
     def request(self, method: str, url: str = '', data=None, timeout=None, allow_redirects=None, **kwargs):
         method = method.upper()
         # 100% 修复 'NoneType' object is not iterable / NoneType 拼接报错
-        u_str = str(url) if url is not None else ""
-        base_str = str(self.__base) if self.__base is not None else ""
+        u_str = str(url or "")
+        base_str = str(self.__base or "")
         
         if u_str.startswith('http'):
             full_url = u_str
@@ -226,7 +228,7 @@ class Session:
         else:
             full_url = u_str
 
-        # 修复卡死：强制设置全局超时，注册类 35s，探测类 15s
+        # 核心修复：防止卡死，强制设置默认超时
         if timeout is None:
             timeout = 35 if any(x in full_url for x in ["register", "Verify", "Email"]) else 15
             
@@ -274,10 +276,10 @@ class _ROSession(Session):
         return r
 
 
-# ==================== V2BoardSession (核心优化：强制 UA + 流量激活) ====================
+# ==================== V2BoardSession (加固：注册容错 + 流量激活) ====================
 class V2BoardSession(_ROSession):
     def __set_auth(self, email: str, reg_info: dict):
-        if not reg_info.get('data'): return
+        if not (isinstance(reg_info, dict) and reg_info.get('data')): return
         self.login_info = reg_info['data']
         self.email = email
         token = self.login_info.get('auth_data') or self.login_info.get('token')
@@ -302,7 +304,7 @@ class V2BoardSession(_ROSession):
 
     @staticmethod
     def raise_for_fail(res):
-        if 'data' not in res: raise Exception(res)
+        if not (isinstance(res, dict) and 'data' in res): raise Exception(res)
 
     def register(self, email: str, password=None, email_code=None, invite_code=None) -> str | None:
         self.reset()
@@ -320,7 +322,7 @@ class V2BoardSession(_ROSession):
                 if code:
                     payload['captcha_code'] = code
                     res = self.post(path, payload).json()
-            if res.get('data'):
+            if isinstance(res, dict) and res.get('data'):
                 self.__set_auth(email, res)
                 return None
             last_msg = res.get('message', 'Fail')
@@ -357,15 +359,14 @@ class V2BoardSession(_ROSession):
         res = self.post('api/v1/user/order/save', data, headers={'Content-Type': 'application/x-www-form-urlencoded'}).json()
         if not res.get('data'): return None
         self.post('api/v1/user/order/checkout', {'trade_no': res['data']}).json()
-        # 修复关键点：购买后强制激活流量，解决 0B 或节点列表不刷新问题
+        # 核心加固：购买后激活流量，防止返回 no content
         self.get(f'api/v1/user/plan/resetByOrder?trade_no={res["data"]}', timeout=10)
         return data
 
     def get_sub_url(self, **params) -> str:
-        # 修复关键点：伪装成 Clash 客户端，让机场后端返回 YAML 格式节点
         self.headers['User-Agent'] = 'Clash.meta'
         try:
-            res = self.get('api/v1/user/getSubscribe', timeout=8).json()
+            res = self.get('api/v1/user/getSubscribe', timeout=10).json()
             if res.get('data'): return res['data']['subscribe_url']
         except: pass
         tk = self.headers.get('authorization') or self.headers.get('token')
@@ -395,7 +396,7 @@ class V2BoardSession(_ROSession):
         return plan
 
 
-# ==================== SSPanelSession (修复条款 + 余额解析) ====================
+# ==================== SSPanelSession (修复条款参数) ====================
 class SSPanelSession(_ROSession):
     def __init__(self, host=None, user_agent=None, auth_path=None):
         super().__init__(host, user_agent)
@@ -405,7 +406,7 @@ class SSPanelSession(_ROSession):
         self.reset()
         email_code_k, invite_code_k = ('email_code', 'invite_code') if reg_fmt == 'B' else ('emailcode', 'code')
         pw = password or email.split('@')[0]
-        # 修复：同时发送多种条款参数 (agreeterm/agree/agreement)，彻底解决“请同意条款”
+        # 核心加固：同时发送多种条款勾选参数，适配所有SSPanel分支，解决“请同意服务条款”
         res = self.post(f'{self.auth_path}/register', {
             'name': email if name_eq_email == 'T' else pw,
             'email': email, 'passwd': pw, 'repasswd': pw,
@@ -493,14 +494,14 @@ class HkspeedupSession(_ROSession):
 
     def get_sub_url(self, **params) -> str:
         res = self.get('user/info').json()
-        return f"{self.base}/subscribe/{res['data']['subscribePassword']}"
+        return f"{self.base}/subscribe/{res['data'].get('subscribePassword','')}"
 
 
-# ==================== 临时邮箱系统 (三源全保留 + 修复卡死) ====================
+# ==================== 临时邮箱系统 (三源全量保留 + 退出保护) ====================
 class TempEmailSession(_ROSession):
-    def get_domains(self) -> list[str]: return []
-    def set_email_address(self, address: str): pass
-    def get_messages(self) -> list[str]: return []
+    def get_domains(self) -> list[str]: ...
+    def set_email_address(self, address: str): ...
+    def get_messages(self) -> list[str]: ...
 
 class MailCX(TempEmailSession):
     def __init__(self): super().__init__('https://api.mail.cx/api/v1/')
@@ -552,6 +553,7 @@ class TempEmail:
     def email(self) -> str:
         with self.__lock:
             if self.__address: return self.__address
+            # 自动跳过 404 或故障的源
             for _ in range(5):
                 try:
                     all_domains = [d for d in temp_email_domain_to_session_type() if d not in self.__banned]
@@ -571,7 +573,8 @@ class TempEmail:
             if not hasattr(self, '_TempEmail__th') or not self.__th.is_alive():
                 self.__th = Thread(target=self.__run, daemon=True); self.__th.start()
         try:
-            return queue.get(timeout=timeout + 10) # 修复：加入物理超时防止主线程卡死
+            # 核心修复：增加强制超时。即便后台线程卡住，130秒后主线程也会继续，不会卡死。
+            return queue.get(timeout=timeout + 10)
         except Empty:
             return None
 
@@ -598,7 +601,7 @@ class TempEmail:
 
 @cached
 def temp_email_domain_to_session_type(domain: str = None):
-    sts = [MailCX, Snapmail, GuerrillaMail] # 显式列表确保全量
+    sts = [MailCX, Snapmail, GuerrillaMail]
     def fn(st):
         try: ds = st().get_domains()
         except: ds = []
