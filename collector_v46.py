@@ -596,14 +596,9 @@ def fetch_from_direct_aggregators():
     print("\n--- [TIER 1] Direct Aggregators ---")
     configs = set()
     aggregators = [
-        'https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity',
-        'https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt',
-        'https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt',
-        'https://raw.githubusercontent.com/AzadNetCH/Clash/main/V2Ray.txt',
-        'https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray',
-        'https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/all',
-        'https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2',
-        'https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub',
+        'https://raw.githubusercontent.com/qjlxg/one/refs/heads/main/nodes_list.txt',
+        'https://www.aicvideo.info/s/d6c6927922df7ce68652f8e8bcbfec4c#0',
+    
     ]
     for url in aggregators:
         try:
